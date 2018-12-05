@@ -1,0 +1,14 @@
+{
+    "header": {
+        "version": "0.3"
+    }, 
+    "payload": {
+        "compose": {
+            "date": "20140814", 
+            "id": "RHSCL-1.2-RHEL-7-20140814.0", 
+            "respin": 0, 
+            "type": "production"
+        }, 
+        "images": {}
+    }
+}

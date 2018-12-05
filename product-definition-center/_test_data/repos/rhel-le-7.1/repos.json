@@ -1,0 +1,63 @@
+{
+    "Server": {
+        "ppc64le": {
+            "cdn": {
+                "beta": "rhel-7-for-power-le-beta-rpms", 
+                "beta-debug": "rhel-7-for-power-le-beta-debug-rpms", 
+                "beta-iso": "rhel-7-for-power-le-beta-isos", 
+                "beta-kickstart": "rhel-7-for-power-le-beta-kickstart", 
+                "beta-source": "rhel-7-for-power-le-beta-source-rpms", 
+                "beta-source-iso": "rhel-7-for-power-le-beta-source-isos", 
+                "dist": "rhel-7-for-power-le-rpms", 
+                "dist-debug": "rhel-7-for-power-le-debug-rpms", 
+                "dist-iso": "rhel-7-for-power-le-isos", 
+                "dist-kickstart": "rhel-7-for-power-le-kickstart", 
+                "dist-source": "rhel-7-for-power-le-source-rpms", 
+                "dist-source-iso": "rhel-7-for-power-le-source-isos", 
+                "htb": "rhel-7-for-power-le-htb-rpms", 
+                "htb-debug": "rhel-7-for-power-le-htb-debug-rpms", 
+                "htb-iso": "rhel-7-for-power-le-htb-isos", 
+                "htb-kickstart": "rhel-7-for-power-le-htb-kickstart", 
+                "htb-source": "rhel-7-for-power-le-htb-source-rpms", 
+                "htb-source-iso": "rhel-7-for-power-le-htb-source-isos"
+            }, 
+            "cdn-product-id": {
+                "dist": 279,
+                "beta": 180
+            }, 
+            "rhn": {
+                "dist": "rhel-ppc64le-server-7",
+                "dist-kickstart": "rhel-ppc64le-server-7",
+                "dist-source": "rhel-ppc64le-server-7",
+                "dist-shadow": "rhel-ppc64le-server-7-shadow",
+                "dist-kickstart-shadow": "rhel-ppc64le-server-7-shadow",
+                "dist-source-shadow": "rhel-ppc64le-server-7-shadow",
+                "dist-debug": "rhel-ppc64le-server-7-debuginfo",
+                "dist-debug-shadow": "rhel-ppc64le-server-7-debuginfo-shadow"
+            }
+        }
+    }, 
+    "Server-optional": {
+        "ppc64le": {
+            "cdn": {
+                "beta": "rhel-7-for-power-le-optional-beta-rpms", 
+                "beta-debug": "rhel-7-for-power-le-optional-beta-debug-rpms", 
+                "beta-source": "rhel-7-for-power-le-optional-beta-source-rpms", 
+                "dist": "rhel-7-for-power-le-optional-rpms", 
+                "dist-debug": "rhel-7-for-power-le-optional-debug-rpms", 
+                "dist-source": "rhel-7-for-power-le-optional-source-rpms", 
+                "htb": "rhel-7-for-power-le-optional-htb-rpms", 
+                "htb-debug": "rhel-7-for-power-le-optional-htb-debug-rpms", 
+                "htb-source": "rhel-7-for-power-le-optional-htb-source-rpms"
+            }, 
+            "rhn": {
+                "dist": "rhel-ppc64le-server-optional-7",
+                "dist-source": "rhel-ppc64le-server-optional-7",
+                "dist-shadow": "rhel-ppc64le-server-optional-7-shadow",
+                "dist-source-shadow": "rhel-ppc64le-server-optional-7-shadow",
+                "dist-debug": "rhel-ppc64le-server-optional-7-debuginfo",
+                "dist-debug-shadow": "rhel-ppc64le-server-optional-7-debuginfo-shadow"
+            }
+        }
+    }
+}

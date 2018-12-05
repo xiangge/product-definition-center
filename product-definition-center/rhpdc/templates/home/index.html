@@ -1,0 +1,175 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load static %}
+
+{% block content %}
+
+<div class="row" id="landing-page">
+    <div class="col-md-6">
+        <h1>What's PDC?</h1>
+        <p>The Product Definition Center is repository and API for storing and
+        querying metadata related to packages, product releases, engineering
+        processes and artifacts which are required to support automation of Red
+        Hat engineering workflows (or productization processes). It aims to
+        support the development of automation that ties in the different tools
+        to streamline productization processes and create more efficient
+        workflows.</p>
+        
+        <div class="key-features">
+              <section>
+                  <a href="https://docs.engineering.redhat.com/x/DAAcAQ">
+                      <img src="{% static "rhpdc/pdc-overview.png"%}" class="img-responsive">
+                  </a>
+              </section>
+              <section>
+              <h3>Key Features</h3>
+              <ul>
+                <li><span>*</span><p>Store and query product and component metadata using REST API</p></li>
+                <li><span>*</span><p>Kerberos and token based authentication</p></li>
+                <li><span>*</span><p>Full audit log of changes to data</p></li>
+                <li><span>*</span><p>Messaging support for changes in PDC</p></li>
+              </ul>
+              </section>
+              <div class="clear-float"></div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <h1>PDC API Documentation</h1>
+        <p>The main interaction route with PDC is through the REST API. You
+        will need to log in in order to see actual data.</p>
+        <p>
+            <a href="{% url 'api-root' %}" class="btn btn-lg btn-primary">
+                Start browsing documentation <i class="fa fa-arrow-right"></i>
+
+            </a>
+        </p>
+        <h3>Interesting API resources:</h3>
+
+        <div id="accordion">
+            <div class="panel">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#releng-apis">
+                            As a <em>release engineer</em> I might need…
+                        </a>
+                    </h4>
+                </div>
+
+                <div id="releng-apis" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <ul>
+                            <li>
+                                <h5><a href="{% url 'compose-list' %}">composes</a></h5>
+                                <p>overview of all imported composes</p>
+                            </li>
+                            <li>
+                                <h5><a href="{% url 'releaseimportcomposeinfo-list' %}">rpc/release/import-from-composeinfo</a></h5>
+                                <p>write-only gateway to creating new releases</p>
+                            </li>
+                            <li>
+                                <h5><a href="{% url 'releaseclone-list' %}">rpc/release/clone</a></h5>
+                                <p>create new release based on existing one</p>
+                            </li>
+                            <li>
+                                <h5><a href="{% url 'composerpm-list' %}">compose-rpms</a></h5>
+                                <p>importing and exporting of RPM definitions</p>
+                            </li>
+                            <li>
+                                <h5><a href="{% url 'composeimage-list' %}">compose-images</a></h5>
+                                <p>importing and exporting of compose image definitions</p>
+                            </li>
+                            <li>
+                                <h5><a href="{% url 'buildimage-list' %}">build-images</a></h5>
+                                <p>importing and querying information about docker images and linked releases</p>
+                            </li>
+                            <li>
+                                <h5><a href="{% url 'release-list' %}">releases</a></h5>
+                                <p>all existing releases and their metadata (brew targets, allowed brew tags, linked product pages release)</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#qe-apis">
+                            As a <em>platform quality engineer</em> I might need…
+                        </a>
+                    </h4>
+                </div>
+
+                <div id="qe-apis" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <ul>
+                            <li>
+                                <h5><a href="{% url 'releasecomponent-list' %}">release-components</a></h5>
+                                <p>per-release list of components and their metadata (dist-git
+                                branches, bugzilla components, contacts)</p>
+                            </li>
+                            <li>
+                                <h5><a href="{% url 'compose-list' %}">composes</a></h5>
+                                <p>RCM generated component sets that can be verified together for specific release</p>
+                            </li>
+                            <li>
+                                <h5><a href="{% url 'rcrelationship-list' %}">release-component-relationships</a></h5>
+                                <p>relationships between release components (bundling, execution, ...)</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#pst-apis">
+                            As a <em>security engineer</em> I might need…
+                        </a>
+                    </h4>
+                </div>
+
+                <div id="pst-apis" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <ul>
+                            <li>
+                                <h5><a href="{% url 'releasecomponent-list' %}">release-components</a></h5>
+                                <p>per-release list of components and their metadata (dist-git
+                                branches, bugzilla components, contacts)</p>
+                            </li>
+                            <li>
+                                <h5><a href="{% url 'rcrelationship-list' %}">release-component-relationships</a></h5>
+                                <p>Relationships between release components (bundling, execution, ...)</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#pm-apis">
+                            As a <em>product manager</em> I might need…
+                        </a>
+                    </h4>
+                </div>
+
+                <div id="pm-apis" class="panel-collapse collapse">
+                    <div class="panel-body">
+                    <ul>
+                        <li>
+                            <h5><a href="https://pp.engineering.redhat.com">Product Pages</a></h5>
+                            <p>with nice user interface</p>
+                        </li> 
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}

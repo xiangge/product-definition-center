@@ -1,0 +1,26 @@
+[
+  {
+    "pk": 1,
+    "model": "compose.Variant",
+    "fields": {
+      "compose": 1,
+      "variant_id": "Server",
+      "variant_uid": "Server",
+      "variant_name": "Server",
+      "deleted": false,
+      "variant_type": 1
+    }
+  },
+  {
+    "pk": 2,
+    "model": "compose.Variant",
+    "fields": {
+      "compose": 1,
+      "variant_id": "Server2",
+      "variant_uid": "Server2",
+      "variant_name": "Server2",
+      "deleted": false,
+      "variant_type": 1
+    }
+  }
+]

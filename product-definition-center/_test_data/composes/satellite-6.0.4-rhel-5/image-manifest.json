@@ -1,0 +1,143 @@
+{
+    "header": {
+        "version": "0.3"
+    }, 
+    "payload": {
+        "compose": {
+            "date": "20140909", 
+            "id": "Satellite-6.0.4-RHEL-5-20140909.0", 
+            "respin": 0, 
+            "type": "production"
+        }, 
+        "images": {
+            "rhcommon": {
+                "i386": [
+                    {
+                        "arch": "i386", 
+                        "bootable": false, 
+                        "checksums": {
+                            "md5": "1d7a3b07bac0c36e51a4a43a33c57aca", 
+                            "sha1": "e39d892c6d0d4c5438dd5b9ad513e02e61c5c12a", 
+                            "sha256": "2e4bf9b655d4ffa11f6ff296d12ee75dfab5b67247557803b1f2ca69b855e9a3"
+                        }, 
+                        "disc_count": 1, 
+                        "disc_number": 1, 
+                        "format": "iso", 
+                        "implant_md5": "eafb0a6d6c3c7672f173a8969ac71880", 
+                        "mtime": 1410279434, 
+                        "path": "rhcommon/i386/iso/Satellite-6.0.4-RHEL-5-20140909.0-rhcommon-i386-dvd1.iso", 
+                        "size": 5484544, 
+                        "type": "dvd", 
+                        "volume_id": "Satellite-6.0.4 RHEL-5 i386",
+                        "subvariant": "rhcommon"
+                    }
+                ], 
+                "ia64": [
+                    {
+                        "arch": "ia64", 
+                        "bootable": false, 
+                        "checksums": {
+                            "md5": "621ffe0c3c4fed5363ee67597f4a6fb7", 
+                            "sha1": "a44417c7662930ce97d16babd9b0083ca7c40b10", 
+                            "sha256": "f322de98014cf1c5749cfec8dd0834ed18e9a5c99f73e354c2a35d8305a5d6a7"
+                        }, 
+                        "disc_count": 1, 
+                        "disc_number": 1, 
+                        "format": "iso", 
+                        "implant_md5": "417fda0fc72ea0e3d193e159267b9faf", 
+                        "mtime": 1410279434, 
+                        "path": "rhcommon/ia64/iso/Satellite-6.0.4-RHEL-5-20140909.0-rhcommon-ia64-dvd1.iso", 
+                        "size": 5599232, 
+                        "type": "dvd", 
+                        "volume_id": "Satellite-6.0.4 RHEL-5 ia64",
+                        "subvariant": "rhcommon"
+                    }
+                ], 
+                "ppc": [
+                    {
+                        "arch": "ppc", 
+                        "bootable": false, 
+                        "checksums": {
+                            "md5": "5462b23e9f0b65336879a1ac4dbd74bc", 
+                            "sha1": "0399276cd0c5c24c83710d2ba1308112013b0100", 
+                            "sha256": "6c844fbf564ca60ea285685c9d2f68d383936e5fcbe91616202f94c78c4a076f"
+                        }, 
+                        "disc_count": 1, 
+                        "disc_number": 1, 
+                        "format": "iso", 
+                        "implant_md5": "4e4a07a6247bc1ac2718ea653e95024b", 
+                        "mtime": 1410279434, 
+                        "path": "rhcommon/ppc/iso/Satellite-6.0.4-RHEL-5-20140909.0-rhcommon-ppc-dvd1.iso", 
+                        "size": 5519360, 
+                        "type": "dvd", 
+                        "volume_id": "Satellite-6.0.4 RHEL-5 ppc",
+                        "subvariant": "rhcommon"
+                    }
+                ], 
+                "s390x": [
+                    {
+                        "arch": "s390x", 
+                        "bootable": false, 
+                        "checksums": {
+                            "md5": "edd0807d9dbfe93897948a103c8eaac2", 
+                            "sha1": "1bedc8bcbf48717dfc82df14f5e5e4321f05e158", 
+                            "sha256": "231f4776f940127222054e580affd5f6da4cc57e292e82eed6b6b40c939ea27e"
+                        }, 
+                        "disc_count": 1, 
+                        "disc_number": 1, 
+                        "format": "iso", 
+                        "implant_md5": "13db2f932768b4bf51cf4464957ab9da", 
+                        "mtime": 1410279434, 
+                        "path": "rhcommon/s390x/iso/Satellite-6.0.4-RHEL-5-20140909.0-rhcommon-s390x-dvd1.iso", 
+                        "size": 5515264, 
+                        "type": "dvd", 
+                        "volume_id": "Satellite-6.0.4 RHEL-5 s390x",
+                        "subvariant": "rhcommon"
+                    }
+                ], 
+                "src": [
+                    {
+                        "arch": "src", 
+                        "bootable": false, 
+                        "checksums": {
+                            "md5": "d5b41fa823153c7c85811161e2ebf331", 
+                            "sha1": "d861bdcec6def91c88519ddf79b9400da35c4d31", 
+                            "sha256": "74d1f28de040d713b60a752cdfd997a7a6db526dfb9f17506f0b5df83010cd50"
+                        }, 
+                        "disc_count": 1, 
+                        "disc_number": 1, 
+                        "format": "iso", 
+                        "implant_md5": "5f22c59d7857eeaaccd2f454205c7b66", 
+                        "mtime": 1410279436, 
+                        "path": "rhcommon/source/iso/Satellite-6.0.4-RHEL-5-20140909.0-rhcommon-source-dvd1.iso", 
+                        "size": 26081280, 
+                        "type": "dvd", 
+                        "volume_id": "Satellite-6.0.4 RHEL-5 src",
+                        "subvariant": "rhcommon"
+                    }
+                ], 
+                "x86_64": [
+                    {
+                        "arch": "x86_64", 
+                        "bootable": false, 
+                        "checksums": {
+                            "md5": "f35b83cd5f209b271e777f37c17258b0", 
+                            "sha1": "7ca9c64d91e67918f50265500a765aaeaaf43a77", 
+                            "sha256": "e28aebbdac8a5576ad7180356200156ff438ce870ddcfc776b6464014597ed5a"
+                        }, 
+                        "disc_count": 1, 
+                        "disc_number": 1, 
+                        "format": "iso", 
+                        "implant_md5": "db9a66fadb83707f8d104c788a2dbc06", 
+                        "mtime": 1410279434, 
+                        "path": "rhcommon/x86_64/iso/Satellite-6.0.4-RHEL-5-20140909.0-rhcommon-x86_64-dvd1.iso", 
+                        "size": 5505024, 
+                        "type": "dvd", 
+                        "volume_id": "Satellite-6.0.4 RHEL-5 x86_64",
+                        "subvariant": "rhcommon"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load pdctags %}
+
+{% block content %}
+
+<h2 class="page-header">
+    {% trans "Composes" %}
+    {% include "help_button.html" %}
+</h2>
+
+<form method="GET" style="float: left;">
+  {% csrf_token %}
+  {{ form.search }}
+  <input type="submit" value="{% trans "Search" %}" />
+</form>
+
+{% include "pagination.html" %}
+{% include "compose_list_include.html" %}
+{% include "pagination.html" %}
+
+{% helppopover %}
+    <p>A <em>compose</em> is a snapshot of a
+    <a href="{% url "release/index" %}">release</a> with unique identifier
+    derived from release identifier and date.</p>
+
+    <p>Each compose should consist of well-defined blocks; ideally defined by
+    metadata like <code>.treeinfo</code>, repodata etc.</p>
+
+    <p>Like a release, a compose is divided into <em>variants</em>.</p>
+{% endhelppopover %}
+
+{% endblock %}

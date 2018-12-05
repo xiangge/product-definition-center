@@ -1,0 +1,74 @@
+{
+    "rhcommon": {
+        "i386": {
+            "cdn": {
+                "dist": [
+                    "rhel-5-desktop-rh-common-rpms__5Client__i386", 
+                    "rhel-5-server-rh-common-rpms__5Server__i386"
+                ], 
+                "dist-debug": [
+                    "rhel-5-desktop-rh-common-debug-rpms__5Client__i386", 
+                    "rhel-5-server-rh-common-debug-rpms__5Server__i386"
+                ], 
+                "dist-source": [
+                    "rhel-5-desktop-rh-common-source-rpms__5Client__i386", 
+                    "rhel-5-server-rh-common-source-rpms__5Server__i386"
+                ]
+            },
+            "cdn-product-id": {
+                "dist": [68, 69, 71, 76]
+            }
+        }, 
+        "ppc": {
+            "cdn": {
+                "dist": [
+                    "rhel-5-for-power-rh-common-rpms__5Server__ppc"
+                ], 
+                "dist-debug": [
+                    "rhel-5-for-power-rh-common-debug-rpms__5Server__ppc"
+                ], 
+                "dist-source": [
+                    "rhel-5-for-power-rh-common-source-rpms__5Server__ppc"
+                ]
+            },
+            "cdn-product-id": {
+                "dist": 74
+            }
+        }, 
+        "s390x": {
+            "cdn": {
+                "dist": [
+                    "rhel-5-for-system-z-rh-common-rpms__5Server__s390x"
+                ], 
+                "dist-debug": [
+                    "rhel-5-for-system-z-rh-common-debug-rpms__5Server__s390x"
+                ], 
+                "dist-source": [
+                    "rhel-5-for-system-z-rh-common-source-rpms__5Server__s390x"
+                ]
+            },
+            "cdn-product-id": {
+                "dist": 72
+            }
+        }, 
+        "x86_64": {
+            "cdn": {
+                "dist": [
+                    "rhel-5-desktop-rh-common-rpms__5Client__x86_64", 
+                    "rhel-5-server-rh-common-rpms__5Server__x86_64"
+                ], 
+                "dist-debug": [
+                    "rhel-5-desktop-rh-common-debug-rpms__5Client__x86_64", 
+                    "rhel-5-server-rh-common-debug-rpms__5Server__x86_64"
+                ], 
+                "dist-source": [
+                    "rhel-5-desktop-rh-common-source-rpms__5Client__x86_64", 
+                    "rhel-5-server-rh-common-source-rpms__5Server__x86_64"
+                ]
+            },
+            "cdn-product-id": {
+                "dist": [68, 69, 71, 76]
+            }
+        }
+    }
+}

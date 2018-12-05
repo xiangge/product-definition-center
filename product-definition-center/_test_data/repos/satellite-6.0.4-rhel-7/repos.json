@@ -1,0 +1,101 @@
+{
+    "Capsule": {
+        "x86_64": {
+            "cdn": {
+                "dist": "rhel-7-server-satellite-capsule-6.0-rpms__7Server__x86_64", 
+                "dist-debug": "rhel-7-server-satellite-capsule-6.0-debug-rpms__7Server__x86_64", 
+                "dist-iso": "rhel-7-server-satellite-capsule-6.0-isos__7Server__x86_64", 
+                "dist-source": "rhel-7-server-satellite-capsule-6.0-source-rpms__7Server__x86_64", 
+                "dist-source-iso": null
+            }, 
+            "cdn-product-id": {
+                "dist": 269
+            }
+        }
+    }, 
+    "Satellite": {
+        "x86_64": {
+            "cdn": {
+                "dist": "rhel-7-server-satellite-6.0-rpms__7Server__x86_64", 
+                "dist-debug": "rhel-7-server-satellite-6.0-debug-rpms__7Server__x86_64", 
+                "dist-iso": "rhel-7-server-satellite-6.0-isos__7Server__x86_64", 
+                "dist-source": "rhel-7-server-satellite-6.0-source-rpms__7Server__x86_64", 
+                "dist-source-iso": null
+            }, 
+            "cdn-product-id": {
+                "dist": 250
+            }
+        }
+    }, 
+    "Satellite-optional": {
+        "x86_64": {
+            "cdn": {
+                "dist": "rhel-7-server-satellite-optional-6.0-rpms__7Server__x86_64", 
+                "dist-debug": "rhel-7-server-satellite-optional-6.0-debug-rpms__7Server__x86_64", 
+                "dist-source": "rhel-7-server-satellite-optional-6.0-source-rpms__7Server__x86_64"
+            },
+            "cdn-product-id": {
+                "dist": 268
+            }
+        }
+    }, 
+    "rhcommon": {
+        "ppc64": {
+            "cdn": {
+                "dist": [
+                    "rhel-7-for-power-rh-common-rpms__7Server__ppc64"
+                ], 
+                "dist-debug": [
+                    "rhel-7-for-power-rh-common-debug-rpms__7Server__ppc64"
+                ], 
+                "dist-source": [
+                    "rhel-7-for-power-rh-common-source-rpms__7Server__ppc64"
+                ]
+            },
+            "cdn-product-id": {
+                "dist": 74
+            }
+        }, 
+        "s390x": {
+            "cdn": {
+                "dist": [
+                    "rhel-7-for-system-z-rh-common-rpms__7Server__s390x"
+                ], 
+                "dist-debug": [
+                    "rhel-7-for-system-z-rh-common-debug-rpms__7Server__s390x"
+                ], 
+                "dist-source": [
+                    "rhel-7-for-system-z-rh-common-source-rpms__7Server__s390x"
+                ]
+            },
+            "cdn-product-id": {
+                "dist": 72
+            }
+        }, 
+        "x86_64": {
+            "cdn": {
+                "dist": [
+                    "rhel-7-desktop-rh-common-rpms__7Client__x86_64", 
+                    "rhel-7-for-hpc-node-rh-common-rpms__7ComputeNode__x86_64", 
+                    "rhel-7-server-rh-common-rpms__7Server__x86_64", 
+                    "rhel-7-workstation-rh-common-rpms__7Workstation__x86_64"
+                ], 
+                "dist-debug": [
+                    "rhel-7-desktop-rh-common-debug-rpms__7Client__x86_64", 
+                    "rhel-7-for-hpc-node-rh-common-debug-rpms__7ComputeNode__x86_64", 
+                    "rhel-7-server-rh-common-debug-rpms__7Server__x86_64", 
+                    "rhel-7-workstation-rh-common-debug-rpms__7Workstation__x86_64"
+                ], 
+                "dist-source": [
+                    "rhel-7-desktop-rh-common-source-rpms__7Client__x86_64", 
+                    "rhel-7-for-hpc-node-rh-common-source-rpms__7ComputeNode__x86_64", 
+                    "rhel-7-server-rh-common-source-rpms__7Server__x86_64", 
+                    "rhel-7-workstation-rh-common-source-rpms__7Workstation__x86_64"
+                ]
+            },
+            "cdn-product-id": {
+                "dist": [68, 69, 71, 76]
+            }
+        }
+    }
+}

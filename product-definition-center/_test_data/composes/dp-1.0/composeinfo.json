@@ -1,0 +1,374 @@
+{
+    "header": {
+        "version": "0.3"
+    }, 
+    "payload": {
+        "compose": {
+            "date": "20140418", 
+            "id": "DP-1.0-20140418.0", 
+            "respin": 0, 
+            "type": "production"
+        }, 
+        "product": {
+            "name": "Dummy Product", 
+            "short": "DP", 
+            "version": "1.0"
+        }, 
+        "variants": {
+            "Client": {
+                "arches": [
+                    "i386", 
+                    "x86_64"
+                ], 
+                "id": "Client", 
+                "name": "Client", 
+                "paths": {
+                    "debug_packages": {
+                        "i386": "Client/i386/debug/tree/Packages", 
+                        "x86_64": "Client/x86_64/debug/tree/Packages"
+                    }, 
+                    "debug_repository": {
+                        "i386": "Client/i386/debug/tree", 
+                        "x86_64": "Client/x86_64/debug/tree"
+                    }, 
+                    "debug_tree": {
+                        "i386": "Client/i386/debug/tree", 
+                        "x86_64": "Client/x86_64/debug/tree"
+                    }, 
+                    "isos": {
+                        "i386": "Client/i386/iso", 
+                        "x86_64": "Client/x86_64/iso"
+                    }, 
+                    "jigdos": {
+                        "i386": "Client/i386/jigdo", 
+                        "x86_64": "Client/x86_64/jigdo"
+                    }, 
+                    "os_tree": {
+                        "i386": "Client/i386/os", 
+                        "x86_64": "Client/x86_64/os"
+                    }, 
+                    "packages": {
+                        "i386": "Client/i386/os/Packages", 
+                        "x86_64": "Client/x86_64/os/Packages"
+                    }, 
+                    "repository": {
+                        "i386": "Client/i386/os", 
+                        "x86_64": "Client/x86_64/os"
+                    }, 
+                    "source_isos": {
+                        "i386": "Client/source/iso", 
+                        "x86_64": "Client/source/iso"
+                    }, 
+                    "source_jigdos": {
+                        "i386": "Client/source/jigdo", 
+                        "x86_64": "Client/source/jigdo"
+                    }, 
+                    "source_packages": {
+                        "i386": "Client/source/tree/Packages", 
+                        "x86_64": "Client/source/tree/Packages"
+                    }, 
+                    "source_repository": {
+                        "i386": "Client/source/tree", 
+                        "x86_64": "Client/source/tree"
+                    }, 
+                    "source_tree": {
+                        "i386": "Client/source/tree", 
+                        "x86_64": "Client/source/tree"
+                    }
+                }, 
+                "type": "variant", 
+                "uid": "Client", 
+                "variants": [
+                    "optional"
+                ]
+            }, 
+            "Client-optional": {
+                "arches": [
+                    "i386", 
+                    "x86_64"
+                ], 
+                "id": "optional", 
+                "name": "optional", 
+                "paths": {
+                    "debug_packages": {
+                        "i386": "Client-optional/i386/debug/tree/Packages", 
+                        "x86_64": "Client-optional/x86_64/debug/tree/Packages"
+                    }, 
+                    "debug_repository": {
+                        "i386": "Client-optional/i386/debug/tree", 
+                        "x86_64": "Client-optional/x86_64/debug/tree"
+                    }, 
+                    "debug_tree": {
+                        "i386": "Client-optional/i386/debug/tree", 
+                        "x86_64": "Client-optional/x86_64/debug/tree"
+                    }, 
+                    "os_tree": {
+                        "i386": "Client-optional/i386/os", 
+                        "x86_64": "Client-optional/x86_64/os"
+                    }, 
+                    "packages": {
+                        "i386": "Client-optional/i386/os/Packages", 
+                        "x86_64": "Client-optional/x86_64/os/Packages"
+                    }, 
+                    "repository": {
+                        "i386": "Client-optional/i386/os", 
+                        "x86_64": "Client-optional/x86_64/os"
+                    }, 
+                    "source_packages": {
+                        "i386": "Client-optional/source/tree/Packages", 
+                        "x86_64": "Client-optional/source/tree/Packages"
+                    }, 
+                    "source_repository": {
+                        "i386": "Client-optional/source/tree", 
+                        "x86_64": "Client-optional/source/tree"
+                    }, 
+                    "source_tree": {
+                        "i386": "Client-optional/source/tree", 
+                        "x86_64": "Client-optional/source/tree"
+                    }
+                }, 
+                "type": "optional", 
+                "uid": "Client-optional"
+            }, 
+            "Server": {
+                "arches": [
+                    "ppc", 
+                    "ppc64", 
+                    "s390x", 
+                    "x86_64"
+                ], 
+                "id": "Server", 
+                "name": "Server", 
+                "paths": {
+                    "debug_packages": {
+                        "ppc": "Server/ppc/debug/tree/Packages", 
+                        "ppc64": "Server/ppc64/debug/tree/Packages", 
+                        "s390x": "Server/s390x/debug/tree/Packages", 
+                        "x86_64": "Server/x86_64/debug/tree/Packages"
+                    }, 
+                    "debug_repository": {
+                        "ppc": "Server/ppc/debug/tree", 
+                        "ppc64": "Server/ppc64/debug/tree", 
+                        "s390x": "Server/s390x/debug/tree", 
+                        "x86_64": "Server/x86_64/debug/tree"
+                    }, 
+                    "debug_tree": {
+                        "ppc": "Server/ppc/debug/tree", 
+                        "ppc64": "Server/ppc64/debug/tree", 
+                        "s390x": "Server/s390x/debug/tree", 
+                        "x86_64": "Server/x86_64/debug/tree"
+                    }, 
+                    "isos": {
+                        "ppc": "Server/ppc/iso", 
+                        "ppc64": "Server/ppc64/iso", 
+                        "s390x": "Server/s390x/iso", 
+                        "x86_64": "Server/x86_64/iso"
+                    }, 
+                    "jigdos": {
+                        "ppc": "Server/ppc/jigdo", 
+                        "ppc64": "Server/ppc64/jigdo", 
+                        "s390x": "Server/s390x/jigdo", 
+                        "x86_64": "Server/x86_64/jigdo"
+                    }, 
+                    "os_tree": {
+                        "ppc": "Server/ppc/os", 
+                        "ppc64": "Server/ppc64/os", 
+                        "s390x": "Server/s390x/os", 
+                        "x86_64": "Server/x86_64/os"
+                    }, 
+                    "packages": {
+                        "ppc": "Server/ppc/os/Packages", 
+                        "ppc64": "Server/ppc64/os/Packages", 
+                        "s390x": "Server/s390x/os/Packages", 
+                        "x86_64": "Server/x86_64/os/Packages"
+                    }, 
+                    "repository": {
+                        "ppc": "Server/ppc/os", 
+                        "ppc64": "Server/ppc64/os", 
+                        "s390x": "Server/s390x/os", 
+                        "x86_64": "Server/x86_64/os"
+                    }, 
+                    "source_isos": {
+                        "ppc": "Server/source/iso", 
+                        "ppc64": "Server/source/iso", 
+                        "s390x": "Server/source/iso", 
+                        "x86_64": "Server/source/iso"
+                    }, 
+                    "source_jigdos": {
+                        "ppc": "Server/source/jigdo", 
+                        "ppc64": "Server/source/jigdo", 
+                        "s390x": "Server/source/jigdo", 
+                        "x86_64": "Server/source/jigdo"
+                    }, 
+                    "source_packages": {
+                        "ppc": "Server/source/tree/Packages", 
+                        "ppc64": "Server/source/tree/Packages", 
+                        "s390x": "Server/source/tree/Packages", 
+                        "x86_64": "Server/source/tree/Packages"
+                    }, 
+                    "source_repository": {
+                        "ppc": "Server/source/tree", 
+                        "ppc64": "Server/source/tree", 
+                        "s390x": "Server/source/tree", 
+                        "x86_64": "Server/source/tree"
+                    }, 
+                    "source_tree": {
+                        "ppc": "Server/source/tree", 
+                        "ppc64": "Server/source/tree", 
+                        "s390x": "Server/source/tree", 
+                        "x86_64": "Server/source/tree"
+                    }
+                }, 
+                "type": "variant", 
+                "uid": "Server", 
+                "variants": [
+                    "ResilientStorage", 
+                    "SAP", 
+                    "optional"
+                ]
+            }, 
+            "Server-ResilientStorage": {
+                "arches": [
+                    "x86_64"
+                ], 
+                "id": "ResilientStorage", 
+                "name": "Resilient Storage", 
+                "paths": {
+                    "debug_packages": {
+                        "x86_64": "Server/x86_64/debug/tree/addons/ResilientStorage"
+                    }, 
+                    "debug_repository": {
+                        "x86_64": "Server/x86_64/debug/tree/addons/ResilientStorage"
+                    }, 
+                    "debug_tree": {
+                        "x86_64": "Server/x86_64/debug/tree"
+                    }, 
+                    "os_tree": {
+                        "x86_64": "Server/x86_64/os"
+                    }, 
+                    "packages": {
+                        "x86_64": "Server/x86_64/os/addons/ResilientStorage"
+                    }, 
+                    "repository": {
+                        "x86_64": "Server/x86_64/os/addons/ResilientStorage"
+                    }, 
+                    "source_packages": {
+                        "x86_64": "Server/source/tree/addons/ResilientStorage"
+                    }, 
+                    "source_repository": {
+                        "x86_64": "Server/source/tree/addons/ResilientStorage"
+                    }, 
+                    "source_tree": {
+                        "x86_64": "Server/source/tree"
+                    }
+                }, 
+                "type": "addon", 
+                "uid": "Server-ResilientStorage"
+            }, 
+            "Server-SAP": {
+                "arches": [
+                    "x86_64"
+                ], 
+                "id": "SAP", 
+                "name": "SAP Layered Product", 
+                "paths": {
+                    "debug_packages": {
+                        "x86_64": "Server-SAP/x86_64/debug/tree/Packages"
+                    }, 
+                    "debug_repository": {
+                        "x86_64": "Server-SAP/x86_64/debug/tree"
+                    }, 
+                    "debug_tree": {
+                        "x86_64": "Server-SAP/x86_64/debug/tree"
+                    }, 
+                    "isos": {
+                        "x86_64": "Server-SAP/x86_64/iso"
+                    }, 
+                    "jigdos": {
+                        "x86_64": "Server-SAP/x86_64/jigdo"
+                    }, 
+                    "os_tree": {
+                        "x86_64": "Server-SAP/x86_64/os"
+                    }, 
+                    "packages": {
+                        "x86_64": "Server-SAP/x86_64/os/Packages"
+                    }, 
+                    "repository": {
+                        "x86_64": "Server-SAP/x86_64/os"
+                    }, 
+                    "source_isos": {
+                        "x86_64": "Server-SAP/source/iso"
+                    }, 
+                    "source_jigdos": {
+                        "x86_64": "Server-SAP/source/jigdo"
+                    }, 
+                    "source_packages": {
+                        "x86_64": "Server-SAP/source/tree/Packages"
+                    }, 
+                    "source_repository": {
+                        "x86_64": "Server-SAP/source/tree"
+                    }, 
+                    "source_tree": {
+                        "x86_64": "Server-SAP/source/tree"
+                    }
+                }, 
+                "product": {
+                    "is_layered": true, 
+                    "name": "SAP", 
+                    "short": "SAP", 
+                    "version": "2.3"
+                }, 
+                "type": "layered-product", 
+                "uid": "Server-SAP"
+            }, 
+            "Server-optional": {
+                "arches": [
+                    "s390x", 
+                    "x86_64"
+                ], 
+                "id": "optional", 
+                "name": "optional", 
+                "paths": {
+                    "debug_packages": {
+                        "s390x": "Server-optional/s390x/debug/tree/Packages", 
+                        "x86_64": "Server-optional/x86_64/debug/tree/Packages"
+                    }, 
+                    "debug_repository": {
+                        "s390x": "Server-optional/s390x/debug/tree", 
+                        "x86_64": "Server-optional/x86_64/debug/tree"
+                    }, 
+                    "debug_tree": {
+                        "s390x": "Server-optional/s390x/debug/tree", 
+                        "x86_64": "Server-optional/x86_64/debug/tree"
+                    }, 
+                    "os_tree": {
+                        "s390x": "Server-optional/s390x/os", 
+                        "x86_64": "Server-optional/x86_64/os"
+                    }, 
+                    "packages": {
+                        "s390x": "Server-optional/s390x/os/Packages", 
+                        "x86_64": "Server-optional/x86_64/os/Packages"
+                    }, 
+                    "repository": {
+                        "s390x": "Server-optional/s390x/os", 
+                        "x86_64": "Server-optional/x86_64/os"
+                    }, 
+                    "source_packages": {
+                        "s390x": "Server-optional/source/tree/Packages", 
+                        "x86_64": "Server-optional/source/tree/Packages"
+                    }, 
+                    "source_repository": {
+                        "s390x": "Server-optional/source/tree", 
+                        "x86_64": "Server-optional/source/tree"
+                    }, 
+                    "source_tree": {
+                        "s390x": "Server-optional/source/tree", 
+                        "x86_64": "Server-optional/source/tree"
+                    }
+                }, 
+                "type": "optional", 
+                "uid": "Server-optional"
+            }
+        }
+    }
+}

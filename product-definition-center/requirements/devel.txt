@@ -1,0 +1,3 @@
+# pdc upstream
+-r production.txt
+-r https://raw.githubusercontent.com/product-definition-center/product-definition-center/master/requirements/devel.txt

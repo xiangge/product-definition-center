@@ -1,0 +1,10 @@
+# pdc upstream
+-e git+https://github.com/product-definition-center/product-definition-center.git#egg=pdc
+
+six
+
+# make symbolic links from system site-package for koji rpm, OpenSSL and krbVmodule.so
+# ln -sfv $(deactivate && python -c 'import koji, os.path; print os.path.dirname(koji.__file__)') $(virtualenvwrapper_get_site_packages_dir)
+# ln -sfv $(deactivate && python -c 'import rpm, os.path; print os.path.dirname(rpm.__file__)') $(virtualenvwrapper_get_site_packages_dir)
+# ln -sfv $(deactivate && python -c 'import OpenSSL, os.path; print os.path.dirname(OpenSSL.__file__)') $(virtualenvwrapper_get_site_packages_dir)
+# ln -sfv $(deactivate && python -c 'import krbV, os.path; print os.path.abspath(krbV.__file__)') $(virtualenvwrapper_get_site_packages_dir)/krbVmodule.so

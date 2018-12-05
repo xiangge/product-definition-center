@@ -1,0 +1,13 @@
+[
+    {
+        "model": "release.BaseProduct",
+        "pk": 1,
+        "fields": {
+            "base_product_id": "rhel-7",
+            "short": "rhel",
+            "version": "7",
+            "release_type": 1,
+            "name": "Red Hat Enterprise Linux"
+        }
+    }
+]

@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+{% load i18n %}
+
+{% block content %}
+<h1 class="page-header">{% trans "Changes" %}</h1>
+
+{% include "pagination.html" %}
+<table class="table table-striped">
+<thead>
+<tr>
+<th>ID</th>
+<th>{% trans "Author" %}</th>
+<th>{% trans "Request Date" %}</th>
+<th>{% trans "Commit Date" %}</th>
+<th>{% trans "Duration" %}</th>
+<th>{% trans "# Changes" %}</th>
+</tr>
+</thead>
+<tbody>
+{% for changeset in changeset_list %}
+<tr>
+<td><a href="{% url "changeset/detail" changeset.id %}">{{ changeset }}</a></td>
+<td>{{ changeset.author }}</td>
+<td>{{ changeset.requested_on|date:"Y-m-d H:i:s" }}</td>
+<td>{{ changeset.committed_on|date:"Y-m-d H:i:s" }}</td>
+<td>{{ changeset.duration }}</td>
+<td>{{ changeset.change_set.all|length }}</td>
+</tr>
+{% endfor %}
+</tbody>
+</table>
+{% include "pagination.html" %}
+
+{% endblock %}

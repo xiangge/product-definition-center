@@ -1,0 +1,128 @@
+{
+    "header": {
+        "version": "0.3"
+    }, 
+    "payload": {
+        "compose": {
+            "date": "20140708", 
+            "id": "RHEL-7.1-20140708.n.0", 
+            "respin": 0, 
+            "type": "nightly"
+        }, 
+        "images": {
+            "Client": {
+                "x86_64": [
+                    {
+                        "arch": "x86_64", 
+                        "bootable": true, 
+                        "checksums": {
+                            "md5": "20614f9f46f176405b8b1e7d9d3bd114", 
+                            "sha1": "67d8e1a2cf31e43e1faf46f524b8363e523e1319", 
+                            "sha256": "127b6ea1ad3b90c5a89dca2c0cad0b38ae630164c3ff0e597581c042fbecb8ef"
+                        }, 
+                        "disc_count": 1, 
+                        "disc_number": 1, 
+                        "format": "iso", 
+                        "implant_md5": "18219edc52cb476c74a61bd84d6da657", 
+                        "mtime": 1404808339, 
+                        "path": "Client/x86_64/iso/RHEL-7.1-20140708.n.0-Client-x86_64-boot.iso", 
+                        "size": 360710144, 
+                        "type": "boot", 
+                        "volume_id": "RHEL-7.1 x86_64",
+                        "subvariant": "Client"
+                    }
+                ]
+            }, 
+            "ComputeNode": {
+                "x86_64": [
+                    {
+                        "arch": "x86_64", 
+                        "bootable": true, 
+                        "checksums": {
+                            "md5": "20614f9f46f176405b8b1e7d9d3bd114", 
+                            "sha1": "67d8e1a2cf31e43e1faf46f524b8363e523e1319", 
+                            "sha256": "127b6ea1ad3b90c5a89dca2c0cad0b38ae630164c3ff0e597581c042fbecb8ef"
+                        }, 
+                        "disc_count": 1, 
+                        "disc_number": 1, 
+                        "format": "iso", 
+                        "implant_md5": "18219edc52cb476c74a61bd84d6da657", 
+                        "mtime": 1404808339, 
+                        "path": "ComputeNode/x86_64/iso/RHEL-7.1-20140708.n.0-ComputeNode-x86_64-boot.iso", 
+                        "size": 360710144, 
+                        "type": "boot", 
+                        "volume_id": "RHEL-7.1 x86_64",
+                        "subvariant": "ComputeNode"
+                    }
+                ]
+            }, 
+            "Server": {
+                "ppc64": [
+                    {
+                        "arch": "ppc64", 
+                        "bootable": true, 
+                        "checksums": {
+                            "md5": "b92325e36896b3fd36e80da98a74ffea", 
+                            "sha1": "a948d9eceaafee318a686c01ce91827f6bbe619e", 
+                            "sha256": "992cb3e92d408c5804be9f6a0c4f28fab6d7e1c08df2dae6c83d6832e8006b6c"
+                        }, 
+                        "disc_count": 1, 
+                        "disc_number": 1, 
+                        "format": "iso", 
+                        "implant_md5": "04b193d938e72b3ac39176350c30e60c", 
+                        "mtime": 1404808638, 
+                        "path": "Server/ppc64/iso/RHEL-7.1-20140708.n.0-Server-ppc64-boot.iso", 
+                        "size": 398413824, 
+                        "type": "boot", 
+                        "volume_id": "RHEL_7_1_ppc64",
+                        "subvariant": "Server"
+                    }
+                ], 
+                "x86_64": [
+                    {
+                        "arch": "x86_64", 
+                        "bootable": true, 
+                        "checksums": {
+                            "md5": "20614f9f46f176405b8b1e7d9d3bd114", 
+                            "sha1": "67d8e1a2cf31e43e1faf46f524b8363e523e1319", 
+                            "sha256": "127b6ea1ad3b90c5a89dca2c0cad0b38ae630164c3ff0e597581c042fbecb8ef"
+                        }, 
+                        "disc_count": 1, 
+                        "disc_number": 1, 
+                        "format": "iso", 
+                        "implant_md5": "18219edc52cb476c74a61bd84d6da657", 
+                        "mtime": 1404808339, 
+                        "path": "Server/x86_64/iso/RHEL-7.1-20140708.n.0-Server-x86_64-boot.iso", 
+                        "size": 360710144, 
+                        "type": "boot", 
+                        "volume_id": "RHEL-7.1 x86_64",
+                        "subvariant": "Server"
+                    }
+                ]
+            }, 
+            "Workstation": {
+                "x86_64": [
+                    {
+                        "arch": "x86_64", 
+                        "bootable": true, 
+                        "checksums": {
+                            "md5": "20614f9f46f176405b8b1e7d9d3bd114", 
+                            "sha1": "67d8e1a2cf31e43e1faf46f524b8363e523e1319", 
+                            "sha256": "127b6ea1ad3b90c5a89dca2c0cad0b38ae630164c3ff0e597581c042fbecb8ef"
+                        }, 
+                        "disc_count": 1, 
+                        "disc_number": 1, 
+                        "format": "iso", 
+                        "implant_md5": "18219edc52cb476c74a61bd84d6da657", 
+                        "mtime": 1404808339, 
+                        "path": "Workstation/x86_64/iso/RHEL-7.1-20140708.n.0-Workstation-x86_64-boot.iso", 
+                        "size": 360710144, 
+                        "type": "boot", 
+                        "volume_id": "RHEL-7.1 x86_64",
+                        "subvariant": "Workstation"
+                    }
+                ]
+            }
+        }
+    }
+}

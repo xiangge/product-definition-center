@@ -1,0 +1,18 @@
+{
+    "dev": {
+        "host": "https://pdc.app.test.eng.nay.redhat.com/rest_api/v1/",
+        "ssl-verify": false
+    },
+    "prod": {
+        "host": "https://pdc.engineering.redhat.com/rest_api/v1/",
+        "ssl-verify": false
+    },
+    "qa": {
+        "host": "https://pdc.app.qa.eng.nay.redhat.com/rest_api/v1/",
+        "ssl-verify": false
+    },
+    "stage": {
+        "host": "https://pdc.stage.engineering.redhat.com/rest_api/v1/",
+        "ssl-verify": false
+    }
+}

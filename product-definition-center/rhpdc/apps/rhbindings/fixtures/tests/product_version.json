@@ -1,0 +1,24 @@
+[
+    {
+        "model": "release.ProductVersion",
+        "pk": 1,
+        "fields": {
+            "name": "Red Hat Enterprise Linux",
+            "short": "rhel",
+            "version": "7",
+            "product_version_id": "rhel-7",
+            "product": 1
+        }
+    },
+    {
+        "model": "release.ProductVersion",
+        "pk": 2,
+        "fields": {
+            "name": "Red Hat Enterprise Linux",
+            "short": "rhel",
+            "version": "6",
+            "product_version_id": "rhel-6",
+            "product": 1
+        }
+    }
+]

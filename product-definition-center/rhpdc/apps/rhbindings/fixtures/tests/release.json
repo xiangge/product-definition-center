@@ -1,0 +1,15 @@
+[
+  {
+    "model": "release.Release",
+    "pk": 1,
+    "fields": {
+      "release_type": 1,
+      "release_id": "rhel-7.0",
+      "short": "rhel",
+      "name": "Red Hat Enterprise Linux",
+      "version": "7.0",
+      "base_product": null,
+      "active": true
+    }
+  }
+]

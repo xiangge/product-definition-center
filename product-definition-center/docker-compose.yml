@@ -1,0 +1,89 @@
+version: '2'
+# NOTE with version 2 you may have to export COMPOSE_API_VERSION if the
+# docker version is less than 1.10
+
+# Guide:
+#* Requirements:
+#  To install the docker as the followed link shows:
+#    https://docs.docker.com/installation/
+
+#* 1. Open docker daemon:
+#  ::
+#   sudo systemctl start docker
+#   pip install --user docker-compose
+
+#* 2. Use this to build a new image
+#  Running the followed command in the local directory to build pdcserver_image
+#  which can be run in standalone mode
+#  ::
+#   export UID; docker-compose build
+
+#* 3. Run the development container which mounts current directory as /code
+#  and a /home/$USER directory
+#  NOTE: these steps are not needed for standalone container as all code and
+#  a default settings_local.py is packaged into the container.
+#  See: Dockerfile
+#
+#   3.1 Run the container which sleeps for ever
+#   ::
+#     docker-compose up -d dev
+#
+#   3.2 Find the container name, usually of the format <directory>_dev_1
+#   ::
+#     docker-compose ps
+#
+#   3.3 Log into the container
+#   ::
+#     docker exec -it <pdc_container> bash
+#
+#   3.4 First time setup the environment
+#   ::
+#     pip install --user -r requirements/devel.txt
+#     ./sync.sh && \
+#     python manage.py migrate
+#   Any additional customisation will be persisted as /home/$USER is mounted
+
+#   3.5 run the server
+#   ::
+#     make run
+
+#* 4. Access it on web browser
+# Visit http://localhost:8000/ on your web browser. See ports: section of the
+# dev service
+
+#* 6. Edit code and see changes
+# save after editing code in your $PWD directory and see changes
+# will happen in the container (changes need more time to take
+# effect than in local env).
+
+services:
+  image:
+    build:
+      context: .
+      args:
+        user:  ${USER}
+        user_id: ${UID}
+
+  standalone:
+    image: pdcserver_image
+    network_mode: bridge
+    expose:
+      - 8000
+    ports:
+      - "8000:8000"
+    command: make run
+
+  dev:
+    image: pdcserver_image
+    network_mode: bridge
+    user: ${USER}
+    volumes:
+      - ".:/code:Z"
+      - "../volumes/home/${USER}:/home/${USER}:Z"
+    environment:
+      - TERM
+      - PYTHONPATH=/code
+    ports:
+      - "8000:8000"
+    working_dir: /code
+    command: sleep infinity

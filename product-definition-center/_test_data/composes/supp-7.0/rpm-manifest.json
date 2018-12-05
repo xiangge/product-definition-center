@@ -1,0 +1,436 @@
+{
+    "header": {
+        "version": "0.3"
+    }, 
+    "payload": {
+        "compose": {
+            "date": "20140512", 
+            "id": "Supp-7.0-RHEL-7-20140512.0", 
+            "respin": 0, 
+            "type": "production"
+        }, 
+        "manifest": {
+            "Client": {
+                "x86_64": {
+                    "java-1.7.1-ibm-1:1.7.1.0.0-1jpp.4.el7.src": {
+                        "java-1.7.1-ibm-1:1.7.1.0.0-1jpp.4.el7.i686": {
+                            "path": "Client/x86_64/os/Packages/java-1.7.1-ibm-1.7.1.0.0-1jpp.4.el7.i686.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "java-1.7.1-ibm-1:1.7.1.0.0-1jpp.4.el7.x86_64": {
+                            "path": "Client/x86_64/os/Packages/java-1.7.1-ibm-1.7.1.0.0-1jpp.4.el7.x86_64.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "java-1.7.1-ibm-demo-1:1.7.1.0.0-1jpp.4.el7.x86_64": {
+                            "path": "Client/x86_64/os/Packages/java-1.7.1-ibm-demo-1.7.1.0.0-1jpp.4.el7.x86_64.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "java-1.7.1-ibm-devel-1:1.7.1.0.0-1jpp.4.el7.i686": {
+                            "path": "Client/x86_64/os/Packages/java-1.7.1-ibm-devel-1.7.1.0.0-1jpp.4.el7.i686.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "java-1.7.1-ibm-devel-1:1.7.1.0.0-1jpp.4.el7.x86_64": {
+                            "path": "Client/x86_64/os/Packages/java-1.7.1-ibm-devel-1.7.1.0.0-1jpp.4.el7.x86_64.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "java-1.7.1-ibm-jdbc-1:1.7.1.0.0-1jpp.4.el7.x86_64": {
+                            "path": "Client/x86_64/os/Packages/java-1.7.1-ibm-jdbc-1.7.1.0.0-1jpp.4.el7.x86_64.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "java-1.7.1-ibm-plugin-1:1.7.1.0.0-1jpp.4.el7.x86_64": {
+                            "path": "Client/x86_64/os/Packages/java-1.7.1-ibm-plugin-1.7.1.0.0-1jpp.4.el7.x86_64.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "java-1.7.1-ibm-src-1:1.7.1.0.0-1jpp.4.el7.x86_64": {
+                            "path": "Client/x86_64/os/Packages/java-1.7.1-ibm-src-1.7.1.0.0-1jpp.4.el7.x86_64.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }
+                    }, 
+                    "virtio-win-0:1.7.0-1.el7.src": {
+                        "virtio-win-0:1.7.0-1.el7.noarch": {
+                            "path": "Client/x86_64/os/Packages/virtio-win-1.7.0-1.el7.noarch.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }
+                    }, 
+                    "zhongyi-song-fonts-0:0.1.20020329.1-16.el7.src": {
+                        "zhongyi-song-fonts-0:0.1.20020329.1-16.el7.noarch": {
+                            "path": "Client/x86_64/os/Packages/zhongyi-song-fonts-0.1.20020329.1-16.el7.noarch.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "zhongyi-song-fonts-ghostscript-0:0.1.20020329.1-16.el7.noarch": {
+                            "path": "Client/x86_64/os/Packages/zhongyi-song-fonts-ghostscript-0.1.20020329.1-16.el7.noarch.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }
+                    }
+                }
+            }, 
+            "ComputeNode": {
+                "x86_64": {
+                    "java-1.7.1-ibm-1:1.7.1.0.0-1jpp.4.el7.src": {
+                        "java-1.7.1-ibm-1:1.7.1.0.0-1jpp.4.el7.i686": {
+                            "path": "ComputeNode/x86_64/os/Packages/java-1.7.1-ibm-1.7.1.0.0-1jpp.4.el7.i686.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "java-1.7.1-ibm-1:1.7.1.0.0-1jpp.4.el7.x86_64": {
+                            "path": "ComputeNode/x86_64/os/Packages/java-1.7.1-ibm-1.7.1.0.0-1jpp.4.el7.x86_64.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "java-1.7.1-ibm-demo-1:1.7.1.0.0-1jpp.4.el7.x86_64": {
+                            "path": "ComputeNode/x86_64/os/Packages/java-1.7.1-ibm-demo-1.7.1.0.0-1jpp.4.el7.x86_64.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "java-1.7.1-ibm-devel-1:1.7.1.0.0-1jpp.4.el7.i686": {
+                            "path": "ComputeNode/x86_64/os/Packages/java-1.7.1-ibm-devel-1.7.1.0.0-1jpp.4.el7.i686.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "java-1.7.1-ibm-devel-1:1.7.1.0.0-1jpp.4.el7.x86_64": {
+                            "path": "ComputeNode/x86_64/os/Packages/java-1.7.1-ibm-devel-1.7.1.0.0-1jpp.4.el7.x86_64.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "java-1.7.1-ibm-src-1:1.7.1.0.0-1jpp.4.el7.x86_64": {
+                            "path": "ComputeNode/x86_64/os/Packages/java-1.7.1-ibm-src-1.7.1.0.0-1jpp.4.el7.x86_64.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }
+                    }, 
+                    "zhongyi-song-fonts-0:0.1.20020329.1-16.el7.src": {
+                        "zhongyi-song-fonts-0:0.1.20020329.1-16.el7.noarch": {
+                            "path": "ComputeNode/x86_64/os/Packages/zhongyi-song-fonts-0.1.20020329.1-16.el7.noarch.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "zhongyi-song-fonts-ghostscript-0:0.1.20020329.1-16.el7.noarch": {
+                            "path": "ComputeNode/x86_64/os/Packages/zhongyi-song-fonts-ghostscript-0.1.20020329.1-16.el7.noarch.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }
+                    }
+                }
+            }, 
+            "Server": {
+                "ppc64": {
+                    "java-1.7.1-ibm-1:1.7.1.0.0-1jpp.4.el7.src": {
+                        "java-1.7.1-ibm-1:1.7.1.0.0-1jpp.4.el7.ppc": {
+                            "path": "Server/ppc64/os/Packages/java-1.7.1-ibm-1.7.1.0.0-1jpp.4.el7.ppc.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "java-1.7.1-ibm-1:1.7.1.0.0-1jpp.4.el7.ppc64": {
+                            "path": "Server/ppc64/os/Packages/java-1.7.1-ibm-1.7.1.0.0-1jpp.4.el7.ppc64.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "java-1.7.1-ibm-demo-1:1.7.1.0.0-1jpp.4.el7.ppc64": {
+                            "path": "Server/ppc64/os/Packages/java-1.7.1-ibm-demo-1.7.1.0.0-1jpp.4.el7.ppc64.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "java-1.7.1-ibm-devel-1:1.7.1.0.0-1jpp.4.el7.ppc": {
+                            "path": "Server/ppc64/os/Packages/java-1.7.1-ibm-devel-1.7.1.0.0-1jpp.4.el7.ppc.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "java-1.7.1-ibm-devel-1:1.7.1.0.0-1jpp.4.el7.ppc64": {
+                            "path": "Server/ppc64/os/Packages/java-1.7.1-ibm-devel-1.7.1.0.0-1jpp.4.el7.ppc64.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "java-1.7.1-ibm-jdbc-1:1.7.1.0.0-1jpp.4.el7.ppc64": {
+                            "path": "Server/ppc64/os/Packages/java-1.7.1-ibm-jdbc-1.7.1.0.0-1jpp.4.el7.ppc64.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "java-1.7.1-ibm-plugin-1:1.7.1.0.0-1jpp.4.el7.ppc": {
+                            "path": "Server/ppc64/os/Packages/java-1.7.1-ibm-plugin-1.7.1.0.0-1jpp.4.el7.ppc.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "java-1.7.1-ibm-src-1:1.7.1.0.0-1jpp.4.el7.ppc64": {
+                            "path": "Server/ppc64/os/Packages/java-1.7.1-ibm-src-1.7.1.0.0-1jpp.4.el7.ppc64.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }
+                    }, 
+                    "libdfp-0:1.0.8-5.el7.src": {
+                        "libdfp-0:1.0.8-5.el7.ppc": {
+                            "path": "Server/ppc64/os/Packages/libdfp-1.0.8-5.el7.ppc.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "libdfp-0:1.0.8-5.el7.ppc64": {
+                            "path": "Server/ppc64/os/Packages/libdfp-1.0.8-5.el7.ppc64.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "libdfp-debuginfo-0:1.0.8-5.el7.ppc": {
+                            "path": "Server/ppc64/debug/tree/Packages/libdfp-debuginfo-1.0.8-5.el7.ppc.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "debug"
+                        }, 
+                        "libdfp-debuginfo-0:1.0.8-5.el7.ppc64": {
+                            "path": "Server/ppc64/debug/tree/Packages/libdfp-debuginfo-1.0.8-5.el7.ppc64.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "debug"
+                        }, 
+                        "libdfp-devel-0:1.0.8-5.el7.ppc": {
+                            "path": "Server/ppc64/os/Packages/libdfp-devel-1.0.8-5.el7.ppc.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "libdfp-devel-0:1.0.8-5.el7.ppc64": {
+                            "path": "Server/ppc64/os/Packages/libdfp-devel-1.0.8-5.el7.ppc64.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }
+                    }, 
+                    "zhongyi-song-fonts-0:0.1.20020329.1-16.el7.src": {
+                        "zhongyi-song-fonts-0:0.1.20020329.1-16.el7.noarch": {
+                            "path": "Server/ppc64/os/Packages/zhongyi-song-fonts-0.1.20020329.1-16.el7.noarch.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "zhongyi-song-fonts-ghostscript-0:0.1.20020329.1-16.el7.noarch": {
+                            "path": "Server/ppc64/os/Packages/zhongyi-song-fonts-ghostscript-0.1.20020329.1-16.el7.noarch.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }
+                    }
+                }, 
+                "s390x": {
+                    "java-1.7.1-ibm-1:1.7.1.0.0-1jpp.4.el7.src": {
+                        "java-1.7.1-ibm-1:1.7.1.0.0-1jpp.4.el7.s390": {
+                            "path": "Server/s390x/os/Packages/java-1.7.1-ibm-1.7.1.0.0-1jpp.4.el7.s390.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "java-1.7.1-ibm-1:1.7.1.0.0-1jpp.4.el7.s390x": {
+                            "path": "Server/s390x/os/Packages/java-1.7.1-ibm-1.7.1.0.0-1jpp.4.el7.s390x.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "java-1.7.1-ibm-demo-1:1.7.1.0.0-1jpp.4.el7.s390x": {
+                            "path": "Server/s390x/os/Packages/java-1.7.1-ibm-demo-1.7.1.0.0-1jpp.4.el7.s390x.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "java-1.7.1-ibm-devel-1:1.7.1.0.0-1jpp.4.el7.s390": {
+                            "path": "Server/s390x/os/Packages/java-1.7.1-ibm-devel-1.7.1.0.0-1jpp.4.el7.s390.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "java-1.7.1-ibm-devel-1:1.7.1.0.0-1jpp.4.el7.s390x": {
+                            "path": "Server/s390x/os/Packages/java-1.7.1-ibm-devel-1.7.1.0.0-1jpp.4.el7.s390x.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "java-1.7.1-ibm-jdbc-1:1.7.1.0.0-1jpp.4.el7.s390x": {
+                            "path": "Server/s390x/os/Packages/java-1.7.1-ibm-jdbc-1.7.1.0.0-1jpp.4.el7.s390x.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "java-1.7.1-ibm-src-1:1.7.1.0.0-1jpp.4.el7.s390x": {
+                            "path": "Server/s390x/os/Packages/java-1.7.1-ibm-src-1.7.1.0.0-1jpp.4.el7.s390x.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }
+                    }, 
+                    "libdfp-0:1.0.8-5.el7.src": {
+                        "libdfp-0:1.0.8-5.el7.s390": {
+                            "path": "Server/s390x/os/Packages/libdfp-1.0.8-5.el7.s390.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "libdfp-0:1.0.8-5.el7.s390x": {
+                            "path": "Server/s390x/os/Packages/libdfp-1.0.8-5.el7.s390x.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "libdfp-debuginfo-0:1.0.8-5.el7.s390": {
+                            "path": "Server/s390x/debug/tree/Packages/libdfp-debuginfo-1.0.8-5.el7.s390.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "debug"
+                        }, 
+                        "libdfp-debuginfo-0:1.0.8-5.el7.s390x": {
+                            "path": "Server/s390x/debug/tree/Packages/libdfp-debuginfo-1.0.8-5.el7.s390x.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "debug"
+                        }, 
+                        "libdfp-devel-0:1.0.8-5.el7.s390": {
+                            "path": "Server/s390x/os/Packages/libdfp-devel-1.0.8-5.el7.s390.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "libdfp-devel-0:1.0.8-5.el7.s390x": {
+                            "path": "Server/s390x/os/Packages/libdfp-devel-1.0.8-5.el7.s390x.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }
+                    }, 
+                    "zhongyi-song-fonts-0:0.1.20020329.1-16.el7.src": {
+                        "zhongyi-song-fonts-0:0.1.20020329.1-16.el7.noarch": {
+                            "path": "Server/s390x/os/Packages/zhongyi-song-fonts-0.1.20020329.1-16.el7.noarch.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "zhongyi-song-fonts-ghostscript-0:0.1.20020329.1-16.el7.noarch": {
+                            "path": "Server/s390x/os/Packages/zhongyi-song-fonts-ghostscript-0.1.20020329.1-16.el7.noarch.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }
+                    }
+                }, 
+                "src": {
+                    "libdfp-0:1.0.8-5.el7.src": {
+                        "path": "Server/source/tree/Packages/libdfp-1.0.8-5.el7.src.rpm", 
+                        "sigkey": "fd431d51", 
+                        "type": "source"
+                    }
+                }, 
+                "x86_64": {
+                    "java-1.7.1-ibm-1:1.7.1.0.0-1jpp.4.el7.src": {
+                        "java-1.7.1-ibm-1:1.7.1.0.0-1jpp.4.el7.i686": {
+                            "path": "Server/x86_64/os/Packages/java-1.7.1-ibm-1.7.1.0.0-1jpp.4.el7.i686.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "java-1.7.1-ibm-1:1.7.1.0.0-1jpp.4.el7.x86_64": {
+                            "path": "Server/x86_64/os/Packages/java-1.7.1-ibm-1.7.1.0.0-1jpp.4.el7.x86_64.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "java-1.7.1-ibm-demo-1:1.7.1.0.0-1jpp.4.el7.x86_64": {
+                            "path": "Server/x86_64/os/Packages/java-1.7.1-ibm-demo-1.7.1.0.0-1jpp.4.el7.x86_64.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "java-1.7.1-ibm-devel-1:1.7.1.0.0-1jpp.4.el7.i686": {
+                            "path": "Server/x86_64/os/Packages/java-1.7.1-ibm-devel-1.7.1.0.0-1jpp.4.el7.i686.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "java-1.7.1-ibm-devel-1:1.7.1.0.0-1jpp.4.el7.x86_64": {
+                            "path": "Server/x86_64/os/Packages/java-1.7.1-ibm-devel-1.7.1.0.0-1jpp.4.el7.x86_64.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "java-1.7.1-ibm-jdbc-1:1.7.1.0.0-1jpp.4.el7.x86_64": {
+                            "path": "Server/x86_64/os/Packages/java-1.7.1-ibm-jdbc-1.7.1.0.0-1jpp.4.el7.x86_64.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "java-1.7.1-ibm-plugin-1:1.7.1.0.0-1jpp.4.el7.x86_64": {
+                            "path": "Server/x86_64/os/Packages/java-1.7.1-ibm-plugin-1.7.1.0.0-1jpp.4.el7.x86_64.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "java-1.7.1-ibm-src-1:1.7.1.0.0-1jpp.4.el7.x86_64": {
+                            "path": "Server/x86_64/os/Packages/java-1.7.1-ibm-src-1.7.1.0.0-1jpp.4.el7.x86_64.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }
+                    }, 
+                    "virtio-win-0:1.7.0-1.el7.src": {
+                        "virtio-win-0:1.7.0-1.el7.noarch": {
+                            "path": "Server/x86_64/os/Packages/virtio-win-1.7.0-1.el7.noarch.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }
+                    }, 
+                    "zhongyi-song-fonts-0:0.1.20020329.1-16.el7.src": {
+                        "zhongyi-song-fonts-0:0.1.20020329.1-16.el7.noarch": {
+                            "path": "Server/x86_64/os/Packages/zhongyi-song-fonts-0.1.20020329.1-16.el7.noarch.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "zhongyi-song-fonts-ghostscript-0:0.1.20020329.1-16.el7.noarch": {
+                            "path": "Server/x86_64/os/Packages/zhongyi-song-fonts-ghostscript-0.1.20020329.1-16.el7.noarch.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }
+                    }
+                }
+            }, 
+            "Workstation": {
+                "x86_64": {
+                    "java-1.7.1-ibm-1:1.7.1.0.0-1jpp.4.el7.src": {
+                        "java-1.7.1-ibm-1:1.7.1.0.0-1jpp.4.el7.i686": {
+                            "path": "Workstation/x86_64/os/Packages/java-1.7.1-ibm-1.7.1.0.0-1jpp.4.el7.i686.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "java-1.7.1-ibm-1:1.7.1.0.0-1jpp.4.el7.x86_64": {
+                            "path": "Workstation/x86_64/os/Packages/java-1.7.1-ibm-1.7.1.0.0-1jpp.4.el7.x86_64.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "java-1.7.1-ibm-demo-1:1.7.1.0.0-1jpp.4.el7.x86_64": {
+                            "path": "Workstation/x86_64/os/Packages/java-1.7.1-ibm-demo-1.7.1.0.0-1jpp.4.el7.x86_64.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "java-1.7.1-ibm-devel-1:1.7.1.0.0-1jpp.4.el7.i686": {
+                            "path": "Workstation/x86_64/os/Packages/java-1.7.1-ibm-devel-1.7.1.0.0-1jpp.4.el7.i686.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "java-1.7.1-ibm-devel-1:1.7.1.0.0-1jpp.4.el7.x86_64": {
+                            "path": "Workstation/x86_64/os/Packages/java-1.7.1-ibm-devel-1.7.1.0.0-1jpp.4.el7.x86_64.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "java-1.7.1-ibm-jdbc-1:1.7.1.0.0-1jpp.4.el7.x86_64": {
+                            "path": "Workstation/x86_64/os/Packages/java-1.7.1-ibm-jdbc-1.7.1.0.0-1jpp.4.el7.x86_64.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "java-1.7.1-ibm-plugin-1:1.7.1.0.0-1jpp.4.el7.x86_64": {
+                            "path": "Workstation/x86_64/os/Packages/java-1.7.1-ibm-plugin-1.7.1.0.0-1jpp.4.el7.x86_64.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "java-1.7.1-ibm-src-1:1.7.1.0.0-1jpp.4.el7.x86_64": {
+                            "path": "Workstation/x86_64/os/Packages/java-1.7.1-ibm-src-1.7.1.0.0-1jpp.4.el7.x86_64.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }
+                    }, 
+                    "virtio-win-0:1.7.0-1.el7.src": {
+                        "virtio-win-0:1.7.0-1.el7.noarch": {
+                            "path": "Workstation/x86_64/os/Packages/virtio-win-1.7.0-1.el7.noarch.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }
+                    }, 
+                    "zhongyi-song-fonts-0:0.1.20020329.1-16.el7.src": {
+                        "zhongyi-song-fonts-0:0.1.20020329.1-16.el7.noarch": {
+                            "path": "Workstation/x86_64/os/Packages/zhongyi-song-fonts-0.1.20020329.1-16.el7.noarch.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }, 
+                        "zhongyi-song-fonts-ghostscript-0:0.1.20020329.1-16.el7.noarch": {
+                            "path": "Workstation/x86_64/os/Packages/zhongyi-song-fonts-ghostscript-0.1.20020329.1-16.el7.noarch.rpm", 
+                            "sigkey": "fd431d51", 
+                            "type": "package"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

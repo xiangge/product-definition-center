@@ -1,0 +1,46 @@
+{
+    "Server": {
+        "x86_64": {
+            "cdn-product-id": {
+                "beta": 205,
+                "dist": 201
+            },
+            "rhn": {
+                "dist": "rhel-x86_64-server-6-rhscl-1",
+                "dist-debug": "rhel-x86_64-server-6-rhscl-1-debuginfo",
+                "beta": "rhel-x86_64-server-6-rhscl-1-beta",
+                "beta-debug": "rhel-x86_64-server-6-rhscl-1-beta-debuginfo"
+            },
+            "cdn": {
+                "beta": "rhel-server-rhscl-6-beta-rpms",
+                "beta-debug": "rhel-server-rhscl-6-beta-debug-rpms",
+                "beta-source": "rhel-server-rhscl-6-beta-source-rpms",
+                "dist": "rhel-server-rhscl-6-rpms",
+                "dist-debug": "rhel-server-rhscl-6-debug-rpms",
+                "dist-source": "rhel-server-rhscl-6-source-rpms"
+            }
+        }
+    }, 
+    "Workstation": {
+        "x86_64": {
+            "cdn-product-id": {
+                "beta": 207,
+                "dist": 203
+            },
+            "rhn": {
+                "dist": "rhel-x86_64-workstation-6-rhscl-1",
+                "dist-debug": "rhel-x86_64-workstation-6-rhscl-1-debuginfo",
+                "beta": "rhel-x86_64-workstation-6-rhscl-1-beta",
+                "beta-debug": "rhel-x86_64-workstation-6-rhscl-1-beta-debuginfo"
+            },
+            "cdn": {
+                "beta": "rhel-workstation-rhscl-6-beta-rpms",
+                "beta-debug": "rhel-workstation-rhscl-6-beta-debug-rpms",
+                "beta-source": "rhel-workstation-rhscl-6-beta-source-rpms",
+                "dist": "rhel-workstation-rhscl-6-rpms",
+                "dist-debug": "rhel-workstation-rhscl-6-debug-rpms",
+                "dist-source": "rhel-workstation-rhscl-6-source-rpms"
+            }
+        }
+    }
+}

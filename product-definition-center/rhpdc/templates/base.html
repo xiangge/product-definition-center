@@ -1,0 +1,46 @@
+{% extends "base_generic.html" %}
+
+{% load tags %}
+{% load i18n %}
+{% load static %}
+
+{% block style %}
+<link href="{% static "rhpdc/style.css" %}" rel="stylesheet" type="text/css" media="screen, print">
+{% endblock %}
+
+{% block brand %}
+<a class="navbar-brand" href="/">
+  <img src="{% static "rhpdc/redhat-logo.png" %}" alt="Red Hat" /> Product Definition Center
+</a>
+{% endblock %}
+
+{% block links %}
+<ul class="dropdown-menu">
+  <li>
+    <a href="https://engineering.redhat.com/">{% trans "Engineering Tools" %}</a>
+  </li>
+  <li>
+    <a href="https://engineering.redhat.com/pp/">{% trans "Product Pages" %}</a>
+  </li>
+  <li>
+    <a href="/docs/">{% trans "PDC Docs" %}</a>
+  </li>
+   <li>
+    <a href="https://docs.engineering.redhat.com/x/qSLXAQ">{% trans "PDC Release Notes" %}</a>
+  </li>
+  <li>
+    <a href="https://docs.engineering.redhat.com/x/QwkOAg">{% trans "PDC Roadmap" %}</a>
+  </li>
+</ul>
+{% endblock %}
+
+{% block footer%}
+  <a class="activetracking" href="https://analytics.engineering.redhat.com/piwik"></a>
+  <img class="logo-footer" src="{% static "rhpdc/Team-logo.png" %}">
+  <ul class="copyright">
+    <li> ({% pdc_version %})<a href="https://projects.engineering.redhat.com/secure/CreateIssue!default.jspa">Report a Bug</a></li>
+    <li>Copyright &copy; 2015-2017 Red Hat, Inc. All rights reserved.</li>
+    <li>INTERNAL USE ONLY</li>
+    <!--when the application use some tech supported by opensource, then please mark it here><p>Powered by <a href='http://www.redhat.com/products/jbossenterprisemiddleware/portal/'>@JBoss EAP</a></p><-->
+  </ul>
+{% endblock %}

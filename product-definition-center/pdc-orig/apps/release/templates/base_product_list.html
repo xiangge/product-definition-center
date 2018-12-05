@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load pdctags %}
+
+{% block content %}
+
+<h2 class="page-header">
+    {% trans "Base Products" %}
+    {% include "help_button.html" %}
+</h2>
+
+<form method="GET" style="float: left;">
+  {% csrf_token %}
+  {{ form.search }}
+  <input type="submit" value="{% trans "Search" %}" />
+</form>
+
+{% include "pagination.html" %}
+{% include "base_product_list_include.html" %}
+{% include "pagination.html" %}
+
+{% helppopover %}
+    <p>A <em>base product</em> represents the operating system on which a
+    <a href="{% url "release/index" %}">release</a> is supposed to run on.</p>
+
+    <p>In reality, base products often correspond to
+    <a href="{% url "product_version/index" %}">product version</a>
+    of that OS.</p>
+{% endhelppopover %}
+
+{% endblock %}

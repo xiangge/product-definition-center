@@ -1,0 +1,97 @@
+{
+    "header": {
+        "version": "0.3"
+    }, 
+    "payload": {
+        "compose": {
+            "date": "20150219", 
+            "id": "RHEL-LE-7.1-20150219.1", 
+            "respin": 1, 
+            "type": "production"
+        }, 
+        "images": {
+            "Server": {
+                "ppc64le": [
+                    {
+                        "arch": "ppc64le", 
+                        "bootable": true, 
+                        "checksums": {
+                            "md5": "b0a7ea1cfba0899b457c1d04fb898044", 
+                            "sha1": "f5b7f7ad8507db4e2ac4e08fa2d3d9302771fd67", 
+                            "sha256": "11dae6518c9fcee68fc9e6b768203717732c83c34a4a759d8f46115bc3d400d4"
+                        }, 
+                        "disc_count": 1, 
+                        "disc_number": 1, 
+                        "format": "iso", 
+                        "implant_md5": "5431c3469758b57ec15c0ddca4fe732b", 
+                        "mtime": 1424361223, 
+                        "path": "Server/ppc64le/iso/RHEL-LE-7.1-20150219.1-Server-ppc64le-boot.iso", 
+                        "size": 373254144, 
+                        "type": "boot", 
+                        "volume_id": "RHEL_LE_7_1_ppc64le",
+                        "subvariant": "Server"
+                    }, 
+                    {
+                        "arch": "ppc64le", 
+                        "bootable": true, 
+                        "checksums": {
+                            "md5": "6332d939bc0dcf47b51a98e72c382f36", 
+                            "sha1": "e0eab2c4a6401de1250fc31e5321ebd68dca8b2e", 
+                            "sha256": "357e4df56b71356c5c9e2c916cf412a048350b386926840365b0769894460fa1"
+                        }, 
+                        "disc_count": 1, 
+                        "disc_number": 1, 
+                        "format": "iso", 
+                        "implant_md5": "9fb3d8ba52c03c7e350b113cbdd44a39", 
+                        "mtime": 1424362734, 
+                        "path": "Server/ppc64le/iso/RHEL-LE-7.1-20150219.1-Server-ppc64le-dvd1.iso", 
+                        "size": 3368349696, 
+                        "type": "dvd", 
+                        "volume_id": "RHEL-LE-7.1 Server.ppc64le",
+                        "subvariant": "Server"
+                    }
+                ], 
+                "src": [
+                    {
+                        "arch": "src", 
+                        "bootable": false, 
+                        "checksums": {
+                            "md5": "668194a461c65f0f10ebbaa9df6cf304", 
+                            "sha1": "cd2f4404a73924687280586a35ab126046b7e5b1", 
+                            "sha256": "2286f9a4999ccbadb0a19f989357534538bc7e9ddada549de38674341324c335"
+                        }, 
+                        "disc_count": 2, 
+                        "disc_number": 2, 
+                        "format": "iso", 
+                        "implant_md5": "09c362891215f81c504520d8d06fb363", 
+                        "mtime": 1424361915, 
+                        "path": "Server/source/iso/RHEL-LE-7.1-20150219.1-Server-source-dvd2.iso", 
+                        "size": 885456896, 
+                        "type": "dvd", 
+                        "volume_id": "RHEL-LE-7.1 Server.src",
+                        "subvariant": "Server"
+                    }, 
+                    {
+                        "arch": "src", 
+                        "bootable": false, 
+                        "checksums": {
+                            "md5": "1022ec16cfe6228e608bd6ea56574228", 
+                            "sha1": "ab8cd585ff9f3e3fc6f589068cef5e5933a823e6", 
+                            "sha256": "ce069fffdfd5e0335e0859583430c602a76f3fc128252e30b655e1ac8ac4e894"
+                        }, 
+                        "disc_count": 2, 
+                        "disc_number": 1, 
+                        "format": "iso", 
+                        "implant_md5": "4408ba4a1e3dcc1873ce76ed7793b688", 
+                        "mtime": 1424362756, 
+                        "path": "Server/source/iso/RHEL-LE-7.1-20150219.1-Server-source-dvd1.iso", 
+                        "size": 4503107584, 
+                        "type": "dvd", 
+                        "volume_id": "RHEL-LE-7.1 Server.src",
+                        "subvariant": "Server"
+                    }
+                ]
+            }
+        }
+    }
+}

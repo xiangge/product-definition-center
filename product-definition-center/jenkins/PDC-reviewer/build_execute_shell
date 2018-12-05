@@ -1,0 +1,44 @@
+#!/bin/sh
+set -xe
+
+#================================================
+# 0. fetch code from master branch
+#================================================
+cd "$WORKSPACE"
+
+#==========================
+# 1. install all dependencies
+#==========================
+virtualenv vpdc --system-site-packages
+. vpdc/bin/activate
+pip install -r requirements/devel.txt
+
+#================================================
+# 2. enable the test related settings
+#================================================
+yes | cp -rf jenkins/PDC-reviewer/test_settings.py rhpdc/settings_local.py
+
+#=========================
+# 3. check code convention
+#=========================
+make flake8
+
+#=========================
+# 4. unit testing
+#=========================
+make cover_test
+
+#================================================
+# 5. verify migrations
+#================================================
+./verify-migrations.sh
+
+#=========================
+# 6. clean up
+#=========================
+make clean
+
+#=========================
+# 7. build and install RPM
+#=========================
+"$WORKSPACE/jenkins/common/build_install_rpm"

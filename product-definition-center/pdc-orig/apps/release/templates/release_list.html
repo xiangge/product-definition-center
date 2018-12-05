@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load pdctags %}
+
+{% block content %}
+
+<h2 class="page-header">
+    {% trans "Releases" %}
+    {% include "help_button.html" %}
+</h2>
+
+<form method="GET" style="left">
+  {% csrf_token %}
+  {{ form.search }}
+  <input type="submit" value="{% trans "Search" %}" />
+</form>
+
+{% include "release_list_include.html" %}
+
+{% helppopover %}
+    <p>A <em>release</em> is a collection of software with a unique identity
+    and specific life cycle.</p>
+
+    <p>Ideally, releases should be immutable. Once they are finished, the
+    content and definition is not supposed to change.</p>
+
+    <p>A release is divided into <em>variants</em>. These contain subset of
+    release content targetted at a specific user, for example <em>server</em>
+    or <em>workstation</em>. Each variant can be built for multiple
+    architectures.</p>
+{% endhelppopover %}
+
+{% endblock %}

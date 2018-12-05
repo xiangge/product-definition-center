@@ -1,0 +1,19 @@
+#!/bin/bash
+# This bash is used for building src.
+# pre-build.sh <branch of dist-git> <srpm url> <commit message> <execute folder>
+#
+
+set -e
+if [[ -z "$4" || ! -z "$5" ]];then
+  echo "please input four parameters"
+  echo "pre-build.sh <branch of dist-git> <srpm url> <commit message> <execute folder>"
+  exit 1
+fi
+cd "$4"
+rhpkg clone python-pdc
+cd python-pdc
+rhpkg switch-branch "$1"
+rhpkg import "$2"
+rhpkg commit -m "$3"
+rhpkg push
+rhpkg build --scratch

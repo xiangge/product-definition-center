@@ -1,0 +1,260 @@
+{
+    "header": {
+        "version": "0.3"
+    }, 
+    "payload": {
+        "base_product": {
+            "name": "Red Hat Enterprise Linux", 
+            "short": "RHEL", 
+            "version": "6"
+        }, 
+        "compose": {
+            "date": "20140908", 
+            "id": "Satellite-6.0.4-RHEL-6-20140908.0", 
+            "label": "RC-3.0", 
+            "respin": 0, 
+            "type": "production"
+        }, 
+        "product": {
+            "is_layered": true, 
+            "name": "Red Hat Satellite", 
+            "short": "Satellite", 
+            "version": "6.0.4"
+        }, 
+        "variants": {
+            "Capsule": {
+                "arches": [
+                    "x86_64"
+                ], 
+                "id": "Capsule", 
+                "name": "Capsule", 
+                "paths": {
+                    "debug_packages": {
+                        "x86_64": "Capsule/x86_64/debug/tree/Packages"
+                    }, 
+                    "debug_repository": {
+                        "x86_64": "Capsule/x86_64/debug/tree"
+                    }, 
+                    "debug_tree": {
+                        "x86_64": "Capsule/x86_64/debug/tree"
+                    }, 
+                    "isos": {
+                        "x86_64": "Capsule/x86_64/iso"
+                    }, 
+                    "jigdos": {
+                        "x86_64": "Capsule/x86_64/jigdo"
+                    }, 
+                    "os_tree": {
+                        "x86_64": "Capsule/x86_64/os"
+                    }, 
+                    "packages": {
+                        "x86_64": "Capsule/x86_64/os/Packages"
+                    }, 
+                    "repository": {
+                        "x86_64": "Capsule/x86_64/os"
+                    }, 
+                    "source_isos": {
+                        "x86_64": "Capsule/source/iso"
+                    }, 
+                    "source_jigdos": {
+                        "x86_64": "Capsule/source/jigdo"
+                    }, 
+                    "source_packages": {
+                        "x86_64": "Capsule/source/tree/Packages"
+                    }, 
+                    "source_repository": {
+                        "x86_64": "Capsule/source/tree"
+                    }, 
+                    "source_tree": {
+                        "x86_64": "Capsule/source/tree"
+                    }
+                }, 
+                "type": "variant", 
+                "uid": "Capsule"
+            }, 
+            "Satellite": {
+                "arches": [
+                    "x86_64"
+                ], 
+                "id": "Satellite", 
+                "name": "Satellite", 
+                "paths": {
+                    "debug_packages": {
+                        "x86_64": "Satellite/x86_64/debug/tree/Packages"
+                    }, 
+                    "debug_repository": {
+                        "x86_64": "Satellite/x86_64/debug/tree"
+                    }, 
+                    "debug_tree": {
+                        "x86_64": "Satellite/x86_64/debug/tree"
+                    }, 
+                    "isos": {
+                        "x86_64": "Satellite/x86_64/iso"
+                    }, 
+                    "jigdos": {
+                        "x86_64": "Satellite/x86_64/jigdo"
+                    }, 
+                    "os_tree": {
+                        "x86_64": "Satellite/x86_64/os"
+                    }, 
+                    "packages": {
+                        "x86_64": "Satellite/x86_64/os/Packages"
+                    }, 
+                    "repository": {
+                        "x86_64": "Satellite/x86_64/os"
+                    }, 
+                    "source_isos": {
+                        "x86_64": "Satellite/source/iso"
+                    }, 
+                    "source_jigdos": {
+                        "x86_64": "Satellite/source/jigdo"
+                    }, 
+                    "source_packages": {
+                        "x86_64": "Satellite/source/tree/Packages"
+                    }, 
+                    "source_repository": {
+                        "x86_64": "Satellite/source/tree"
+                    }, 
+                    "source_tree": {
+                        "x86_64": "Satellite/source/tree"
+                    }
+                }, 
+                "type": "variant", 
+                "uid": "Satellite", 
+                "variants": [
+                    "optional"
+                ]
+            }, 
+            "Satellite-optional": {
+                "arches": [
+                    "x86_64"
+                ], 
+                "id": "optional", 
+                "name": "Satellite optional", 
+                "paths": {
+                    "debug_packages": {
+                        "x86_64": "Satellite/x86_64/debug/tree/addons/optional"
+                    }, 
+                    "debug_repository": {
+                        "x86_64": "Satellite/x86_64/debug/tree/addons/optional"
+                    }, 
+                    "debug_tree": {
+                        "x86_64": "Satellite/x86_64/debug/tree"
+                    }, 
+                    "os_tree": {
+                        "x86_64": "Satellite/x86_64/os"
+                    }, 
+                    "packages": {
+                        "x86_64": "Satellite/x86_64/os/addons/optional"
+                    }, 
+                    "repository": {
+                        "x86_64": "Satellite/x86_64/os/addons/optional"
+                    }, 
+                    "source_packages": {
+                        "x86_64": "Satellite/source/tree/addons/optional"
+                    }, 
+                    "source_repository": {
+                        "x86_64": "Satellite/source/tree/addons/optional"
+                    }, 
+                    "source_tree": {
+                        "x86_64": "Satellite/source/tree"
+                    }
+                }, 
+                "type": "addon", 
+                "uid": "Satellite-optional"
+            }, 
+            "rhcommon": {
+                "arches": [
+                    "i386", 
+                    "ppc64", 
+                    "s390x", 
+                    "x86_64"
+                ], 
+                "id": "rhcommon", 
+                "name": "rh-common", 
+                "paths": {
+                    "debug_packages": {
+                        "i386": "rhcommon/i386/debug/tree/Packages", 
+                        "ppc64": "rhcommon/ppc64/debug/tree/Packages", 
+                        "s390x": "rhcommon/s390x/debug/tree/Packages", 
+                        "x86_64": "rhcommon/x86_64/debug/tree/Packages"
+                    }, 
+                    "debug_repository": {
+                        "i386": "rhcommon/i386/debug/tree", 
+                        "ppc64": "rhcommon/ppc64/debug/tree", 
+                        "s390x": "rhcommon/s390x/debug/tree", 
+                        "x86_64": "rhcommon/x86_64/debug/tree"
+                    }, 
+                    "debug_tree": {
+                        "i386": "rhcommon/i386/debug/tree", 
+                        "ppc64": "rhcommon/ppc64/debug/tree", 
+                        "s390x": "rhcommon/s390x/debug/tree", 
+                        "x86_64": "rhcommon/x86_64/debug/tree"
+                    }, 
+                    "isos": {
+                        "i386": "rhcommon/i386/iso", 
+                        "ppc64": "rhcommon/ppc64/iso", 
+                        "s390x": "rhcommon/s390x/iso", 
+                        "x86_64": "rhcommon/x86_64/iso"
+                    }, 
+                    "jigdos": {
+                        "i386": "rhcommon/i386/jigdo", 
+                        "ppc64": "rhcommon/ppc64/jigdo", 
+                        "s390x": "rhcommon/s390x/jigdo", 
+                        "x86_64": "rhcommon/x86_64/jigdo"
+                    }, 
+                    "os_tree": {
+                        "i386": "rhcommon/i386/os", 
+                        "ppc64": "rhcommon/ppc64/os", 
+                        "s390x": "rhcommon/s390x/os", 
+                        "x86_64": "rhcommon/x86_64/os"
+                    }, 
+                    "packages": {
+                        "i386": "rhcommon/i386/os/Packages", 
+                        "ppc64": "rhcommon/ppc64/os/Packages", 
+                        "s390x": "rhcommon/s390x/os/Packages", 
+                        "x86_64": "rhcommon/x86_64/os/Packages"
+                    }, 
+                    "repository": {
+                        "i386": "rhcommon/i386/os", 
+                        "ppc64": "rhcommon/ppc64/os", 
+                        "s390x": "rhcommon/s390x/os", 
+                        "x86_64": "rhcommon/x86_64/os"
+                    }, 
+                    "source_isos": {
+                        "i386": "rhcommon/source/iso", 
+                        "ppc64": "rhcommon/source/iso", 
+                        "s390x": "rhcommon/source/iso", 
+                        "x86_64": "rhcommon/source/iso"
+                    }, 
+                    "source_jigdos": {
+                        "i386": "rhcommon/source/jigdo", 
+                        "ppc64": "rhcommon/source/jigdo", 
+                        "s390x": "rhcommon/source/jigdo", 
+                        "x86_64": "rhcommon/source/jigdo"
+                    }, 
+                    "source_packages": {
+                        "i386": "rhcommon/source/tree/Packages", 
+                        "ppc64": "rhcommon/source/tree/Packages", 
+                        "s390x": "rhcommon/source/tree/Packages", 
+                        "x86_64": "rhcommon/source/tree/Packages"
+                    }, 
+                    "source_repository": {
+                        "i386": "rhcommon/source/tree", 
+                        "ppc64": "rhcommon/source/tree", 
+                        "s390x": "rhcommon/source/tree", 
+                        "x86_64": "rhcommon/source/tree"
+                    }, 
+                    "source_tree": {
+                        "i386": "rhcommon/source/tree", 
+                        "ppc64": "rhcommon/source/tree", 
+                        "s390x": "rhcommon/source/tree", 
+                        "x86_64": "rhcommon/source/tree"
+                    }
+                }, 
+                "type": "variant", 
+                "uid": "rhcommon"
+            }
+        }
+    }
+}

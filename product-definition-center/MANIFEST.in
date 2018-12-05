@@ -1,0 +1,13 @@
+include setup.py
+include Makefile
+include README
+include sync_to_psql.sh
+include manage.py
+recursive-include requirements *
+recursive-include conf *
+recursive-include _test_data *
+recursive-exclude docs/build *
+exclude pdc/settings_local.py
+global_exclude .pyc
+recursive-include rhpdc *
+exclude rhpdc/settings_local.py

@@ -1,0 +1,625 @@
+{
+    "Client": {
+        "x86_64": {
+            "cdn": {
+                "beta": "rhel-7-desktop-beta-rpms", 
+                "beta-debug": "rhel-7-desktop-beta-debug-rpms", 
+                "beta-iso": "rhel-7-desktop-beta-isos", 
+                "beta-kickstart": "rhel-7-desktop-beta-kickstart", 
+                "beta-source": "rhel-7-desktop-beta-source-rpms", 
+                "beta-source-iso": "rhel-7-desktop-beta-source-isos", 
+                "dist": "rhel-7-desktop-rpms", 
+                "dist-debug": "rhel-7-desktop-debug-rpms", 
+                "dist-iso": "rhel-7-desktop-isos", 
+                "dist-kickstart": "rhel-7-desktop-kickstart", 
+                "dist-source": "rhel-7-desktop-source-rpms", 
+                "dist-source-iso": "rhel-7-desktop-source-isos"
+            }, 
+            "cdn-product-id": {
+                "dist": 68,
+                "beta": 68
+            }, 
+            "rhn": {
+                "beta": "rhel-x86_64-client-7-beta", 
+                "beta-debug": "rhel-x86_64-client-7-beta-debuginfo", 
+                "beta-debug-shadow": "rhel-x86_64-client-7-beta-debuginfo-shadow", 
+                "beta-iso": "rhel-x86_64-client-7-beta", 
+                "beta-iso-shadow": "rhel-x86_64-client-7-beta-shadow", 
+                "beta-kickstart": "rhel-x86_64-client-7-beta", 
+                "beta-kickstart-shadow": "rhel-x86_64-client-7-beta-shadow", 
+                "beta-shadow": "rhel-x86_64-client-7-beta-shadow", 
+                "beta-source": "rhel-x86_64-client-7-beta", 
+                "beta-source-shadow": "rhel-x86_64-client-7-beta-shadow", 
+                "dist": "rhel-x86_64-client-7", 
+                "dist-debug": "rhel-x86_64-client-7-debuginfo", 
+                "dist-debug-shadow": "rhel-x86_64-client-7-debuginfo-shadow", 
+                "dist-iso": "rhel-x86_64-client-7", 
+                "dist-iso-shadow": "rhel-x86_64-client-7-shadow", 
+                "dist-kickstart": "rhel-x86_64-client-7", 
+                "dist-kickstart-shadow": "rhel-x86_64-client-7-shadow", 
+                "dist-shadow": "rhel-x86_64-client-7-shadow", 
+                "dist-source": "rhel-x86_64-client-7", 
+                "dist-source-shadow": "rhel-x86_64-client-7-shadow"
+            }
+        }
+    }, 
+    "Client-optional": {
+        "x86_64": {
+            "cdn": {
+                "beta": "rhel-7-desktop-optional-beta-rpms", 
+                "beta-debug": "rhel-7-desktop-optional-beta-debug-rpms", 
+                "beta-source": "rhel-7-desktop-optional-beta-source-rpms", 
+                "dist": "rhel-7-desktop-optional-rpms", 
+                "dist-debug": "rhel-7-desktop-optional-debug-rpms", 
+                "dist-source": "rhel-7-desktop-optional-source-rpms"
+            }, 
+            "rhn": {
+                "beta": "rhel-x86_64-client-optional-7-beta", 
+                "beta-debug": "rhel-x86_64-client-optional-7-beta-debuginfo", 
+                "beta-debug-shadow": "rhel-x86_64-client-optional-7-beta-debuginfo-shadow", 
+                "beta-kickstart": "rhel-x86_64-client-optional-7-beta", 
+                "beta-kickstart-shadow": "rhel-x86_64-client-optional-7-beta-shadow", 
+                "beta-shadow": "rhel-x86_64-client-optional-7-beta-shadow", 
+                "beta-source": "rhel-x86_64-client-optional-7-beta", 
+                "beta-source-shadow": "rhel-x86_64-client-optional-7-beta-shadow", 
+                "dist": "rhel-x86_64-client-optional-7", 
+                "dist-debug": "rhel-x86_64-client-optional-7-debuginfo", 
+                "dist-debug-shadow": "rhel-x86_64-client-optional-7-debuginfo-shadow", 
+                "dist-kickstart": "rhel-x86_64-client-optional-7", 
+                "dist-kickstart-shadow": "rhel-x86_64-client-optional-7-shadow", 
+                "dist-shadow": "rhel-x86_64-client-optional-7-shadow", 
+                "dist-source": "rhel-x86_64-client-optional-7", 
+                "dist-source-shadow": "rhel-x86_64-client-optional-7-shadow"
+            }
+        }
+    }, 
+    "ComputeNode": {
+        "x86_64": {
+            "cdn": {
+                "beta": "rhel-7-hpc-node-beta-rpms", 
+                "beta-debug": "rhel-7-hpc-node-beta-debug-rpms", 
+                "beta-iso": "rhel-7-hpc-node-beta-isos", 
+                "beta-kickstart": "rhel-7-hpc-node-beta-kickstart", 
+                "beta-source": "rhel-7-hpc-node-beta-source-rpms", 
+                "beta-source-iso": "rhel-7-hpc-node-beta-source-isos", 
+                "dist": "rhel-7-hpc-node-rpms", 
+                "dist-debug": "rhel-7-hpc-node-debug-rpms", 
+                "dist-iso": "rhel-7-hpc-node-isos", 
+                "dist-kickstart": "rhel-7-hpc-node-kickstart", 
+                "dist-source": "rhel-7-hpc-node-source-rpms", 
+                "dist-source-iso": "rhel-7-hpc-node-source-isos"
+            }, 
+            "cdn-product-id": {
+                "dist": 76,
+                "beta": 76
+            }, 
+            "rhn": {
+                "beta": "rhel-x86_64-hpc-node-7-beta", 
+                "beta-debug": "rhel-x86_64-hpc-node-7-beta-debuginfo", 
+                "beta-debug-shadow": "rhel-x86_64-hpc-node-7-beta-debuginfo-shadow", 
+                "beta-iso": "rhel-x86_64-hpc-node-7-beta", 
+                "beta-iso-shadow": "rhel-x86_64-hpc-node-7-beta-shadow", 
+                "beta-kickstart": "rhel-x86_64-hpc-node-7-beta", 
+                "beta-kickstart-shadow": "rhel-x86_64-hpc-node-7-beta-shadow", 
+                "beta-shadow": "rhel-x86_64-hpc-node-7-beta-shadow", 
+                "beta-source": "rhel-x86_64-hpc-node-7-beta", 
+                "beta-source-shadow": "rhel-x86_64-hpc-node-7-beta-shadow", 
+                "dist": "rhel-x86_64-hpc-node-7", 
+                "dist-debug": "rhel-x86_64-hpc-node-7-debuginfo", 
+                "dist-debug-shadow": "rhel-x86_64-hpc-node-7-debuginfo-shadow", 
+                "dist-iso": "rhel-x86_64-hpc-node-7", 
+                "dist-iso-shadow": "rhel-x86_64-hpc-node-7-shadow", 
+                "dist-kickstart": "rhel-x86_64-hpc-node-7", 
+                "dist-kickstart-shadow": "rhel-x86_64-hpc-node-7-shadow", 
+                "dist-shadow": "rhel-x86_64-hpc-node-7-shadow", 
+                "dist-source": "rhel-x86_64-hpc-node-7", 
+                "dist-source-shadow": "rhel-x86_64-hpc-node-7-shadow"
+            }
+        }
+    }, 
+    "ComputeNode-optional": {
+        "x86_64": {
+            "cdn": {
+                "beta": "rhel-7-hpc-node-optional-beta-rpms", 
+                "beta-debug": "rhel-7-hpc-node-optional-beta-debug-rpms", 
+                "beta-source": "rhel-7-hpc-node-optional-beta-source-rpms", 
+                "dist": "rhel-7-hpc-node-optional-rpms", 
+                "dist-debug": "rhel-7-hpc-node-optional-debug-rpms", 
+                "dist-source": "rhel-7-hpc-node-optional-source-rpms"
+            }, 
+            "rhn": {
+                "beta": "rhel-x86_64-hpc-node-optional-7-beta", 
+                "beta-debug": "rhel-x86_64-hpc-node-optional-7-beta-debuginfo", 
+                "beta-debug-shadow": "rhel-x86_64-hpc-node-optional-7-beta-debuginfo-shadow", 
+                "beta-kickstart": "rhel-x86_64-hpc-node-optional-7-beta", 
+                "beta-kickstart-shadow": "rhel-x86_64-hpc-node-optional-7-beta-shadow", 
+                "beta-shadow": "rhel-x86_64-hpc-node-optional-7-beta-shadow", 
+                "beta-source": "rhel-x86_64-hpc-node-optional-7-beta", 
+                "beta-source-shadow": "rhel-x86_64-hpc-node-optional-7-beta-shadow", 
+                "dist": "rhel-x86_64-hpc-node-optional-7", 
+                "dist-debug": "rhel-x86_64-hpc-node-optional-7-debuginfo", 
+                "dist-debug-shadow": "rhel-x86_64-hpc-node-optional-7-debuginfo-shadow", 
+                "dist-kickstart": "rhel-x86_64-hpc-node-optional-7", 
+                "dist-kickstart-shadow": "rhel-x86_64-hpc-node-optional-7-shadow", 
+                "dist-shadow": "rhel-x86_64-hpc-node-optional-7-shadow", 
+                "dist-source": "rhel-x86_64-hpc-node-optional-7", 
+                "dist-source-shadow": "rhel-x86_64-hpc-node-optional-7-shadow"
+            }
+        }
+    }, 
+    "Server": {
+        "ppc64": {
+            "cdn": {
+                "beta": "rhel-7-for-power-beta-rpms", 
+                "beta-debug": "rhel-7-for-power-beta-debug-rpms", 
+                "beta-iso": "rhel-7-for-power-beta-isos", 
+                "beta-kickstart": "rhel-7-for-power-beta-kickstart", 
+                "beta-source": "rhel-7-for-power-beta-source-rpms", 
+                "beta-source-iso": "rhel-7-for-power-beta-source-isos", 
+                "dist": "rhel-7-for-power-rpms", 
+                "dist-debug": "rhel-7-for-power-debug-rpms", 
+                "dist-iso": "rhel-7-for-power-isos", 
+                "dist-kickstart": "rhel-7-for-power-kickstart", 
+                "dist-source": "rhel-7-for-power-source-rpms", 
+                "dist-source-iso": "rhel-7-for-power-source-isos"
+            }, 
+            "cdn-product-id": {
+                "dist": 74,
+                "beta": 74
+            }, 
+            "rhn": {
+                "beta": "rhel-ppc64-server-7-beta", 
+                "beta-debug": "rhel-ppc64-server-7-beta-debuginfo", 
+                "beta-debug-shadow": "rhel-ppc64-server-7-beta-debuginfo-shadow", 
+                "beta-iso": "rhel-ppc64-server-7-beta", 
+                "beta-iso-shadow": "rhel-ppc64-server-7-beta-shadow", 
+                "beta-kickstart": "rhel-ppc64-server-7-beta", 
+                "beta-kickstart-shadow": "rhel-ppc64-server-7-beta-shadow", 
+                "beta-shadow": "rhel-ppc64-server-7-beta-shadow", 
+                "beta-source": "rhel-ppc64-server-7-beta", 
+                "beta-source-shadow": "rhel-ppc64-server-7-beta-shadow", 
+                "dist": "rhel-ppc64-server-7", 
+                "dist-debug": "rhel-ppc64-server-7-debuginfo", 
+                "dist-debug-shadow": "rhel-ppc64-server-7-debuginfo-shadow", 
+                "dist-iso": "rhel-ppc64-server-7", 
+                "dist-iso-shadow": "rhel-ppc64-server-7-shadow", 
+                "dist-kickstart": "rhel-ppc64-server-7", 
+                "dist-kickstart-shadow": "rhel-ppc64-server-7-shadow", 
+                "dist-shadow": "rhel-ppc64-server-7-shadow", 
+                "dist-source": "rhel-ppc64-server-7", 
+                "dist-source-shadow": "rhel-ppc64-server-7-shadow"
+            }
+        }, 
+        "s390x": {
+            "cdn": {
+                "beta": "rhel-7-for-system-z-beta-rpms", 
+                "beta-debug": "rhel-7-for-system-z-beta-debug-rpms", 
+                "beta-iso": "rhel-7-for-system-z-beta-isos", 
+                "beta-kickstart": "rhel-7-for-system-z-beta-kickstart", 
+                "beta-source": "rhel-7-for-system-z-beta-source-rpms", 
+                "beta-source-iso": "rhel-7-for-system-z-beta-source-isos", 
+                "dist": "rhel-7-for-system-z-rpms", 
+                "dist-debug": "rhel-7-for-system-z-debug-rpms", 
+                "dist-iso": "rhel-7-for-system-z-isos", 
+                "dist-kickstart": "rhel-7-for-system-z-kickstart", 
+                "dist-source": "rhel-7-for-system-z-source-rpms", 
+                "dist-source-iso": "rhel-7-for-system-z-source-isos"
+            }, 
+            "cdn-product-id": {
+                "dist": 72,
+                "beta": 72
+            }, 
+            "rhn": {
+                "beta": "rhel-s390x-server-7-beta", 
+                "beta-debug": "rhel-s390x-server-7-beta-debuginfo", 
+                "beta-debug-shadow": "rhel-s390x-server-7-beta-debuginfo-shadow", 
+                "beta-iso": "rhel-s390x-server-7-beta", 
+                "beta-iso-shadow": "rhel-s390x-server-7-beta-shadow", 
+                "beta-kickstart": "rhel-s390x-server-7-beta", 
+                "beta-kickstart-shadow": "rhel-s390x-server-7-beta-shadow", 
+                "beta-shadow": "rhel-s390x-server-7-beta-shadow", 
+                "beta-source": "rhel-s390x-server-7-beta", 
+                "beta-source-shadow": "rhel-s390x-server-7-beta-shadow", 
+                "dist": "rhel-s390x-server-7", 
+                "dist-debug": "rhel-s390x-server-7-debuginfo", 
+                "dist-debug-shadow": "rhel-s390x-server-7-debuginfo-shadow", 
+                "dist-iso": "rhel-s390x-server-7", 
+                "dist-iso-shadow": "rhel-s390x-server-7-shadow", 
+                "dist-kickstart": "rhel-s390x-server-7", 
+                "dist-kickstart-shadow": "rhel-s390x-server-7-shadow", 
+                "dist-shadow": "rhel-s390x-server-7-shadow", 
+                "dist-source": "rhel-s390x-server-7", 
+                "dist-source-shadow": "rhel-s390x-server-7-shadow"
+            }
+        }, 
+        "x86_64": {
+            "cdn": {
+                "beta": "rhel-7-server-beta-rpms", 
+                "beta-debug": "rhel-7-server-beta-debug-rpms", 
+                "beta-iso": "rhel-7-server-beta-isos", 
+                "beta-kickstart": "rhel-7-server-beta-kickstart", 
+                "beta-source": "rhel-7-server-beta-source-rpms", 
+                "beta-source-iso": "rhel-7-server-beta-source-isos", 
+                "dist": "rhel-7-server-rpms", 
+                "dist-debug": "rhel-7-server-debug-rpms", 
+                "dist-iso": "rhel-7-server-isos", 
+                "dist-kickstart": "rhel-7-server-kickstart", 
+                "dist-source": "rhel-7-server-source-rpms", 
+                "dist-source-iso": "rhel-7-server-source-isos", 
+                "htb": "rhel-7-server-htb-rpms", 
+                "htb-debug": "rhel-7-server-htb-debug-rpms", 
+                "htb-iso": "rhel-7-server-htb-isos", 
+                "htb-kickstart": "rhel-7-server-htb-kickstart", 
+                "htb-source": "rhel-7-server-htb-source-rpms", 
+                "htb-source-iso": "rhel-7-server-htb-source-isos"
+            }, 
+            "cdn-product-id": {
+                "dist": 69,
+                "beta": 69,
+                "htb": 230
+            }, 
+            "rhn": {
+                "beta": "rhel-x86_64-server-7-beta", 
+                "beta-debug": "rhel-x86_64-server-7-beta-debuginfo", 
+                "beta-debug-shadow": "rhel-x86_64-server-7-beta-debuginfo-shadow", 
+                "beta-iso": "rhel-x86_64-server-7-beta", 
+                "beta-iso-shadow": "rhel-x86_64-server-7-beta-shadow", 
+                "beta-kickstart": "rhel-x86_64-server-7-beta", 
+                "beta-kickstart-shadow": "rhel-x86_64-server-7-beta-shadow", 
+                "beta-shadow": "rhel-x86_64-server-7-beta-shadow", 
+                "beta-source": "rhel-x86_64-server-7-beta", 
+                "beta-source-shadow": "rhel-x86_64-server-7-beta-shadow", 
+                "dist": "rhel-x86_64-server-7", 
+                "dist-debug": "rhel-x86_64-server-7-debuginfo", 
+                "dist-debug-shadow": "rhel-x86_64-server-7-debuginfo-shadow", 
+                "dist-iso": "rhel-x86_64-server-7", 
+                "dist-iso-shadow": "rhel-x86_64-server-7-shadow", 
+                "dist-kickstart": "rhel-x86_64-server-7", 
+                "dist-kickstart-shadow": "rhel-x86_64-server-7-shadow", 
+                "dist-shadow": "rhel-x86_64-server-7-shadow", 
+                "dist-source": "rhel-x86_64-server-7", 
+                "dist-source-shadow": "rhel-x86_64-server-7-shadow", 
+                "htb": "rhel-x86_64-server-7-htb", 
+                "htb-debug": "rhel-x86_64-server-7-htb-debuginfo", 
+                "htb-debug-shadow": "rhel-x86_64-server-7-htb-debuginfo-shadow", 
+                "htb-iso": "rhel-x86_64-server-7-htb", 
+                "htb-iso-shadow": "rhel-x86_64-server-7-htb-shadow", 
+                "htb-kickstart": "rhel-x86_64-server-7-htb", 
+                "htb-kickstart-shadow": "rhel-x86_64-server-7-htb-shadow", 
+                "htb-shadow": "rhel-x86_64-server-7-htb-shadow", 
+                "htb-source": "rhel-x86_64-server-7-htb", 
+                "htb-source-shadow": "rhel-x86_64-server-7-htb-shadow"
+            }
+        }
+    }, 
+    "Server-HighAvailability": {
+        "x86_64": {
+            "cdn": {
+                "beta": "rhel-ha-for-rhel-7-server-beta-rpms", 
+                "beta-debug": "rhel-ha-for-rhel-7-server-beta-debug-rpms", 
+                "beta-source": "rhel-ha-for-rhel-7-server-beta-source-rpms", 
+                "dist": "rhel-ha-for-rhel-7-server-rpms", 
+                "dist-debug": "rhel-ha-for-rhel-7-server-debug-rpms", 
+                "dist-source": "rhel-ha-for-rhel-7-server-source-rpms", 
+                "htb": "rhel-ha-for-rhel-7-server-htb-rpms", 
+                "htb-debug": "rhel-ha-for-rhel-7-server-htb-debug-rpms", 
+                "htb-source": "rhel-ha-for-rhel-7-server-htb-source-rpms"
+            }, 
+            "cdn-product-id": {
+                "dist": 83,
+                "htb": 236
+            }, 
+            "rhn": {
+                "beta": "rhel-x86_64-server-ha-7-beta", 
+                "beta-debug": "rhel-x86_64-server-ha-7-beta-debuginfo", 
+                "beta-debug-shadow": "rhel-x86_64-server-ha-7-beta-debuginfo-shadow", 
+                "beta-kickstart": "rhel-x86_64-server-ha-7-beta", 
+                "beta-kickstart-shadow": "rhel-x86_64-server-ha-7-beta-shadow", 
+                "beta-shadow": "rhel-x86_64-server-ha-7-beta-shadow", 
+                "beta-source": "rhel-x86_64-server-ha-7-beta", 
+                "beta-source-shadow": "rhel-x86_64-server-ha-7-beta-shadow", 
+                "dist": "rhel-x86_64-server-ha-7", 
+                "dist-debug": "rhel-x86_64-server-ha-7-debuginfo", 
+                "dist-debug-shadow": "rhel-x86_64-server-ha-7-debuginfo-shadow", 
+                "dist-kickstart": "rhel-x86_64-server-ha-7", 
+                "dist-kickstart-shadow": "rhel-x86_64-server-ha-7-shadow", 
+                "dist-shadow": "rhel-x86_64-server-ha-7-shadow", 
+                "dist-source": "rhel-x86_64-server-ha-7", 
+                "dist-source-shadow": "rhel-x86_64-server-ha-7-shadow", 
+                "htb": "rhel-x86_64-server-ha-7-htb", 
+                "htb-debug": "rhel-x86_64-server-ha-7-htb-debuginfo", 
+                "htb-debug-shadow": "rhel-x86_64-server-ha-7-htb-debuginfo-shadow", 
+                "htb-kickstart": "rhel-x86_64-server-ha-7-htb", 
+                "htb-kickstart-shadow": "rhel-x86_64-server-ha-7-htb-shadow", 
+                "htb-shadow": "rhel-x86_64-server-ha-7-htb-shadow", 
+                "htb-source": "rhel-x86_64-server-ha-7-htb", 
+                "htb-source-shadow": "rhel-x86_64-server-ha-7-htb-shadow"
+            }
+        }
+    }, 
+    "Server-ResilientStorage": {
+        "x86_64": {
+            "cdn": {
+                "beta": "rhel-rs-for-rhel-7-server-beta-rpms", 
+                "beta-debug": "rhel-rs-for-rhel-7-server-beta-debug-rpms", 
+                "beta-source": "rhel-rs-for-rhel-7-server-beta-source-rpms", 
+                "dist": "rhel-rs-for-rhel-7-server-rpms", 
+                "dist-debug": "rhel-rs-for-rhel-7-server-debug-rpms", 
+                "dist-source": "rhel-rs-for-rhel-7-server-source-rpms", 
+                "htb": "rhel-rs-for-rhel-7-server-htb-rpms", 
+                "htb-debug": "rhel-rs-for-rhel-7-server-htb-debug-rpms", 
+                "htb-source": "rhel-rs-for-rhel-7-server-htb-source-rpms"
+            }, 
+            "cdn-product-id": {
+                "dist": 90,
+                "htb": 238
+            }, 
+            "rhn": {
+                "beta": "rhel-x86_64-server-rs-7-beta", 
+                "beta-debug": "rhel-x86_64-server-rs-7-beta-debuginfo", 
+                "beta-debug-shadow": "rhel-x86_64-server-rs-7-beta-debuginfo-shadow", 
+                "beta-kickstart": "rhel-x86_64-server-rs-7-beta", 
+                "beta-kickstart-shadow": "rhel-x86_64-server-rs-7-beta-shadow", 
+                "beta-shadow": "rhel-x86_64-server-rs-7-beta-shadow", 
+                "beta-source": "rhel-x86_64-server-rs-7-beta", 
+                "beta-source-shadow": "rhel-x86_64-server-rs-7-beta-shadow", 
+                "dist": "rhel-x86_64-server-rs-7", 
+                "dist-debug": "rhel-x86_64-server-rs-7-debuginfo", 
+                "dist-debug-shadow": "rhel-x86_64-server-rs-7-debuginfo-shadow", 
+                "dist-kickstart": "rhel-x86_64-server-rs-7", 
+                "dist-kickstart-shadow": "rhel-x86_64-server-rs-7-shadow", 
+                "dist-shadow": "rhel-x86_64-server-rs-7-shadow", 
+                "dist-source": "rhel-x86_64-server-rs-7", 
+                "dist-source-shadow": "rhel-x86_64-server-rs-7-shadow", 
+                "htb": "rhel-x86_64-server-rs-7-htb", 
+                "htb-debug": "rhel-x86_64-server-rs-7-htb-debuginfo", 
+                "htb-debug-shadow": "rhel-x86_64-server-rs-7-htb-debuginfo-shadow", 
+                "htb-kickstart": "rhel-x86_64-server-rs-7-htb", 
+                "htb-kickstart-shadow": "rhel-x86_64-server-rs-7-htb-shadow", 
+                "htb-shadow": "rhel-x86_64-server-rs-7-htb-shadow", 
+                "htb-source": "rhel-x86_64-server-rs-7-htb", 
+                "htb-source-shadow": "rhel-x86_64-server-rs-7-htb-shadow"
+            }
+        }
+    }, 
+    "Server-optional": {
+        "ppc64": {
+            "cdn": {
+                "beta": "rhel-7-for-power-optional-beta-rpms", 
+                "beta-debug": "rhel-7-for-power-optional-beta-debug-rpms", 
+                "beta-source": "rhel-7-for-power-optional-beta-source-rpms", 
+                "dist": "rhel-7-for-power-optional-rpms", 
+                "dist-debug": "rhel-7-for-power-optional-debug-rpms", 
+                "dist-source": "rhel-7-for-power-optional-source-rpms"
+            }, 
+            "rhn": {
+                "beta": "rhel-ppc64-server-optional-7-beta", 
+                "beta-debug": "rhel-ppc64-server-optional-7-beta-debuginfo", 
+                "beta-debug-shadow": "rhel-ppc64-server-optional-7-beta-debuginfo-shadow", 
+                "beta-kickstart": "rhel-ppc64-server-optional-7-beta", 
+                "beta-kickstart-shadow": "rhel-ppc64-server-optional-7-beta-shadow", 
+                "beta-shadow": "rhel-ppc64-server-optional-7-beta-shadow", 
+                "beta-source": "rhel-ppc64-server-optional-7-beta", 
+                "beta-source-shadow": "rhel-ppc64-server-optional-7-beta-shadow", 
+                "dist": "rhel-ppc64-server-optional-7", 
+                "dist-debug": "rhel-ppc64-server-optional-7-debuginfo", 
+                "dist-debug-shadow": "rhel-ppc64-server-optional-7-debuginfo-shadow", 
+                "dist-kickstart": "rhel-ppc64-server-optional-7", 
+                "dist-kickstart-shadow": "rhel-ppc64-server-optional-7-shadow", 
+                "dist-shadow": "rhel-ppc64-server-optional-7-shadow", 
+                "dist-source": "rhel-ppc64-server-optional-7", 
+                "dist-source-shadow": "rhel-ppc64-server-optional-7-shadow"
+            }
+        }, 
+        "s390x": {
+            "cdn": {
+                "beta": "rhel-7-for-system-z-optional-beta-rpms", 
+                "beta-debug": "rhel-7-for-system-z-optional-beta-debug-rpms", 
+                "beta-source": "rhel-7-for-system-z-optional-beta-source-rpms", 
+                "dist": "rhel-7-for-system-z-optional-rpms", 
+                "dist-debug": "rhel-7-for-system-z-optional-debug-rpms", 
+                "dist-source": "rhel-7-for-system-z-optional-source-rpms"
+            }, 
+            "rhn": {
+                "beta": "rhel-s390x-server-optional-7-beta", 
+                "beta-debug": "rhel-s390x-server-optional-7-beta-debuginfo", 
+                "beta-debug-shadow": "rhel-s390x-server-optional-7-beta-debuginfo-shadow", 
+                "beta-kickstart": "rhel-s390x-server-optional-7-beta", 
+                "beta-kickstart-shadow": "rhel-s390x-server-optional-7-beta-shadow", 
+                "beta-shadow": "rhel-s390x-server-optional-7-beta-shadow", 
+                "beta-source": "rhel-s390x-server-optional-7-beta", 
+                "beta-source-shadow": "rhel-s390x-server-optional-7-beta-shadow", 
+                "dist": "rhel-s390x-server-optional-7", 
+                "dist-debug": "rhel-s390x-server-optional-7-debuginfo", 
+                "dist-debug-shadow": "rhel-s390x-server-optional-7-debuginfo-shadow", 
+                "dist-kickstart": "rhel-s390x-server-optional-7", 
+                "dist-kickstart-shadow": "rhel-s390x-server-optional-7-shadow", 
+                "dist-shadow": "rhel-s390x-server-optional-7-shadow", 
+                "dist-source": "rhel-s390x-server-optional-7", 
+                "dist-source-shadow": "rhel-s390x-server-optional-7-shadow"
+            }
+        }, 
+        "x86_64": {
+            "cdn": {
+                "beta": "rhel-7-server-optional-beta-rpms", 
+                "beta-debug": "rhel-7-server-optional-beta-debug-rpms", 
+                "beta-source": "rhel-7-server-optional-beta-source-rpms", 
+                "dist": "rhel-7-server-optional-rpms", 
+                "dist-debug": "rhel-7-server-optional-debug-rpms", 
+                "dist-source": "rhel-7-server-optional-source-rpms", 
+                "htb": "rhel-7-server-optional-htb-rpms", 
+                "htb-debug": "rhel-7-server-optional-htb-debug-rpms", 
+                "htb-source": "rhel-7-server-optional-htb-source-rpms"
+            }, 
+            "rhn": {
+                "beta": "rhel-x86_64-server-optional-7-beta", 
+                "beta-debug": "rhel-x86_64-server-optional-7-beta-debuginfo", 
+                "beta-debug-shadow": "rhel-x86_64-server-optional-7-beta-debuginfo-shadow", 
+                "beta-kickstart": "rhel-x86_64-server-optional-7-beta", 
+                "beta-kickstart-shadow": "rhel-x86_64-server-optional-7-beta-shadow", 
+                "beta-shadow": "rhel-x86_64-server-optional-7-beta-shadow", 
+                "beta-source": "rhel-x86_64-server-optional-7-beta", 
+                "beta-source-shadow": "rhel-x86_64-server-optional-7-beta-shadow", 
+                "dist": "rhel-x86_64-server-optional-7", 
+                "dist-debug": "rhel-x86_64-server-optional-7-debuginfo", 
+                "dist-debug-shadow": "rhel-x86_64-server-optional-7-debuginfo-shadow", 
+                "dist-kickstart": "rhel-x86_64-server-optional-7", 
+                "dist-kickstart-shadow": "rhel-x86_64-server-optional-7-shadow", 
+                "dist-shadow": "rhel-x86_64-server-optional-7-shadow", 
+                "dist-source": "rhel-x86_64-server-optional-7", 
+                "dist-source-shadow": "rhel-x86_64-server-optional-7-shadow", 
+                "htb": "rhel-x86_64-server-optional-7-htb", 
+                "htb-debug": "rhel-x86_64-server-optional-7-htb-debuginfo", 
+                "htb-debug-shadow": "rhel-x86_64-server-optional-7-htb-debuginfo-shadow", 
+                "htb-kickstart": "rhel-x86_64-server-optional-7-htb", 
+                "htb-kickstart-shadow": "rhel-x86_64-server-optional-7-htb-shadow", 
+                "htb-shadow": "rhel-x86_64-server-optional-7-htb-shadow", 
+                "htb-source": "rhel-x86_64-server-optional-7-htb", 
+                "htb-source-shadow": "rhel-x86_64-server-optional-7-htb-shadow"
+            }
+        }
+    }, 
+    "Workstation": {
+        "x86_64": {
+            "cdn": {
+                "beta": "rhel-7-workstation-beta-rpms", 
+                "beta-debug": "rhel-7-workstation-beta-debug-rpms", 
+                "beta-iso": "rhel-7-workstation-beta-isos", 
+                "beta-kickstart": "rhel-7-workstation-beta-kickstart", 
+                "beta-source": "rhel-7-workstation-beta-source-rpms", 
+                "beta-source-iso": "rhel-7-workstation-beta-source-isos", 
+                "dist": "rhel-7-workstation-rpms", 
+                "dist-debug": "rhel-7-workstation-debug-rpms", 
+                "dist-iso": "rhel-7-workstation-isos", 
+                "dist-kickstart": "rhel-7-workstation-kickstart", 
+                "dist-source": "rhel-7-workstation-source-rpms", 
+                "dist-source-iso": "rhel-7-workstation-source-isos", 
+                "htb": "rhel-7-workstation-htb-rpms", 
+                "htb-debug": "rhel-7-workstation-htb-debug-rpms", 
+                "htb-iso": "rhel-7-workstation-htb-isos", 
+                "htb-kickstart": "rhel-7-workstation-htb-kickstart", 
+                "htb-source": "rhel-7-workstation-htb-source-rpms", 
+                "htb-source-iso": "rhel-7-workstation-htb-source-isos"
+            }, 
+            "cdn-product-id": {
+                "dist": 71,
+                "beta": 71,
+                "htb": 231
+            }, 
+            "rhn": {
+                "beta": "rhel-x86_64-workstation-7-beta", 
+                "beta-debug": "rhel-x86_64-workstation-7-beta-debuginfo", 
+                "beta-debug-shadow": "rhel-x86_64-workstation-7-beta-debuginfo-shadow", 
+                "beta-iso": "rhel-x86_64-workstation-7-beta", 
+                "beta-iso-shadow": "rhel-x86_64-workstation-7-beta-shadow", 
+                "beta-kickstart": "rhel-x86_64-workstation-7-beta", 
+                "beta-kickstart-shadow": "rhel-x86_64-workstation-7-beta-shadow", 
+                "beta-shadow": "rhel-x86_64-workstation-7-beta-shadow", 
+                "beta-source": "rhel-x86_64-workstation-7-beta", 
+                "beta-source-shadow": "rhel-x86_64-workstation-7-beta-shadow", 
+                "dist": "rhel-x86_64-workstation-7", 
+                "dist-debug": "rhel-x86_64-workstation-7-debuginfo", 
+                "dist-debug-shadow": "rhel-x86_64-workstation-7-debuginfo-shadow", 
+                "dist-iso": "rhel-x86_64-workstation-7", 
+                "dist-iso-shadow": "rhel-x86_64-workstation-7-shadow", 
+                "dist-kickstart": "rhel-x86_64-workstation-7", 
+                "dist-kickstart-shadow": "rhel-x86_64-workstation-7-shadow", 
+                "dist-shadow": "rhel-x86_64-workstation-7-shadow", 
+                "dist-source": "rhel-x86_64-workstation-7", 
+                "dist-source-shadow": "rhel-x86_64-workstation-7-shadow", 
+                "htb": "rhel-x86_64-workstation-7-htb", 
+                "htb-debug": "rhel-x86_64-workstation-7-htb-debuginfo", 
+                "htb-debug-shadow": "rhel-x86_64-workstation-7-htb-debuginfo-shadow", 
+                "htb-iso": "rhel-x86_64-workstation-7-htb", 
+                "htb-iso-shadow": "rhel-x86_64-workstation-7-htb-shadow", 
+                "htb-kickstart": "rhel-x86_64-workstation-7-htb", 
+                "htb-kickstart-shadow": "rhel-x86_64-workstation-7-htb-shadow", 
+                "htb-shadow": "rhel-x86_64-workstation-7-htb-shadow", 
+                "htb-source": "rhel-x86_64-workstation-7-htb", 
+                "htb-source-shadow": "rhel-x86_64-workstation-7-htb-shadow"
+            }
+        }
+    }, 
+    "Workstation-optional": {
+        "x86_64": {
+            "cdn": {
+                "beta": "rhel-7-workstation-optional-beta-rpms", 
+                "beta-debug": "rhel-7-workstation-optional-beta-debug-rpms", 
+                "beta-source": "rhel-7-workstation-optional-beta-source-rpms", 
+                "dist": "rhel-7-workstation-optional-rpms", 
+                "dist-debug": "rhel-7-workstation-optional-debug-rpms", 
+                "dist-source": "rhel-7-workstation-optional-source-rpms", 
+                "htb": "rhel-7-workstation-optional-htb-rpms", 
+                "htb-debug": "rhel-7-workstation-optional-htb-debug-rpms", 
+                "htb-source": "rhel-7-workstation-optional-htb-source-rpms"
+            }, 
+            "rhn": {
+                "beta": "rhel-x86_64-workstation-optional-7-beta", 
+                "beta-debug": "rhel-x86_64-workstation-optional-7-beta-debuginfo", 
+                "beta-debug-shadow": "rhel-x86_64-workstation-optional-7-beta-debuginfo-shadow", 
+                "beta-kickstart": "rhel-x86_64-workstation-optional-7-beta", 
+                "beta-kickstart-shadow": "rhel-x86_64-workstation-optional-7-beta-shadow", 
+                "beta-shadow": "rhel-x86_64-workstation-optional-7-beta-shadow", 
+                "beta-source": "rhel-x86_64-workstation-optional-7-beta", 
+                "beta-source-shadow": "rhel-x86_64-workstation-optional-7-beta-shadow", 
+                "dist": "rhel-x86_64-workstation-optional-7", 
+                "dist-debug": "rhel-x86_64-workstation-optional-7-debuginfo", 
+                "dist-debug-shadow": "rhel-x86_64-workstation-optional-7-debuginfo-shadow", 
+                "dist-kickstart": "rhel-x86_64-workstation-optional-7", 
+                "dist-kickstart-shadow": "rhel-x86_64-workstation-optional-7-shadow", 
+                "dist-shadow": "rhel-x86_64-workstation-optional-7-shadow", 
+                "dist-source": "rhel-x86_64-workstation-optional-7", 
+                "dist-source-shadow": "rhel-x86_64-workstation-optional-7-shadow", 
+                "htb": "rhel-x86_64-workstation-optional-7-htb", 
+                "htb-debug": "rhel-x86_64-workstation-optional-7-htb-debuginfo", 
+                "htb-debug-shadow": "rhel-x86_64-workstation-optional-7-htb-debuginfo-shadow", 
+                "htb-kickstart": "rhel-x86_64-workstation-optional-7-htb", 
+                "htb-kickstart-shadow": "rhel-x86_64-workstation-optional-7-htb-shadow", 
+                "htb-shadow": "rhel-x86_64-workstation-optional-7-htb-shadow", 
+                "htb-source": "rhel-x86_64-workstation-optional-7-htb", 
+                "htb-source-shadow": "rhel-x86_64-workstation-optional-7-htb-shadow"
+            }
+        }
+    },
+    "Server-RT": {
+        "x86_64": {
+            "cdn": {
+                "beta": "rhel-7-server-rt-beta-rpms",
+                "beta-iso": "rhel-7-server-rt-beta-isos",
+                "beta-debug": "rhel-7-server-rt-beta-debug-rpms",
+                "beta-source": "rhel-7-server-rt-beta-source-rpms",
+                "htb": "rhel-7-server-rt-htb-rpms",
+                "htb-iso": "rhel-7-server-rt-htb-isos",
+                "htb-debug": "rhel-7-server-rt-htb-debug-rpms",
+                "htb-source": "rhel-7-server-rt-htb-source-rpms",
+                "dist": "rhel-7-server-rt-rpms",
+                "dist-iso": "rhel-7-server-rt-isos",
+                "dist-debug": "rhel-7-server-rt-debug-rpms",
+                "dist-source": "rhel-7-server-rt-source-rpms"
+            },
+            "cdn-product-id": {
+                "beta": 172,
+                "htb": 230,
+                "dist": 287
+            },
+            "rhn": {
+                "beta": "rhel-x86_64-server-rt-7-beta",
+                "beta-iso": "rhel-x86_64-server-rt-7-beta",
+                "beta-debug": "rhel-x86_64-server-rt-7-beta-debuginfo",
+                "beta-debug-shadow": "rhel-x86_64-server-rt-7-beta-debuginfo-shadow",
+                "beta-shadow": "rhel-x86_64-server-rt-7-beta-shadow",
+                "beta-iso-shadow": "rhel-x86_64-server-rt-7-beta-shadow",
+                "beta-source": "rhel-x86_64-server-rt-7-beta",
+                "beta-source-shadow": "rhel-x86_64-server-rt-7-beta-shadow",
+                "dist": "rhel-x86_64-server-rt-7",
+                "dist-iso": "rhel-x86_64-server-rt-7",
+                "dist-debug": "rhel-x86_64-server-rt-7-debuginfo",
+                "dist-debug-shadow": "rhel-x86_64-server-rt-7-debuginfo-shadow",
+                "dist-shadow": "rhel-x86_64-server-rt-7-shadow",
+                "dist-iso-shadow": "rhel-x86_64-server-rt-7-shadow",
+                "dist-source": "rhel-x86_64-server-rt-7",
+                "dist-source-shadow": "rhel-x86_64-server-rt-7-shadow"
+            }
+        }
+    }
+}

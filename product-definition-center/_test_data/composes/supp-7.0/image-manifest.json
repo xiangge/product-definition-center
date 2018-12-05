@@ -1,0 +1,170 @@
+{
+    "header": {
+        "version": "0.3"
+    }, 
+    "payload": {
+        "compose": {
+            "date": "20140512", 
+            "id": "Supp-7.0-RHEL-7-20140512.0", 
+            "respin": 0, 
+            "type": "production"
+        }, 
+        "images": {
+            "Client": {
+                "x86_64": [
+                    {
+                        "arch": "x86_64", 
+                        "bootable": false, 
+                        "checksums": {
+                            "md5": "2eafe9a21b30bfeecc6afba8c45c66c3", 
+                            "sha1": "e06fb967b87d76f9d3df98e8245af0e4da3bae95", 
+                            "sha256": "ea38abe2980f469eb07f7b81eccf220961fe4651f2317e23cbe6547490c01c38"
+                        }, 
+                        "disc_count": 1, 
+                        "disc_number": 1, 
+                        "format": "iso", 
+                        "implant_md5": "2ee9a093cf69fe49d494744aaec8203c", 
+                        "mtime": 1399882026, 
+                        "path": "Client/x86_64/iso/Supp-7.0-RHEL-7-20140512.0-Client-x86_64-dvd1.iso", 
+                        "size": 258078720, 
+                        "type": "dvd", 
+                        "volume_id": "Supp-7.0 RHEL-7 Client.x86_64",
+                        "subvariant": "Client"
+                    }
+                ]
+            }, 
+            "ComputeNode": {
+                "x86_64": [
+                    {
+                        "arch": "x86_64", 
+                        "bootable": false, 
+                        "checksums": {
+                            "md5": "ac1f08800a7ed7c09de16834989a3a2c", 
+                            "sha1": "ec67d74fc0bbc0b65c9fbc1e8964393b98ff1c85", 
+                            "sha256": "1a4c1bf5a3a53665c7937c1f0669ad873d2069cdcd9a33cbaa0e0526b2a1642a"
+                        }, 
+                        "disc_count": 1, 
+                        "disc_number": 1, 
+                        "format": "iso", 
+                        "implant_md5": "bcb2a9fbbd37c9ff4a302ed829cb5832", 
+                        "mtime": 1399881999, 
+                        "path": "ComputeNode/x86_64/iso/Supp-7.0-RHEL-7-20140512.0-ComputeNode-x86_64-dvd1.iso", 
+                        "size": 198862848, 
+                        "type": "dvd", 
+                        "volume_id": "Supp-7.0 RHEL-7 x86_64",
+                        "subvariant": "ComputeNode"
+                    }
+                ]
+            }, 
+            "Server": {
+                "ppc64": [
+                    {
+                        "arch": "ppc64", 
+                        "bootable": false, 
+                        "checksums": {
+                            "md5": "60b683c54260665af13dcd74de084d3a", 
+                            "sha1": "c70c1a345c5df45eadfd447ab03d20112f9e5df7", 
+                            "sha256": "2eac9588bcf8bc97008b2cc3f65e79b0a135b631a1fd13b3fc71cd37799bae07"
+                        }, 
+                        "disc_count": 1, 
+                        "disc_number": 1, 
+                        "format": "iso", 
+                        "implant_md5": "05b7798134fe15a06e9c50500f695959", 
+                        "mtime": 1399882003, 
+                        "path": "Server/ppc64/iso/Supp-7.0-RHEL-7-20140512.0-Server-ppc64-dvd1.iso", 
+                        "size": 203819008, 
+                        "type": "dvd", 
+                        "volume_id": "Supp-7.0 RHEL-7 Server.ppc64",
+                        "subvariant": "Server"
+                    }
+                ], 
+                "s390x": [
+                    {
+                        "arch": "s390x", 
+                        "bootable": false, 
+                        "checksums": {
+                            "md5": "2716238026336349f59ff567abd07df0", 
+                            "sha1": "cfc55879c373ba1feac88c77d725299a274a282f", 
+                            "sha256": "6a2fb43fd72a838fd9ae81fdee692fef349a7aa7b3ad419ce0269914534dd4ab"
+                        }, 
+                        "disc_count": 1, 
+                        "disc_number": 1, 
+                        "format": "iso", 
+                        "implant_md5": "fca8ffbf0fff20930e5d30717a973d75", 
+                        "mtime": 1399881997, 
+                        "path": "Server/s390x/iso/Supp-7.0-RHEL-7-20140512.0-Server-s390x-dvd1.iso", 
+                        "size": 191909888, 
+                        "type": "dvd", 
+                        "volume_id": "Supp-7.0 RHEL-7 Server.s390x",
+                        "subvariant": "Server"
+                    }
+                ], 
+                "src": [
+                    {
+                        "arch": "src", 
+                        "bootable": false, 
+                        "checksums": {
+                            "md5": "a28ebea3febf8b4f01c0cca435af49f3", 
+                            "sha1": "90a7c76dd2bb6bb9d5c539f64845d2d66bffc5d1", 
+                            "sha256": "7628be58ec8d544dc714eb90a01a0c8717a59bb8963a2516b4843d31f6bc987e"
+                        }, 
+                        "disc_count": 1, 
+                        "disc_number": 1, 
+                        "format": "iso", 
+                        "implant_md5": "156ca06a609904cc52f249bc62340b9c", 
+                        "mtime": 1399881957, 
+                        "path": "Server/source/iso/Supp-7.0-RHEL-7-20140512.0-Server-source-dvd1.iso", 
+                        "size": 1097728, 
+                        "type": "dvd", 
+                        "volume_id": "Supp-7.0 RHEL-7 Server.src",
+                        "subvariant": "Server"
+                    }
+                ], 
+                "x86_64": [
+                    {
+                        "arch": "x86_64", 
+                        "bootable": false, 
+                        "checksums": {
+                            "md5": "2677d64e5a9cbb961853c7ac8cfb3157", 
+                            "sha1": "2975341da2db970a0e66d1169cc47b2e4ff3662d", 
+                            "sha256": "75177a35b0c4e55086bdddc9e820d88a14ceef0b4e1ca0f2181df1c94020035f"
+                        }, 
+                        "disc_count": 1, 
+                        "disc_number": 1, 
+                        "format": "iso", 
+                        "implant_md5": "4d1d6e121e665bb9e707a511b8fc8ee1", 
+                        "mtime": 1399882025, 
+                        "path": "Server/x86_64/iso/Supp-7.0-RHEL-7-20140512.0-Server-x86_64-dvd1.iso", 
+                        "size": 258078720, 
+                        "type": "dvd", 
+                        "volume_id": "Supp-7.0 RHEL-7 Server.x86_64",
+                        "subvariant": "Server"
+                    }
+                ]
+            }, 
+            "Workstation": {
+                "x86_64": [
+                    {
+                        "arch": "x86_64", 
+                        "bootable": false, 
+                        "checksums": {
+                            "md5": "62874e648dab0209840391b50fbf371f", 
+                            "sha1": "1b68f8e3056e00d1dbc595c65014f1add05fc54d", 
+                            "sha256": "f150957c790cd79b2bf4c298dbf760f1bf2019917b293e12c6d7b05db92ccfbb"
+                        }, 
+                        "disc_count": 1, 
+                        "disc_number": 1, 
+                        "format": "iso", 
+                        "implant_md5": "631f78ddee8116d3bae1e6c7a1f5eadd", 
+                        "mtime": 1399882024, 
+                        "path": "Workstation/x86_64/iso/Supp-7.0-RHEL-7-20140512.0-Workstation-x86_64-dvd1.iso", 
+                        "size": 258078720, 
+                        "type": "dvd", 
+                        "volume_id": "Supp-7.0 RHEL-7 x86_64",
+                        "subvariant": "Workstation"
+                    }
+                ]
+            }
+        }
+    }
+}

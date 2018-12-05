@@ -1,0 +1,2554 @@
+# Format: <package> <owner> [mailing list] [# comment]
+# * owners are needed for Package Wrangler and Brew
+# * owners must correspond with kerberos logins
+# * mailing lists are needed for Bugzilla
+# * use either tabs or spaces (preferred) as separators
+# * '-' means unknown/unspecified owner; in this case, please find an owner ASAP
+# 
+# To re-indent and sort records in this file, run package_owners_reindent.py.
+# You can use package_owners.py for scripting.
+# 
+# IMPORTANT: Do *not* add or remove any packages from the list.
+# In such case, send an email to release-engineering@redhat.com and CC notting@redhat.com.
+
+389-ds-base                         rmeggins
+Cython                              bkabrda  python-maint@redhat.com
+ElectricFence                       pmachata
+GConf2                              mkasik
+GeoIP                               jsafrane
+ImageMagick                         jhorak
+LibRaw                              dray
+ModemManager                        dcbw
+MySQL-python                        jdornak
+NetworkManager                      dcbw
+NetworkManager-openswan             avagarwa
+ORBit2                              dwinship
+OpenEXR                             npajkovs
+OpenIPMI                            aledvink
+PackageKit                          rhughes
+PyGreSQL                            praiskup
+PyPAM                               tmraz
+PyQt4                               than
+PyYAML                              jeckersb
+Red_Hat_Enterprise_Linux-Release_Notes-7-as-IN eslobodo
+Red_Hat_Enterprise_Linux-Release_Notes-7-bn-IN eslobodo
+Red_Hat_Enterprise_Linux-Release_Notes-7-de-DE eslobodo
+Red_Hat_Enterprise_Linux-Release_Notes-7-en-US eslobodo
+Red_Hat_Enterprise_Linux-Release_Notes-7-es-ES eslobodo
+Red_Hat_Enterprise_Linux-Release_Notes-7-fr-FR eslobodo
+Red_Hat_Enterprise_Linux-Release_Notes-7-gu-IN eslobodo
+Red_Hat_Enterprise_Linux-Release_Notes-7-hi-IN eslobodo
+Red_Hat_Enterprise_Linux-Release_Notes-7-it-IT eslobodo
+Red_Hat_Enterprise_Linux-Release_Notes-7-ja-JP eslobodo
+Red_Hat_Enterprise_Linux-Release_Notes-7-kn-IN eslobodo
+Red_Hat_Enterprise_Linux-Release_Notes-7-ko-KR eslobodo
+Red_Hat_Enterprise_Linux-Release_Notes-7-ml-IN eslobodo
+Red_Hat_Enterprise_Linux-Release_Notes-7-mr-IN eslobodo
+Red_Hat_Enterprise_Linux-Release_Notes-7-or-IN eslobodo
+Red_Hat_Enterprise_Linux-Release_Notes-7-pa-IN eslobodo
+Red_Hat_Enterprise_Linux-Release_Notes-7-pt-BR eslobodo
+Red_Hat_Enterprise_Linux-Release_Notes-7-ru-RU eslobodo
+Red_Hat_Enterprise_Linux-Release_Notes-7-ta-IN eslobodo
+Red_Hat_Enterprise_Linux-Release_Notes-7-te-IN eslobodo
+Red_Hat_Enterprise_Linux-Release_Notes-7-zh-CN eslobodo
+Red_Hat_Enterprise_Linux-Release_Notes-7-zh-TW eslobodo
+SDL                                 wtaymans
+SOAPpy                              dray
+a2ps                                twaugh
+abattis-cantarell-fonts             marinaz
+abrt                                jfilak   abrt-devel-list@redhat.com
+abrt-java-connector                 jfilak
+accountsservice                     rstrode
+acl                                 kdudka
+acpica-tools                        dnelson
+acpid                               jskarvad
+adcli                               swalter
+advancecomp                         than
+aether                              mizdebsk java-maint@redhat.com
+agg                                 acme
+aic94xx-firmware                    kmcmarti
+aide                                dkopecek
+akonadi                             ltinkl
+alacarte                            jstpierr
+alsa-firmware                       jkysela
+alsa-lib                            jkysela
+alsa-plugins                        npajkovs
+alsa-tools                          jkysela
+alsa-utils                          jkysela
+amanda                              phracek
+anaconda                            dcantrel anaconda-maint-list@redhat.com
+anaconda-yum-plugins                clumens
+ant                                 mizdebsk java-maint@redhat.com
+ant-antunit                         mizdebsk java-maint@redhat.com
+ant-contrib                         mizdebsk java-maint@redhat.com
+antlr                               mizdebsk java-maint@redhat.com
+aopalliance                         mizdebsk java-maint@redhat.com
+apache-commons-beanutils            mizdebsk java-maint@redhat.com
+apache-commons-cli                  mizdebsk java-maint@redhat.com
+apache-commons-codec                mizdebsk java-maint@redhat.com
+apache-commons-collections          mizdebsk java-maint@redhat.com
+apache-commons-compress             mizdebsk java-maint@redhat.com
+apache-commons-configuration        mizdebsk java-maint@redhat.com
+apache-commons-daemon               mizdebsk java-maint@redhat.com
+apache-commons-dbcp                 mizdebsk java-maint@redhat.com
+apache-commons-digester             mizdebsk java-maint@redhat.com
+apache-commons-exec                 mizdebsk java-maint@redhat.com
+apache-commons-io                   mizdebsk java-maint@redhat.com
+apache-commons-jexl                 mizdebsk java-maint@redhat.com
+apache-commons-jxpath               mizdebsk java-maint@redhat.com
+apache-commons-lang                 mizdebsk java-maint@redhat.com
+apache-commons-lang3                mizdebsk java-maint@redhat.com
+apache-commons-logging              mizdebsk java-maint@redhat.com
+apache-commons-net                  mizdebsk java-maint@redhat.com
+apache-commons-parent               mizdebsk java-maint@redhat.com
+apache-commons-pool                 mizdebsk java-maint@redhat.com
+apache-commons-validator            mizdebsk java-maint@redhat.com
+apache-commons-vfs                  mizdebsk java-maint@redhat.com
+apache-ivy                          mizdebsk java-maint@redhat.com
+apache-parent                       mizdebsk java-maint@redhat.com
+apache-rat                          mizdebsk java-maint@redhat.com
+apache-resource-bundles             mizdebsk java-maint@redhat.com
+apr                                 jorton   webstack-team@redhat.com
+apr-util                            jorton   webstack-team@redhat.com
+aqute-bnd                           mizdebsk java-maint@redhat.com
+aqute-bndlib                        mizdebsk java-maint@redhat.com
+args4j                              alee
+ark                                 than
+arptables                           jbrouer
+arpwatch                            jsynacek
+asciidoc                            nphilipp
+aspell                              jchaloup
+at                                  mmaslano
+at-spi                              fmuellne
+at-spi2-atk                         rmatos
+at-spi2-core                        rmatos
+atinject                            mizdebsk java-maint@redhat.com
+atk                                 fmuellne
+atkmm                               fmuellne
+atlas                               fkluknav
+attica                              than
+attr                                kdudka
+audiocd-kio                         mbriza
+audiofile                           wtaymans
+audit                               sgrubb
+augeas                              dcleal
+authconfig                          tmraz
+authd                               aledvink
+autoconf                            praiskup
+autoconf213                         praiskup
+autofs                              ikent
+autogen                             mlichvar
+automake                            praiskup
+automoc                             ltinkl
+autotrace                           jskarvad
+avahi                               msekleta
+avalon-framework                    mizdebsk java-maint@redhat.com
+avalon-logkit                       mizdebsk java-maint@redhat.com
+babel                               nphilipp
+babl                                nphilipp
+bacula                              phracek
+baekmuk-ttf-fonts                   dueno
+baobab                              oholy
+base64coder                         mizdebsk java-maint@redhat.com
+basesystem                          ovasik
+bash                                ooprala
+bash-completion                     ooprala
+batik                               mizdebsk java-maint@redhat.com
+bc                                  fkluknav
+bcel                                mizdebsk java-maint@redhat.com
+bea-stax                            mizdebsk java-maint@redhat.com
+beust-jcommander                    mizdebsk java-maint@redhat.com
+bind                                thozza
+bind-dyndb-ldap                     pspacek
+binutils                            law
+biosdevname                         tgunders
+bison                               pfrankli
+bitmap-fonts                        psatpute
+blktrace                            esandeen
+bltk                                jskarvad
+bluedevil                           ltinkl
+bluez                               bnocera
+bogofilter                          cschalle
+boost                               pmachata
+bpg-fonts                           mfabian
+brasero                             dking
+bridge-utils                        twoerner
+brltty                              jskarvad
+bsf                                 mizdebsk java-maint@redhat.com
+bsh                                 mizdebsk java-maint@redhat.com
+btrfs-progs                         rwheeler
+buildnumber-maven-plugin            mizdebsk java-maint@redhat.com
+bwidget                             npajkovs
+byacc                               pfrankli
+byaccj                              mizdebsk
+byteman                             fche
+bzip2                               jchaloup
+bzr                                 ooprala
+c-ares                              jhrozek
+ca-certificates                     kengert
+cachefilesd                         steved
+cairo                               botte
+cairomm                             botte
+cal10n                              mizdebsk java-maint@redhat.com
+caribou                             pnemade
+cdi-api                             alee
+cdparanoia                          pjones
+cdrdao                              fkluknav
+cdrkit                              fkluknav
+celt051                             wtaymans
+certmonger                          nalin
+cgdcbxd                             nhorman
+cglib                               mizdebsk java-maint@redhat.com
+check                               alexl
+checkpolicy                         dwalsh
+cheese                              dking
+chkconfig                           lnykryn
+chrony                              mlichvar
+chrpath                             mpolacek
+cifs-utils                          jlayton
+cim-schema                          vcrhonek
+cjkuni-ukai-fonts                   pwu
+cjkuni-uming-fonts                  pwu
+clucene                             ltinkl
+clutter                             otaylor
+clutter-gst2                        wtaymans
+clutter-gtk                         otaylor
+cmake                               pfrankli
+cmpi-bindings                       vcrhonek
+cobertura                           mizdebsk java-maint@redhat.com
+codehaus-parent                     mizdebsk java-maint@redhat.com
+codemodel                           alee
+cogl                                otaylor
+color-filesystem                    rhughes
+colord                              rhughes
+colord-gtk                          rhughes
+colord-kde                          ltinkl
+compat-dapl                         dledford
+compat-db                           hhorak
+compat-gcc-32                       jakub
+compat-gcc-34                       jakub
+compat-gcc-44                       mpolacek
+compat-glibc                        codonell
+compat-libcap1                      karsten
+compat-libgfortran-41               jakub
+compat-openldap                     jsynacek
+comps-extras                        notting
+conman                              dvlasenk
+control-center                      bnocera
+coolkey                             rrelyea
+coreutils                           ovasik
+corosync                            jfriesse
+cpio                                praiskup
+cpptest                             steved
+cppunit                             dseketel
+cracklib                            tmraz
+crash                               anderson
+crash-gcore-command                 anderson
+crash-trace-command                 anderson
+crda                                linville
+createrepo                          jantill
+cronie                              mmaslano
+crontabs                            mmaslano
+crypto-utils                        jorton
+cryptsetup                          agk      lvm-team@redhat.com
+cscope                              nhorman
+ctags                               mmaslano
+ctdb                                sbose
+culmus-fonts                        psatpute
+cups                                twaugh
+cups-filters                        twaugh
+cups-pk-helper                      mkasik
+curl                                kdudka
+cvs                                 ppisar
+cvsps                               hhorak
+cyrus-imapd                         mhlavink
+cyrus-sasl                          plautrba
+dapl                                dledford
+dblatex                             jchaloup
+dbus                                walters
+dbus-glib                           walters
+dbus-python                         walters
+dbusmenu-qt                         ltinkl
+dconf                               mkasik
+dcraw                               nphilipp
+dejagnu                             hhorak
+dejavu-fonts                        petersen
+deltarpm                            ffesti
+desktop-file-utils                  rstrode
+devhelp                             mbarnes
+device-mapper-multipath             agk      lvm-team@redhat.com
+device-mapper-persistent-data       agk      lvm-team@redhat.com
+dhcp                                jpopelka
+dialog                              mlichvar
+diffstat                            twaugh
+diffutils                           twaugh
+ding-libs                           jhrozek
+dlm                                 teigland
+dmidecode                           poros
+dmraid                              agk      lvm-team@redhat.com
+dnsmasq                             thozza
+dnssec-trigger                      thozza
+docbook-dtds                        ovasik
+docbook-simple                      ovasik
+docbook-slides                      ovasik
+docbook-style-dsssl                 ovasik
+docbook-style-xsl                   ovasik
+docbook-utils                       ovasik
+docbook5-schemas                    ovasik
+docbook5-style-xsl                  ovasik
+dom4j                               mizdebsk java-maint@redhat.com
+dos2unix                            twaugh
+dosfstools                          jskarvad
+dotconf                             rmatos
+dovecot                             mhlavink
+doxygen                             than
+dracut                              harald   dracut-maint@redhat.com
+dragon                              ltinkl
+dropwatch                           aarapov
+dstat                               jpopelka
+dump                                phracek
+dumpet                              pjones
+dvd+rw-tools                        fkluknav
+dvgrab                              fenlason
+dwz                                 jakub
+dyninst                             jistone
+e2fsprogs                           esandeen
+easymock                            mizdebsk java-maint@redhat.com
+easymock2                           mizdebsk java-maint@redhat.com
+ebtables                            twoerner
+ecj                                 dbhole
+ed                                  karsten
+edac-utils                          arozansk
+efax                                than
+efibootmgr                          pjones
+ekiga                               botte
+elfutils                            mwielaar
+elinks                              kdudka
+emacs                               phracek
+emacs-auctex                        phracek
+empathy                             dray
+enchant                             dwinship
+enscript                            twaugh
+environment-modules                 jsynacek
+eog                                 rhughes
+epydoc                              jskarvad
+esc                                 jmagne
+espeak                              jskarvad
+ethtool                             fenlason
+evince                              mkasik
+evolution                           mbarnes
+evolution-data-server               mbarnes
+evolution-ews                       mbarnes
+evolution-mapi                      mbarnes
+exec-maven-plugin                   mizdebsk java-maint@redhat.com
+exempi                              jchaloup
+exiv2                               ltinkl
+expat                               jorton
+expect                              vcrhonek
+farstream                           dray
+farstream02                         dray
+fcoe-utils                          psabata
+fedfs-utils                         steved
+felix-bundlerepository              mizdebsk java-maint@redhat.com
+felix-framework                     mizdebsk java-maint@redhat.com
+felix-osgi-compendium               mizdebsk java-maint@redhat.com
+felix-osgi-core                     mizdebsk java-maint@redhat.com
+felix-osgi-foundation               mizdebsk java-maint@redhat.com
+felix-osgi-obr                      mizdebsk java-maint@redhat.com
+felix-parent                        mizdebsk java-maint@redhat.com
+felix-shell                         mizdebsk java-maint@redhat.com
+felix-utils                         mizdebsk java-maint@redhat.com
+fence-agents                        mgrac
+fence-virt                          rmccabe
+festival                            rmatos
+festival-freebsoft-utils            rmatos
+fetchmail                           vcrhonek
+fftw                                dvlasenk
+file                                jkaluza
+file-roller                         dking
+filebench                           steved
+filesystem                          ovasik
+findutils                           kdudka
+finger                              thozza
+fipscheck                           tmraz
+firefox                             stransky
+firewalld                           twoerner
+firstboot                           mkolman
+flac                                mlichvar
+flex                                pfrankli
+flite                               rmatos
+fltk                                phracek
+flute                               caolanm
+folks                               alexl
+fontconfig                          tagoh
+fontforge                           pnemade
+fontpackages                        pnemade
+fonts-tweak-tool                    tagoh
+fonttools                           pnemade
+foomatic                            twaugh
+foomatic-db                         twaugh
+fop                                 mizdebsk java-maint@redhat.com
+forge-parent                        mizdebsk java-maint@redhat.com
+fprintd                             bnocera
+freeglut                            ajackson
+freeipmi                            aledvink
+freeradius                          jdennis
+freerdp                             sandmann
+freetype                            mkasik
+frei0r-plugins                      botte
+fribidi                             caolanm
+fros                                jfilak
+ftp                                 jsynacek
+fuse                                rwheeler
+fuseiso                             zali
+fusesource-pom                      mizdebsk java-maint@redhat.com
+fxload                              jkysela
+gamin                               oholy
+gavl                                rstrode
+gawk                                jchaloup
+gc                                  praiskup
+gcc                                 jakub
+gconf-editor                        rstrode
+gcr                                 walters
+gd                                  hhorak
+gdb                                 jkratoch
+gdbm                                hhorak
+gdisk                               tbzatek
+gdk-pixbuf2                         botte
+gdm                                 rstrode
+gedit                               rstrode
+gedit-plugins                       rstrode
+gegl                                nphilipp
+geoclue                             bnocera
+geronimo-annotation                 mizdebsk java-maint@redhat.com
+geronimo-jaspic-spec                mizdebsk java-maint@redhat.com
+geronimo-jaxrpc                     mizdebsk java-maint@redhat.com
+geronimo-jms                        mizdebsk java-maint@redhat.com
+geronimo-jta                        mizdebsk java-maint@redhat.com
+geronimo-osgi-support               mizdebsk java-maint@redhat.com
+geronimo-parent-poms                mizdebsk java-maint@redhat.com
+geronimo-saaj                       mizdebsk java-maint@redhat.com
+gettext                             petersen
+gfs2-utils                          swhiteho
+ghostscript                         twaugh
+ghostscript-chinese                 pwu
+ghostscript-fonts                   twaugh
+giflib                              vgaikwad
+gimp                                nphilipp
+gimp-data-extras                    nphilipp
+gimp-help                           nphilipp
+git                                 ooprala
+gjs                                 walters
+gl-manpages                         ajackson
+glade                               rstrode
+glade3                              rstrode
+glassfish-dtd-parser                alee
+glassfish-el                        mizdebsk java-maint@redhat.com
+glassfish-el-api                    mizdebsk java-maint@redhat.com
+glassfish-fastinfoset               alee
+glassfish-jaxb                      alee
+glassfish-jaxb-api                  alee
+glassfish-jsp                       mizdebsk java-maint@redhat.com
+glassfish-jsp-api                   mizdebsk java-maint@redhat.com
+glew                                ajackson
+glib-networking                     dwinship
+glib2                               walters
+glibc                               codonell
+glibmm24                            botte
+glusterfs                           barumuga
+gmp                                 fkluknav
+gnome-abrt                          jfilak
+gnome-backgrounds                   marinaz
+gnome-bluetooth                     bnocera
+gnome-boxes                         zali
+gnome-calculator                    alexl
+gnome-clocks                        zali
+gnome-color-manager                 rhughes
+gnome-common                        jpopelka
+gnome-contacts                      alexl
+gnome-desktop3                      rstrode
+gnome-devel-docs                    walters
+gnome-dictionary                    alexl
+gnome-disk-utility                  dking
+gnome-doc-utils                     mbarnes
+gnome-documents                     dray
+gnome-font-viewer                   alexl
+gnome-getting-started-docs          pkovar
+gnome-icon-theme                    marinaz
+gnome-icon-theme-extras             marinaz
+gnome-icon-theme-symbolic           marinaz
+gnome-initial-setup                 jstpierr
+gnome-keyring                       dking
+gnome-menus                         rstrode
+gnome-online-accounts               dray
+gnome-packagekit                    rhughes
+gnome-python2                       mbarnes
+gnome-screenshot                    rmatos
+gnome-session                       rstrode
+gnome-settings-daemon               bnocera
+gnome-shell                         fmuellne
+gnome-shell-extensions              fmuellne
+gnome-system-log                    zali
+gnome-system-monitor                sandmann
+gnome-terminal                      zali
+gnome-themes-standard               marinaz
+gnome-tweak-tool                    rmatos
+gnome-user-docs                     pkovar
+gnome-vfs2                          oholy
+gnome-video-effects                 wtaymans
+gnome-weather                       zali
+gnote                               otaylor
+gnu-efi                             pjones
+gnu-free-fonts                      mfabian
+gnu-getopt                          mizdebsk java-maint@redhat.com
+gnupg2                              tmraz
+gnuplot                             fkluknav
+gnutls                              nmavrogi
+gob2                                jkaluza
+gobject-introspection               walters
+google-crosextra-caladea-fonts      pnemade
+google-crosextra-carlito-fonts      pnemade
+google-guice                        mizdebsk java-maint@redhat.com
+google-noto-fonts                   psatpute
+gperf                               phatina
+gpgme                               fkluknav
+gpm                                 npajkovs
+grantlee                            ltinkl
+graphite2                           caolanm
+graphviz                            jskarvad
+grep                                jskarvad
+grilo                               bnocera
+grilo-plugins                       bnocera
+groff                               jchaloup
+groovy                              mizdebsk java-maint@redhat.com
+grub2                               pjones
+grubby                              pjones
+gsettings-desktop-schemas           bnocera
+gsl                                 fkluknav
+gsm                                 jskarvad
+gssdp                               bnocera
+gssproxy                            ssorce
+gstreamer                           jgrulich
+gstreamer-plugins-bad-free          jgrulich
+gstreamer-plugins-base              jgrulich
+gstreamer-plugins-good              jgrulich
+gstreamer-python                    jgrulich
+gstreamer1                          wtaymans
+gstreamer1-plugins-bad-free         wtaymans
+gstreamer1-plugins-base             wtaymans
+gstreamer1-plugins-good             wtaymans
+gtk-doc                             walters
+gtk-vnc                             berrange
+gtk2                                botte
+gtk3                                botte
+gtkhtml3                            mbarnes
+gtkmm24                             botte
+gtkmm30                             botte
+gtksourceview3                      rstrode
+gtkspell                            mbarnes
+gtkspell3                           mbarnes
+guava                               mizdebsk java-maint@redhat.com
+gubbi-fonts                         psatpute
+gucharmap                           marinaz
+guile                               mlichvar
+gupnp                               bnocera
+gupnp-av                            bnocera
+gupnp-dlna                          bnocera
+gupnp-igd                           bnocera
+gutenprint                          twaugh
+gvfs                                oholy
+gwenview                            ltinkl
+gzip                                pstodulk
+hamcrest                            mizdebsk java-maint@redhat.com
+haproxy                             rohara
+hardlink                            jzeleny
+harfbuzz                            pnemade
+hawtjni                             mizdebsk java-maint@redhat.com
+hdparm                              karsten
+help2man                            ovasik
+hesiod                              nalin
+hexedit                             rjones
+hicolor-icon-theme                  marinaz
+highlight                           mbarnes
+hivex                               rjones
+hmaccalc                            nalin
+hostname                            psimerda
+hplip                               twaugh
+hspell                              jchaloup
+hsqldb                              mizdebsk java-maint@redhat.com
+html2ps                             ppisar
+httpcomponents-client               mizdebsk java-maint@redhat.com
+httpcomponents-core                 mizdebsk java-maint@redhat.com
+httpcomponents-project              mizdebsk java-maint@redhat.com
+httpd                               jorton   webstack-team@redhat.com
+httpunit                            mizdebsk java-maint@redhat.com
+hunspell                            caolanm
+hunspell-af                         caolanm
+hunspell-ak                         caolanm
+hunspell-am                         caolanm
+hunspell-ar                         jchaloup
+hunspell-as                         pnemade
+hunspell-ast                        caolanm
+hunspell-az                         caolanm
+hunspell-be                         caolanm
+hunspell-ber                        caolanm
+hunspell-bg                         caolanm
+hunspell-bn                         pnemade
+hunspell-br                         caolanm
+hunspell-ca                         caolanm
+hunspell-cop                        caolanm
+hunspell-csb                        caolanm
+hunspell-cv                         caolanm
+hunspell-cy                         caolanm
+hunspell-da                         caolanm
+hunspell-de                         mstahl
+hunspell-dsb                        caolanm
+hunspell-el                         caolanm
+hunspell-en                         caolanm
+hunspell-eo                         caolanm
+hunspell-es                         caolanm
+hunspell-et                         caolanm
+hunspell-eu                         caolanm
+hunspell-fa                         caolanm
+hunspell-fj                         caolanm
+hunspell-fo                         caolanm
+hunspell-fr                         caolanm
+hunspell-fur                        caolanm
+hunspell-fy                         caolanm
+hunspell-ga                         caolanm
+hunspell-gd                         caolanm
+hunspell-gl                         caolanm
+hunspell-grc                        caolanm
+hunspell-gu                         pnemade
+hunspell-gv                         caolanm
+hunspell-haw                        caolanm
+hunspell-hi                         pnemade
+hunspell-hil                        caolanm
+hunspell-hr                         caolanm
+hunspell-hsb                        caolanm
+hunspell-ht                         caolanm
+hunspell-hu                         caolanm
+hunspell-hy                         caolanm
+hunspell-ia                         caolanm
+hunspell-id                         caolanm
+hunspell-is                         caolanm
+hunspell-it                         caolanm
+hunspell-kk                         caolanm
+hunspell-km                         caolanm
+hunspell-kn                         pnemade
+hunspell-ko                         caolanm
+hunspell-ku                         caolanm
+hunspell-ky                         caolanm
+hunspell-la                         caolanm
+hunspell-lb                         caolanm
+hunspell-ln                         caolanm
+hunspell-lt                         caolanm
+hunspell-mai                        pnemade
+hunspell-mg                         caolanm
+hunspell-mi                         caolanm
+hunspell-mk                         caolanm
+hunspell-ml                         pnemade
+hunspell-mn                         caolanm
+hunspell-mos                        caolanm
+hunspell-mr                         pnemade
+hunspell-ms                         caolanm
+hunspell-mt                         caolanm
+hunspell-nds                        caolanm
+hunspell-ne                         pnemade
+hunspell-nl                         caolanm
+hunspell-no                         caolanm
+hunspell-nr                         caolanm
+hunspell-nso                        caolanm
+hunspell-ny                         caolanm
+hunspell-oc                         caolanm
+hunspell-om                         caolanm
+hunspell-or                         pnemade
+hunspell-pa                         pnemade
+hunspell-pl                         caolanm
+hunspell-pt                         caolanm
+hunspell-qu                         caolanm
+hunspell-quh                        caolanm
+hunspell-ro                         caolanm
+hunspell-ru                         caolanm
+hunspell-rw                         caolanm
+hunspell-sc                         caolanm
+hunspell-se                         caolanm
+hunspell-shs                        caolanm
+hunspell-si                         pnemade
+hunspell-sk                         caolanm
+hunspell-sl                         caolanm
+hunspell-smj                        caolanm
+hunspell-so                         caolanm
+hunspell-sq                         caolanm
+hunspell-sr                         caolanm
+hunspell-ss                         caolanm
+hunspell-st                         caolanm
+hunspell-sv                         caolanm
+hunspell-sw                         caolanm
+hunspell-ta                         pnemade
+hunspell-te                         pnemade
+hunspell-tet                        caolanm
+hunspell-th                         caolanm
+hunspell-ti                         caolanm
+hunspell-tk                         caolanm
+hunspell-tl                         caolanm
+hunspell-tn                         caolanm
+hunspell-tpi                        caolanm
+hunspell-ts                         caolanm
+hunspell-uk                         caolanm
+hunspell-ur                         caolanm
+hunspell-uz                         caolanm
+hunspell-ve                         caolanm
+hunspell-vi                         caolanm
+hunspell-wa                         caolanm
+hunspell-xh                         caolanm
+hunspell-yi                         caolanm
+hunspell-zu                         caolanm
+hwdata                              miminar
+hwloc                               dzickus
+hyperv-daemons                      thozza
+hyphen                              caolanm
+hyphen-as                           pnemade
+hyphen-bg                           caolanm
+hyphen-bn                           pnemade
+hyphen-ca                           caolanm
+hyphen-cy                           caolanm
+hyphen-da                           caolanm
+hyphen-de                           mstahl
+hyphen-el                           caolanm
+hyphen-es                           caolanm
+hyphen-eu                           caolanm
+hyphen-fa                           caolanm
+hyphen-fo                           caolanm
+hyphen-fr                           caolanm
+hyphen-ga                           caolanm
+hyphen-gl                           caolanm
+hyphen-grc                          caolanm
+hyphen-gu                           pnemade
+hyphen-hi                           pnemade
+hyphen-hsb                          caolanm
+hyphen-hu                           caolanm
+hyphen-ia                           caolanm
+hyphen-id                           caolanm
+hyphen-is                           caolanm
+hyphen-it                           caolanm
+hyphen-kn                           pnemade
+hyphen-ku                           caolanm
+hyphen-lt                           caolanm
+hyphen-mi                           caolanm
+hyphen-ml                           pnemade
+hyphen-mn                           caolanm
+hyphen-mr                           pnemade
+hyphen-nl                           caolanm
+hyphen-or                           pnemade
+hyphen-pa                           pnemade
+hyphen-pl                           caolanm
+hyphen-pt                           caolanm
+hyphen-ro                           caolanm
+hyphen-ru                           caolanm
+hyphen-sa                           caolanm
+hyphen-sk                           caolanm
+hyphen-sl                           caolanm
+hyphen-sv                           caolanm
+hyphen-ta                           pnemade
+hyphen-te                           pnemade
+hyphen-tk                           caolanm
+hyphen-uk                           caolanm
+i2c-tools                           npajkovs
+ibacm                               dledford
+ibus                                tfujiwar
+ibus-chewing                        dchen
+ibus-hangul                         dueno
+ibus-kkc                            dueno
+ibus-libpinyin                      pwu
+ibus-m17n                           dueno
+ibus-qt                             tfujiwar
+ibus-rawcode                        psatpute
+ibus-sayura                         psatpute
+ibus-table                          mfabian
+ibus-table-chinese                  pwu
+ibus-typing-booster                 apatil
+ibutils                             dledford
+icc-profiles-openicc                mizdebsk
+icedtea-web                         dbhole
+icon-naming-utils                   walters
+icoutils                            rjones
+icu                                 erathke
+ilmbase                             ltinkl
+im-chooser                          tagoh
+imake                               ajackson
+imsettings                          tagoh
+indent                              ppisar
+infiniband-diags                    dledford
+infinipath-psm                      dledford
+iniparser                           anschnei
+initial-setup                       mkolman
+initscripts                         lnykryn  initscripts-maint-list@redhat.com
+inkscape                            jhorak
+intltool                            walters
+iok                                 pnemade
+iotop                               mhlavink
+iowatcher                           anprice
+ipa                                 mkosek
+ipa-gothic-fonts                    tagoh
+ipa-mincho-fonts                    tagoh
+ipa-pgothic-fonts                   tagoh
+ipa-pmincho-fonts                   tagoh
+ipmitool                            aledvink
+iproute                             psimerda
+iprutils                            fkocina
+ipset                               twoerner
+iptables                            twoerner
+iptraf-ng                           npajkovs
+iptstate                            twoerner
+iputils                             jsynacek
+ipvsadm                             rohara
+ipxe                                minovotn virt-maint@redhat.com
+irqbalance                          aarapov
+irssi                               jskarvad
+iscsi-initiator-utils               cleech
+isdn4k-utils                        than
+isns-utils                          cleech
+iso-codes                           pnemade
+isomd5sum                           rvykydal
+isorelax                            mizdebsk java-maint@redhat.com
+istack-commons                      alee
+itstool                             mbarnes
+ivtv-firmware                       arozansk
+iw                                  linville
+jackson                             alee
+jai-imageio-core                    mizdebsk java-maint@redhat.com
+jakarta-commons-httpclient          mizdebsk java-maint@redhat.com
+jakarta-oro                         mizdebsk java-maint@redhat.com
+jakarta-taglibs-standard            mizdebsk java-maint@redhat.com
+jandex                              alee
+jansi                               mizdebsk java-maint@redhat.com
+jansi-native                        mizdebsk java-maint@redhat.com
+jansson                             jpirko
+jarjar                              lberk
+jasper                              jpopelka
+java-1.6.0-openjdk                  dbhole
+java-1.7.0-openjdk                  dbhole
+java-atk-wrapper                    jvanek
+java_cup                            mizdebsk java-maint@redhat.com
+javacc                              mizdebsk java-maint@redhat.com
+javacc-maven-plugin                 mizdebsk java-maint@redhat.com
+javamail                            mizdebsk java-maint@redhat.com
+javapackages-tools                  mizdebsk java-maint@redhat.com
+javassist                           mizdebsk java-maint@redhat.com
+jaxen                               mizdebsk java-maint@redhat.com
+jbigkit                             jpopelka
+jboss-annotations-1.1-api           alee
+jboss-ejb-3.1-api                   alee
+jboss-el-2.2-api                    alee
+jboss-interceptors-1.1-api          alee
+jboss-jaxrpc-1.1-api                alee
+jboss-parent                        mizdebsk java-maint@redhat.com
+jboss-servlet-2.5-api               alee
+jboss-servlet-3.0-api               alee
+jboss-specs-parent                  alee
+jboss-transaction-1.1-api           alee
+jdepend                             mizdebsk java-maint@redhat.com
+jdependency                         mizdebsk java-maint@redhat.com
+jdom                                mizdebsk java-maint@redhat.com
+jettison                            mizdebsk java-maint@redhat.com
+jetty                               mizdebsk java-maint@redhat.com
+jetty-artifact-remote-resources     mizdebsk java-maint@redhat.com
+jetty-assembly-descriptors          mizdebsk java-maint@redhat.com
+jetty-build-support                 mizdebsk java-maint@redhat.com
+jetty-distribution-remote-resources mizdebsk java-maint@redhat.com
+jetty-parent                        mizdebsk java-maint@redhat.com
+jetty-test-policy                   mizdebsk java-maint@redhat.com
+jetty-toolchain                     mizdebsk java-maint@redhat.com
+jetty-version-maven-plugin          mizdebsk java-maint@redhat.com
+jflex                               mizdebsk java-maint@redhat.com
+jing-trang                          jpokorny
+jline                               mizdebsk java-maint@redhat.com
+jna                                 mizdebsk java-maint@redhat.com
+joda-convert                        mizdebsk java-maint@redhat.com
+joda-time                           mizdebsk java-maint@redhat.com
+jomolhari-fonts                     pnemade
+jpackage-utils                      mizdebsk java-maint@redhat.com
+js                                  walters
+jsch                                mizdebsk java-maint@redhat.com
+json-c                              rcollet
+json-glib                           lpoetter
+jsoup                               mizdebsk java-maint@redhat.com
+jsr-305                             mizdebsk java-maint@redhat.com
+jsr-311                             alee
+jss                                 cfu
+jtidy                               mizdebsk java-maint@redhat.com
+juk                                 ltinkl
+junit                               mizdebsk java-maint@redhat.com
+junitperf                           mwringe
+jvnet-parent                        mizdebsk java-maint@redhat.com
+jzlib                               mizdebsk java-maint@redhat.com
+k3b                                 rnovacek
+kabi-yum-plugins                    jolsa
+kaccessible                         mbriza
+kacst-fonts                         psatpute
+kactivities                         than
+kamera                              than
+kate                                than
+kbd                                 vcrhonek
+kcalc                               than
+kcharselect                         than
+kcm-gtk                             than
+kcm_touchpad                        than
+kcolorchooser                       than
+kcoloredit                          ltinkl
+kde-base-artwork                    than
+kde-baseapps                        than
+kde-filesystem                      than
+kde-l10n                            than
+kde-plasma-networkmanagement        ltinkl
+kde-print-manager                   mbriza
+kde-runtime                         than
+kde-settings                        than
+kde-wallpapers                      than
+kde-workspace                       than
+kdeaccessibility                    than
+kdeadmin                            than
+kdeartwork                          than
+kdegraphics                         than
+kdegraphics-strigi-analyzer         than
+kdegraphics-thumbnailers            than
+kdelibs                             than
+kdemultimedia                       than
+kdenetwork                          than
+kdepim                              than
+kdepim-runtime                      than
+kdepimlibs                          than
+kdeplasma-addons                    ltinkl
+kdesdk                              than
+kdeutils                            than
+kdf                                 than
+keepalived                          rohara
+kernel                              jwilson  kernel-mgr@redhat.com
+kexec-tools                         ruyang
+keybinder3                          mkolman
+keytool-maven-plugin                mizdebsk java-maint@redhat.com
+keyutils                            dhowells
+kgamma                              than
+kgpg                                than
+khmeros-fonts                       pnemade
+kiconedit                           ltinkl
+kio_sysinfo                         ltinkl
+kmag                                than
+kmix                                dvratil
+kmod                                dshea
+kolourpaint                         than
+konkretcmpi                         rnovacek
+konsole                             than
+krb5                                nalin
+kross-interpreters                  than
+kruler                              than
+ksaneplugin                         than
+ksc                                 jolsa
+kscreen                             dvratil
+ksh                                 mhlavink
+ksnapshot                           than
+ksshaskpass                         ltinkl
+ktimer                              than
+kurdit-unikurd-web-fonts            pnemade
+kwallet                             than
+kxml                                mizdebsk java-maint@redhat.com
+ladspa                              botte
+langtable                           mfabian
+lapack                              fkluknav
+latencytop                          mschmidt
+latex2html                          than
+latrace                             jolsa
+lcms2                               rhughes
+ldapjdk                             mharmsen
+ldns                                thozza
+ledmon                              jsynacek
+less                                jmlich
+lftp                                jskala
+libICE                              sandmann
+libIDL                              dwinship
+libSM                               sandmann
+libX11                              sandmann
+libXScrnSaver                       sandmann
+libXau                              sandmann
+libXaw                              sandmann
+libXcomposite                       sandmann
+libXcursor                          sandmann
+libXdamage                          sandmann
+libXdmcp                            sandmann
+libXevie                            sandmann
+libXext                             sandmann
+libXfixes                           sandmann
+libXfont                            sandmann
+libXft                              sandmann
+libXi                               sandmann
+libXinerama                         sandmann
+libXmu                              sandmann
+libXp                               sandmann
+libXpm                              sandmann
+libXrandr                           sandmann
+libXrender                          sandmann
+libXres                             sandmann
+libXt                               sandmann
+libXtst                             sandmann
+libXv                               sandmann
+libXvMC                             sandmann
+libXxf86dga                         sandmann
+libXxf86misc                        sandmann
+libXxf86vm                          sandmann
+libaio                              jmoyer
+libao                               wtaymans
+libarchive                          praiskup
+libart_lgpl                         mbarnes
+libassuan                           tmraz
+libasyncns                          lpoetter
+libatasmart                         lpoetter
+libavc1394                          fenlason
+libbase                             caolanm
+libbluedevil                        ltinkl
+libbluray                           bnocera
+libbonobo                           rstrode
+libbonoboui                         rstrode
+libburn                             fkluknav
+libcacard                           alevy
+libcanberra                         wtaymans
+libcap                              karsten
+libcap-ng                           sgrubb
+libcdio                             fkluknav
+libcdio-paranoia                    fkluknav
+libcdr                              dtardon
+libcgroup                           jchaloup
+libchamplain                        dwinship
+libchewing                          dchen
+libcmis                             dtardon
+libcmpiutil                         veillard
+libconfig                           praiskup
+libcroco                            fmuellne
+libcryptui                          swalter
+libcxgb3                            dledford
+libcxgb4                            dledford
+libdaemon                           lpoetter
+libdb                               jstanek
+libdb4                              jstanek
+libdbi                              jpacner
+libdbi-drivers                      jpacner
+libdmapsharing                      bnocera
+libdmx                              sandmann
+libdnet                             rjones
+libdrm                              airlied
+libdv                               fenlason
+libdvdnav                           bnocera
+libdvdread                          fkluknav
+libdwarf                            fche
+libeasyfc                           tagoh
+libecap                             psimerda
+libedit                             branto
+libee                               theinric
+libehca                             dledford
+liberation-fonts                    psatpute
+libesmtp                            jskarvad
+libestr                             theinric
+libevent                            steved
+libexif                             rhughes
+libexttextcat                       caolanm
+libffi                              aph
+libfontenc                          sandmann
+libfonts                            caolanm
+libformula                          caolanm
+libfprint                           bnocera
+libgcrypt                           tmraz
+libgdata                            dray
+libgdither                          rstrode
+libgee                              dray
+libgee06                            alexl
+libgexiv2                           rhughes
+libglade2                           rstrode
+libgnome                            rstrode
+libgnome-keyring                    zali
+libgnomecanvas                      alexl
+libgnomekbd                         rmatos
+libgnomeui                          rstrode
+libgovirt                           cfergeau
+libgpg-error                        tmraz
+libgphoto2                          twaugh
+libgpod                             bnocera
+libgsf                              caolanm
+libgtop2                            sandmann
+libguestfs                          rjones
+libgusb                             rhughes
+libgweather                         zali
+libgxim                             tagoh
+libgxps                             mkasik
+libhangul                           dueno
+libhbaapi                           psabata
+libhbalinux                         psabata
+libhugetlbfs                        aarapov
+libibcm                             dledford
+libibcommon                         dledford
+libibmad                            dledford
+libibumad                           dledford
+libibverbs                          dledford
+libica                              dhorak
+libical                             mbarnes
+libid3tag                           mmaslano
+libidn                              mlichvar
+libiec61883                         fenlason
+libieee1284                         twaugh
+libimobiledevice                    bnocera
+libiodbc                            than
+libipathverbs                       dledford
+libiptcdata                         sochotni
+libiscsi                            pbonzini
+libisofs                            fkluknav
+libjpeg-turbo                       phracek
+libkcddb                            than
+libkcompactdisc                     than
+libkdcraw                           than
+libkexiv2                           than
+libkipi                             than
+libkkc                              dueno
+libksane                            than
+libksba                             tmraz
+libkscreen                          dvratil
+liblangtag                          erathke
+liblayout                           caolanm
+libldb                              jhrozek
+libloader                           caolanm
+liblockfile                         thozza
+liblognorm                          theinric
+liblouis                            rmatos
+libmatchbox                         dwalsh
+libmbim                             dcbw
+libmemcached                        mlichvar
+libmicrohttpd                       lnykryn  systemd-maint@redhat.com
+libmlx4                             dledford
+libmng                              sisharma
+libmnl                              twoerner
+libmodman                           dwinship
+libmp4v2                            jzeleny
+libmpc                              mpolacek
+libmpcdec                           ltinkl
+libmsn                              ltinkl
+libmspub                            dtardon
+libmthca                            dledford
+libmtp                              bnocera
+libmusicbrainz                      miminar
+libmusicbrainz5                     bnocera
+libmwaw                             dtardon
+libmx                               bnocera
+libndp                              jpirko
+libnes                              dledford
+libnet                              twoerner
+libnetfilter_conntrack              twoerner
+libnfnetlink                        twoerner
+libnfsidmap                         steved
+libnice                             kdudka
+libnl                               dcbw
+libnl3                              dcbw
+libnotify                           jstpierr
+libntlm                             gdeschne
+liboauth                            dray
+libodfgen                           dtardon
+libofa                              botte
+libogg                              phracek
+liboil                              wtaymans
+libopenraw                          wtaymans
+liborcus                            dtardon
+libosinfo                           zali
+libotf                              jdornak
+libpaper                            twaugh
+libpcap                             msekleta
+libpciaccess                        airlied
+libpeas                             bnocera
+libpfm                              wcohen
+libpinyin                           pwu
+libpipeline                         jchaloup
+libplist                            bnocera
+libpng                              phracek
+libpng12                            phracek
+libproxy                            dwinship
+libpst                              ppisar
+libpwquality                        tmraz
+libqb                               dvossel
+libqmi                              dcbw
+libquvi                             bnocera
+libquvi-scripts                     bnocera
+libraw1394                          fenlason
+librdmacm                           dledford
+librelp                             theinric
+libreoffice                         caolanm
+libreoffice-voikko                  caolanm
+libreport                           jfilak   abrt-devel-list@redhat.com
+librepository                       caolanm
+libreswan                           pwouters
+librsvg2                            jstpierr
+librtas                             fkocina
+libsamplerate                       wtaymans
+libseccomp                          pmoore
+libsecret                           dking
+libselinux                          dwalsh
+libsemanage                         dwalsh
+libsepol                            dwalsh
+libserializer                       caolanm
+libservicelog                       fkocina
+libsexy                             cschalle
+libshout                            jskarvad
+libsigc++20                         pmachata
+libsmi                              jsafrane
+libsndfile                          mhlavink
+libsoup                             dwinship
+libspectre                          mkasik
+libspiro                            pnemade
+libsrtp                             jgrulich
+libssh2                             kdudka
+libstoragemgmt                      tasleson
+libtalloc                           jhrozek
+libtar                              kdudka
+libtasn1                            nmavrogi
+libtdb                              jhrozek
+libteam                             jpirko
+libtevent                           jhrozek
+libthai                             dueno
+libtheora                           ajackson
+libtiff                             phracek
+libtirpc                            steved
+libtnc                              avagarwa
+libtool                             praiskup
+libtranslit                         dueno
+libuninameslist                     pnemade
+libunistring                        mfabian
+libusb                              hdegoede
+libusbx                             hdegoede
+libuser                             mitr
+libutempter                         mlichvar
+libverto                            nmccallu
+libvirt                             jdenemar libvirt-maint@redhat.com
+libvirt-cim                         mprivozn libvirt-maint@redhat.com
+libvirt-glib                        berrange libvirt-maint@redhat.com
+libvirt-java                        jdenemar libvirt-maint@redhat.com
+libvirt-sandbox                     berrange
+libvirt-snmp                        mprivozn libvirt-maint@redhat.com
+libvisio                            dtardon
+libvisual                           botte
+libvncserver                        ppisar
+libvoikko                           mfabian
+libvorbis                           ajackson
+libvpd                              fkocina
+libvpx                              wtaymans
+libwacom                            phuttere
+libwebp                             stransky
+libwmf                              caolanm
+libwnck3                            sandmann
+libwpd                              dtardon
+libwpg                              dtardon
+libwps                              dtardon
+libwvstreams                        msekleta
+libxcb                              sandmann
+libxkbfile                          sandmann
+libxklavier                         rmatos
+libxml2                             veillard
+libxslt                             veillard
+libyaml                             jeckersb
+libytnef                            ppisar
+libzapojit                          dray
+libzfcphbaapi                       dhorak
+libzip                              jchaloup
+linux-firmware                      jwilson  kernel-mgr@redhat.com
+linuxconsoletools                   jcapik
+linuxdoc-tools                      ovasik
+linuxptp                            mlichvar
+lklug-fonts                         psatpute
+lksctp-tools                        jsafrane
+lldpad                              psabata
+lm_sensors                          jcapik
+lockdev                             jpopelka
+log4cxx                             avagarwa
+log4j                               mizdebsk java-maint@redhat.com
+logrotate                           jkaluza
+logwatch                            jsynacek
+lohit-assamese-fonts                psatpute
+lohit-bengali-fonts                 psatpute
+lohit-devanagari-fonts              psatpute
+lohit-gujarati-fonts                psatpute
+lohit-kannada-fonts                 psatpute
+lohit-malayalam-fonts               psatpute
+lohit-marathi-fonts                 psatpute
+lohit-nepali-fonts                  psatpute
+lohit-oriya-fonts                   psatpute
+lohit-punjabi-fonts                 psatpute
+lohit-tamil-fonts                   psatpute
+lohit-telugu-fonts                  psatpute
+lorax                               brlane
+lpsolve                             caolanm
+lrzsz                               mlichvar
+lsof                                pschiffe
+lsscsi                              dhorak
+lsvpd                               fkocina
+ltrace                              pmachata
+lua                                 pmatilai
+lvm2                                agk      lvm-team@redhat.com
+lynx                                kdudka
+lzo                                 jskarvad
+lzop                                kdudka
+m17n-contrib                        pnemade
+m17n-db                             pnemade
+m17n-lib                            pnemade
+m2crypto                            mitr
+m4                                  vcrhonek
+madan-fonts                         pnemade
+mailcap                             mlichvar
+mailman                             jkaluza
+mailx                               jchaloup
+make                                pfrankli
+malaga                              mfabian
+malaga-suomi-voikko                 mfabian
+man-db                              jchaloup
+man-pages                           jchaloup
+man-pages-cs                        jchaloup
+man-pages-es                        mfabian
+man-pages-fr                        mfabian
+man-pages-it                        mfabian
+man-pages-ja                        tagoh
+man-pages-ko                        dueno
+man-pages-overrides                 jchaloup
+man-pages-pl                        jchaloup
+man-pages-ru                        jchaloup
+man-pages-zh-CN                     pwu
+mariadb                             hhorak
+marisa                              dueno
+matchbox-window-manager             dwalsh
+maven                               mizdebsk java-maint@redhat.com
+maven-antrun-plugin                 mizdebsk java-maint@redhat.com
+maven-archiver                      mizdebsk java-maint@redhat.com
+maven-artifact-resolver             mizdebsk java-maint@redhat.com
+maven-assembly-plugin               mizdebsk java-maint@redhat.com
+maven-changes-plugin                mizdebsk java-maint@redhat.com
+maven-clean-plugin                  mizdebsk java-maint@redhat.com
+maven-common-artifact-filters       mizdebsk java-maint@redhat.com
+maven-compiler-plugin               mizdebsk java-maint@redhat.com
+maven-dependency-analyzer           mizdebsk java-maint@redhat.com
+maven-dependency-plugin             mizdebsk java-maint@redhat.com
+maven-dependency-tree               mizdebsk java-maint@redhat.com
+maven-deploy-plugin                 mizdebsk java-maint@redhat.com
+maven-downloader                    mizdebsk java-maint@redhat.com
+maven-doxia                         mizdebsk java-maint@redhat.com
+maven-doxia-sitetools               mizdebsk java-maint@redhat.com
+maven-doxia-tools                   mizdebsk java-maint@redhat.com
+maven-ear-plugin                    alee
+maven-ejb-plugin                    alee
+maven-enforcer                      mizdebsk java-maint@redhat.com
+maven-file-management               mizdebsk java-maint@redhat.com
+maven-filtering                     mizdebsk java-maint@redhat.com
+maven-gpg-plugin                    mizdebsk java-maint@redhat.com
+maven-install-plugin                mizdebsk java-maint@redhat.com
+maven-invoker                       mizdebsk java-maint@redhat.com
+maven-invoker-plugin                mizdebsk java-maint@redhat.com
+maven-jar-plugin                    mizdebsk java-maint@redhat.com
+maven-jarsigner-plugin              mizdebsk java-maint@redhat.com
+maven-javadoc-plugin                mizdebsk java-maint@redhat.com
+maven-jxr                           mizdebsk java-maint@redhat.com
+maven-osgi                          mizdebsk java-maint@redhat.com
+maven-parent                        mizdebsk java-maint@redhat.com
+maven-plugin-build-helper           mizdebsk java-maint@redhat.com
+maven-plugin-bundle                 mizdebsk java-maint@redhat.com
+maven-plugin-testing                mizdebsk java-maint@redhat.com
+maven-plugin-tools                  mizdebsk java-maint@redhat.com
+maven-plugins-pom                   mizdebsk java-maint@redhat.com
+maven-project-info-reports-plugin   mizdebsk java-maint@redhat.com
+maven-release                       mizdebsk java-maint@redhat.com
+maven-remote-resources-plugin       mizdebsk java-maint@redhat.com
+maven-reporting-api                 mizdebsk java-maint@redhat.com
+maven-reporting-exec                mizdebsk java-maint@redhat.com
+maven-reporting-impl                mizdebsk java-maint@redhat.com
+maven-repository-builder            mizdebsk java-maint@redhat.com
+maven-resources-plugin              mizdebsk java-maint@redhat.com
+maven-scm                           mizdebsk java-maint@redhat.com
+maven-script-interpreter            mizdebsk java-maint@redhat.com
+maven-shade-plugin                  mizdebsk java-maint@redhat.com
+maven-shared                        mizdebsk java-maint@redhat.com
+maven-shared-incremental            mizdebsk java-maint@redhat.com
+maven-shared-io                     mizdebsk java-maint@redhat.com
+maven-shared-jar                    mizdebsk java-maint@redhat.com
+maven-shared-utils                  mizdebsk java-maint@redhat.com
+maven-site-plugin                   mizdebsk java-maint@redhat.com
+maven-source-plugin                 mizdebsk java-maint@redhat.com
+maven-surefire                      mizdebsk java-maint@redhat.com
+maven-verifier                      mizdebsk java-maint@redhat.com
+maven-verifier-plugin               fche
+maven-wagon                         mizdebsk java-maint@redhat.com
+maven-war-plugin                    mizdebsk java-maint@redhat.com
+maven2                              mizdebsk java-maint@redhat.com
+mc                                  dvlasenk
+mcelog                              prarit
+mcstrans                            dwalsh
+mdadm                               dledford
+mdds                                dtardon
+meanwhile                           cschalle
+media-player-info                   bnocera
+memcached                           mlichvar
+memstomp                            law
+memtest86+                          jskarvad
+mercurial                           ooprala
+mesa                                airlied
+mesa-demos                          ajackson
+mesa-libGLU                         ajackson
+mesa-libGLw                         ajackson
+mesa-private-llvm                   ajackson
+metacity                            fmuellne
+mgetty                              msekleta
+microcode_ctl                       poros
+migrationtools                      jsafrane
+mingw-binutils                      ktietz
+mingw-crt                           ktietz
+mingw-filesystem                    ktietz
+mingw-gcc                           ktietz
+mingw-headers                       ktietz
+mingw-pthreads                      ktietz
+minicom                             jcapik
+mipv6-daemon                        tgraf
+mkbootdisk                          jskarvad
+mksh                                mhlavink
+mlocate                             msekleta
+mobile-broadband-provider-info      dcbw
+mod_auth_kerb                       jorton   webstack-team@redhat.com
+mod_fcgid                           jorton   webstack-team@redhat.com
+mod_nss                             mharmsen
+mod_revocator                       mharmsen
+mod_security                        dkopecek
+mod_security_crs                    dkopecek
+mod_wsgi                            jorton   webstack-team@redhat.com
+modello                             mizdebsk java-maint@redhat.com
+mojo-parent                         mizdebsk java-maint@redhat.com
+motif                               twoerner
+mousetweaks                         fmuellne
+mozilla-filesystem                  stransky
+mozjs17                             walters
+mpage                               mhlavink
+mpfr                                fkluknav
+mpich                               fenlason
+mpitests                            dledford
+mrtg                                vcrhonek
+mstflint                            dledford
+msv                                 mizdebsk java-maint@redhat.com
+mt-st                               dhorak
+mtdev                               phuttere
+mtools                              ooprala
+mtr                                 msekleta
+mtx                                 dhorak
+munge-maven-plugin                  mizdebsk java-maint@redhat.com
+mutt                                jpacner
+mutter                              fmuellne
+mvapich2                            dledford
+mysql-connector-java                jdornak
+mysql-connector-odbc                jdornak
+mythes                              caolanm
+mythes-bg                           caolanm
+mythes-ca                           caolanm
+mythes-cs                           caolanm
+mythes-da                           caolanm
+mythes-de                           mstahl
+mythes-el                           caolanm
+mythes-en                           caolanm
+mythes-es                           caolanm
+mythes-fr                           caolanm
+mythes-ga                           caolanm
+mythes-hu                           caolanm
+mythes-it                           caolanm
+mythes-mi                           caolanm
+mythes-ne                           caolanm
+mythes-nl                           caolanm
+mythes-pl                           caolanm
+mythes-pt                           caolanm
+mythes-ro                           caolanm
+mythes-ru                           caolanm
+mythes-sk                           caolanm
+mythes-sl                           caolanm
+mythes-sv                           caolanm
+mythes-uk                           caolanm
+nafees-web-naskh-fonts              psatpute
+nano                                kdudka
+nasm                                mizdebsk
+nautilus                            alexl
+nautilus-open-terminal              alexl
+nautilus-sendto                     bnocera
+navilu-fonts                        psatpute
+ncompress                           praiskup
+ncurses                             mlichvar
+nekohtml                            mizdebsk java-maint@redhat.com
+neon                                jorton
+nepomuk-core                        ltinkl
+nepomuk-widgets                     ltinkl
+net-snmp                            jsafrane
+net-tools                           jpopelka
+netcf                               lstump
+netlabel_tools                      pmoore
+netpbm                              phracek
+netsniff-ng                         dborkman
+nettle                              nmavrogi
+network-manager-applet              dcbw
+newt                                mlichvar
+nfs-utils                           steved
+nfs4-acl-tools                      steved
+nfsometer                           steved
+nfstest                             steved
+nhn-nanum-fonts                     dueno
+nmap                                mhlavink
+nspr                                emaldona
+nss                                 emaldona
+nss-pam-ldapd                       nalin
+nss-softokn                         emaldona
+nss-util                            emaldona
+nss_compat_ossl                     rcritten
+ntp                                 mlichvar
+numactl                             aarapov
+numad                               jsynacek
+numpy                               jchaloup
+nuxwdog                             alee
+obex-data-server                    bnocera
+obexd                               bnocera
+objectweb-anttask                   mizdebsk java-maint@redhat.com
+objectweb-asm                       mizdebsk java-maint@redhat.com
+objectweb-asm4                      lberk
+ocaml                               rjones
+ocaml-calendar                      rjones
+ocaml-csv                           rjones
+ocaml-curses                        rjones
+ocaml-extlib                        rjones
+ocaml-fileutils                     rjones
+ocaml-findlib                       rjones
+ocaml-gettext                       rjones
+ocaml-libvirt                       rjones
+ocaml-xml-light                     rjones
+oddjob                              nalin
+okular                              than
+omping                              jfriesse
+opal                                botte
+open-vm-tools                       rjones
+opencc                              pwu
+openchange                          mbarnes
+opencryptoki                        plautrba
+opencv                              jmlich
+openhpi                             dhorak
+openjade                            ovasik
+openjpeg                            phracek
+openldap                            jsynacek
+openlmi-networking                  rnovacek
+openlmi-providers                   rnovacek
+openlmi-storage                     jsafrane
+openlmi-tools                       phatina
+openmpi                             dledford
+openobex                            thozza
+openoffice-lv                       caolanm
+openoffice.org-dict-cs_CZ           dtardon
+opensc                              nmavrogi
+openscap                            slukasik
+openslp                             vcrhonek
+opensm                              dledford
+opensp                              ovasik
+openssh                             plautrba
+openssl                             tmraz
+openssl-ibmca                       dhorak
+openssl098e                         tmraz
+openvswitch                         rkhan
+openwsman                           vcrhonek
+oprofile                            wcohen
+optipng                             ltinkl
+opus                                botte
+orc                                 wtaymans
+orca                                rmatos
+ortp                                jgrulich
+os-prober                           pjones
+overpass-fonts                      psatpute
+ovirt-node                          fdinitto
+oxygen-gtk                          ltinkl
+oxygen-gtk2                         ltinkl
+oxygen-gtk3                         ltinkl
+oxygen-icon-theme                   ltinkl
+p11-kit                             swalter
+pacemaker                           abeekhof
+pakchois                            jorton
+paktype-naqsh-fonts                 psatpute
+paktype-naskh-basic-fonts           psatpute
+paktype-tehreer-fonts               psatpute
+pam                                 tmraz
+pam_krb5                            nalin
+pam_pkcs11                          rrelyea
+pango                               tagoh
+pangomm                             botte
+papi                                wcohen
+paps                                tagoh
+paratype-pt-sans-fonts              pnemade
+parted                              brlane
+passivetex                          ovasik
+passwd                              mitr
+patch                               twaugh
+patchutils                          twaugh
+pax                                 praiskup
+pciutils                            mhlavink
+pcp                                 nathans
+pcp-gui                             nathans
+pcre                                ppisar
+pcs                                 cfeist
+pcsc-lite                           rrelyea
+pcsc-lite-ccid                      rrelyea
+pentaho-libxml                      caolanm
+pentaho-reporting-flow-engine       caolanm
+perftest                            dledford
+perl                                jplesnik perl-maint-list@redhat.com
+perl-Algorithm-Diff                 jplesnik perl-maint-list@redhat.com
+perl-App-cpanminus                  jplesnik perl-maint-list@redhat.com
+perl-AppConfig                      jplesnik perl-maint-list@redhat.com
+perl-Archive-Extract                ppisar   perl-maint-list@redhat.com
+perl-Archive-Tar                    jplesnik perl-maint-list@redhat.com
+perl-Archive-Zip                    jplesnik perl-maint-list@redhat.com
+perl-Authen-SASL                    jplesnik perl-maint-list@redhat.com
+perl-B-Keywords                     jplesnik perl-maint-list@redhat.com
+perl-B-Lint                         ppisar   perl-maint-list@redhat.com
+perl-Bit-Vector                     jplesnik perl-maint-list@redhat.com
+perl-Browser-Open                   jfearn
+perl-Business-ISBN                  jplesnik perl-maint-list@redhat.com
+perl-Business-ISBN-Data             jplesnik perl-maint-list@redhat.com
+perl-CGI                            jplesnik perl-maint-list@redhat.com
+perl-CGI-Session                    jplesnik perl-maint-list@redhat.com
+perl-CPAN-Changes                   jplesnik perl-maint-list@redhat.com
+perl-CPAN-Meta                      jplesnik perl-maint-list@redhat.com
+perl-CPAN-Meta-Requirements         jplesnik perl-maint-list@redhat.com
+perl-CPAN-Meta-YAML                 jplesnik perl-maint-list@redhat.com
+perl-CPANPLUS                       ppisar   perl-maint-list@redhat.com
+perl-CPANPLUS-Dist-Build            ppisar   perl-maint-list@redhat.com
+perl-CSS-Tiny                       jfearn
+perl-Capture-Tiny                   jplesnik perl-maint-list@redhat.com
+perl-Carp                           jplesnik perl-maint-list@redhat.com
+perl-Carp-Clan                      jplesnik perl-maint-list@redhat.com
+perl-Class-Data-Inheritable         jplesnik perl-maint-list@redhat.com
+perl-Class-ISA                      jplesnik perl-maint-list@redhat.com
+perl-Class-Inspector                jplesnik perl-maint-list@redhat.com
+perl-Class-Load                     jplesnik perl-maint-list@redhat.com
+perl-Class-Load-XS                  jplesnik perl-maint-list@redhat.com
+perl-Class-Singleton                jplesnik perl-maint-list@redhat.com
+perl-Clone                          jplesnik perl-maint-list@redhat.com
+perl-Compress-Raw-Bzip2             jplesnik perl-maint-list@redhat.com
+perl-Compress-Raw-Zlib              jplesnik perl-maint-list@redhat.com
+perl-Config-Simple                  jfearn
+perl-Config-Tiny                    jplesnik perl-maint-list@redhat.com
+perl-Convert-ASN1                   jplesnik perl-maint-list@redhat.com
+perl-Crypt-CBC                      jplesnik perl-maint-list@redhat.com
+perl-Crypt-DES                      jplesnik perl-maint-list@redhat.com
+perl-Crypt-OpenSSL-Bignum           jplesnik perl-maint-list@redhat.com
+perl-Crypt-OpenSSL-RSA              jplesnik perl-maint-list@redhat.com
+perl-Crypt-OpenSSL-Random           jplesnik perl-maint-list@redhat.com
+perl-Crypt-PasswdMD5                jplesnik perl-maint-list@redhat.com
+perl-Crypt-SSLeay                   jplesnik perl-maint-list@redhat.com
+perl-DBD-MySQL                      jplesnik perl-maint-list@redhat.com
+perl-DBD-Pg                         jplesnik perl-maint-list@redhat.com
+perl-DBD-SQLite                     jplesnik perl-maint-list@redhat.com
+perl-DBI                            jplesnik perl-maint-list@redhat.com
+perl-DBIx-Simple                    jplesnik perl-maint-list@redhat.com
+perl-DB_File                        ppisar   perl-maint-list@redhat.com
+perl-Data-Dumper                    jplesnik perl-maint-list@redhat.com
+perl-Data-OptList                   jplesnik perl-maint-list@redhat.com
+perl-Data-Peek                      jplesnik perl-maint-list@redhat.com
+perl-Date-Calc                      jplesnik perl-maint-list@redhat.com
+perl-Date-Manip                     jplesnik perl-maint-list@redhat.com
+perl-DateTime                       jplesnik perl-maint-list@redhat.com
+perl-DateTime-Format-DateParse      jfearn
+perl-DateTime-Locale                jplesnik perl-maint-list@redhat.com
+perl-DateTime-TimeZone              jplesnik perl-maint-list@redhat.com
+perl-Devel-CheckLib                 ppisar   perl-maint-list@redhat.com
+perl-Devel-Cover                    jfearn
+perl-Devel-Cycle                    jplesnik perl-maint-list@redhat.com
+perl-Devel-EnforceEncapsulation     jplesnik perl-maint-list@redhat.com
+perl-Devel-Leak                     jplesnik perl-maint-list@redhat.com
+perl-Devel-StackTrace               jplesnik perl-maint-list@redhat.com
+perl-Devel-Symdump                  jplesnik perl-maint-list@redhat.com
+perl-Digest                         jplesnik perl-maint-list@redhat.com
+perl-Digest-HMAC                    jplesnik perl-maint-list@redhat.com
+perl-Digest-MD5                     ppisar   perl-maint-list@redhat.com
+perl-Digest-SHA                     jplesnik perl-maint-list@redhat.com
+perl-Digest-SHA1                    jplesnik perl-maint-list@redhat.com
+perl-Dist-CheckConflicts            jplesnik perl-maint-list@redhat.com
+perl-Email-Address                  jplesnik perl-maint-list@redhat.com
+perl-Encode                         ppisar   perl-maint-list@redhat.com
+perl-Encode-Detect                  cschalle
+perl-Encode-Locale                  jplesnik perl-maint-list@redhat.com
+perl-Env                            ppisar   perl-maint-list@redhat.com
+perl-Error                          jplesnik perl-maint-list@redhat.com
+perl-Exception-Class                jplesnik perl-maint-list@redhat.com
+perl-Exporter                       ppisar   perl-maint-list@redhat.com
+perl-ExtUtils-MakeMaker             jplesnik perl-maint-list@redhat.com
+perl-ExtUtils-Manifest              psabata  perl-maint-list@redhat.com
+perl-ExtUtils-ParseXS               ppisar   perl-maint-list@redhat.com
+perl-FCGI                           psabata  perl-maint-list@redhat.com
+perl-File-CheckTree                 ppisar   perl-maint-list@redhat.com
+perl-File-Copy-Recursive            psabata  perl-maint-list@redhat.com
+perl-File-Fetch                     ppisar   perl-maint-list@redhat.com
+perl-File-Find-Rule                 psabata  perl-maint-list@redhat.com
+perl-File-Find-Rule-Perl            psabata  perl-maint-list@redhat.com
+perl-File-HomeDir                   psabata  perl-maint-list@redhat.com
+perl-File-Inplace                   jfearn
+perl-File-Listing                   psabata  perl-maint-list@redhat.com
+perl-File-Path                      ppisar   perl-maint-list@redhat.com
+perl-File-Remove                    psabata  perl-maint-list@redhat.com
+perl-File-ShareDir                  psabata  perl-maint-list@redhat.com
+perl-File-Slurp                     psabata  perl-maint-list@redhat.com
+perl-File-Temp                      ppisar   perl-maint-list@redhat.com
+perl-File-Which                     psabata  perl-maint-list@redhat.com
+perl-File-pushd                     jfearn
+perl-Filter                         psabata  perl-maint-list@redhat.com
+perl-Font-AFM                       psabata  perl-maint-list@redhat.com
+perl-Font-TTF                       psabata  perl-maint-list@redhat.com
+perl-FreezeThaw                     psabata  perl-maint-list@redhat.com
+perl-GD                             psabata  perl-maint-list@redhat.com
+perl-GD-Barcode                     psabata  perl-maint-list@redhat.com
+perl-GSSAPI                         psabata  perl-maint-list@redhat.com
+perl-Getopt-Long                    ppisar   perl-maint-list@redhat.com
+perl-HTML-Format                    psabata  perl-maint-list@redhat.com
+perl-HTML-FormatText-WithLinks      jfearn
+perl-HTML-FormatText-WithLinks-AndTables jfearn
+perl-HTML-Parser                    psabata  perl-maint-list@redhat.com
+perl-HTML-Tagset                    psabata  perl-maint-list@redhat.com
+perl-HTML-Tree                      psabata  perl-maint-list@redhat.com
+perl-HTTP-Cookies                   psabata  perl-maint-list@redhat.com
+perl-HTTP-Daemon                    psabata  perl-maint-list@redhat.com
+perl-HTTP-Date                      psabata  perl-maint-list@redhat.com
+perl-HTTP-Message                   psabata  perl-maint-list@redhat.com
+perl-HTTP-Negotiate                 psabata  perl-maint-list@redhat.com
+perl-HTTP-Tiny                      ppisar   perl-maint-list@redhat.com
+perl-Hook-LexWrap                   psabata  perl-maint-list@redhat.com
+perl-IO-CaptureOutput               ppisar   perl-maint-list@redhat.com
+perl-IO-Compress                    psabata  perl-maint-list@redhat.com
+perl-IO-HTML                        ppisar   perl-maint-list@redhat.com
+perl-IO-Socket-INET6                psabata  perl-maint-list@redhat.com
+perl-IO-Socket-IP                   psabata  perl-maint-list@redhat.com
+perl-IO-Socket-SSL                  psabata  perl-maint-list@redhat.com
+perl-IO-String                      psabata  perl-maint-list@redhat.com
+perl-IO-Tty                         psabata  perl-maint-list@redhat.com
+perl-IO-stringy                     psabata  perl-maint-list@redhat.com
+perl-IPC-Cmd                        ppisar   perl-maint-list@redhat.com
+perl-IPC-Run                        psabata  perl-maint-list@redhat.com
+perl-IPC-Run3                       psabata  perl-maint-list@redhat.com
+perl-Image-Base                     jskarvad
+perl-Image-Info                     jfearn
+perl-Image-Xbm                      jfearn
+perl-Image-Xpm                      jfearn
+perl-Inline                         psabata  perl-maint-list@redhat.com
+perl-Inline-Files                   psabata  perl-maint-list@redhat.com
+perl-JSON                           psabata  perl-maint-list@redhat.com
+perl-JSON-PP                        psabata  perl-maint-list@redhat.com
+perl-LDAP                           psabata  perl-maint-list@redhat.com
+perl-LWP-MediaTypes                 psabata  perl-maint-list@redhat.com
+perl-LWP-Protocol-https             ppisar   perl-maint-list@redhat.com
+perl-List-MoreUtils                 psabata  perl-maint-list@redhat.com
+perl-Locale-Codes                   psabata  perl-maint-list@redhat.com
+perl-Locale-Maketext                ppisar   perl-maint-list@redhat.com
+perl-Locale-Maketext-Gettext        jfearn
+perl-Locale-PO                      jfearn
+perl-Log-Message                    ppisar   perl-maint-list@redhat.com
+perl-Log-Message-Simple             ppisar   perl-maint-list@redhat.com
+perl-Mail-DKIM                      psabata  perl-maint-list@redhat.com
+perl-Mail-SPF                       psabata  perl-maint-list@redhat.com
+perl-MailTools                      psabata  perl-maint-list@redhat.com
+perl-Mixin-Linewise                 psabata  perl-maint-list@redhat.com
+perl-Module-Build                   psabata  perl-maint-list@redhat.com
+perl-Module-Implementation          psabata  perl-maint-list@redhat.com
+perl-Module-Install                 psabata  perl-maint-list@redhat.com
+perl-Module-Load                    ppisar   perl-maint-list@redhat.com
+perl-Module-Load-Conditional        ppisar   perl-maint-list@redhat.com
+perl-Module-Manifest                ppisar   perl-maint-list@redhat.com
+perl-Module-Metadata                ppisar   perl-maint-list@redhat.com
+perl-Module-Pluggable               ppisar   perl-maint-list@redhat.com
+perl-Module-Runtime                 ppisar   perl-maint-list@redhat.com
+perl-Module-ScanDeps                ppisar   perl-maint-list@redhat.com
+perl-Module-Signature               ppisar   perl-maint-list@redhat.com
+perl-Mozilla-CA                     ppisar   perl-maint-list@redhat.com
+perl-Mozilla-LDAP                   rmeggins
+perl-Net-DNS                        ppisar   perl-maint-list@redhat.com
+perl-Net-DNS-Resolver-Programmable  ppisar   perl-maint-list@redhat.com
+perl-Net-Daemon                     ppisar   perl-maint-list@redhat.com
+perl-Net-HTTP                       ppisar   perl-maint-list@redhat.com
+perl-Net-LibIDN                     ppisar   perl-maint-list@redhat.com
+perl-Net-SMTP-SSL                   ppisar   perl-maint-list@redhat.com
+perl-Net-SSLeay                     ppisar   perl-maint-list@redhat.com
+perl-Net-Telnet                     mgrac
+perl-NetAddr-IP                     ppisar   perl-maint-list@redhat.com
+perl-Newt                           jorton
+perl-Number-Compare                 ppisar   perl-maint-list@redhat.com
+perl-Object-Deadly                  ppisar   perl-maint-list@redhat.com
+perl-PAR-Dist                       ppisar   perl-maint-list@redhat.com
+perl-PPI                            ppisar   perl-maint-list@redhat.com
+perl-PPI-HTML                       jfearn
+perl-PPIx-Regexp                    ppisar   perl-maint-list@redhat.com
+perl-PPIx-Utilities                 ppisar   perl-maint-list@redhat.com
+perl-Package-DeprecationManager     ppisar   perl-maint-list@redhat.com
+perl-Package-Generator              ppisar   perl-maint-list@redhat.com
+perl-Package-Stash                  ppisar   perl-maint-list@redhat.com
+perl-Package-Stash-XS               ppisar   perl-maint-list@redhat.com
+perl-PadWalker                      ppisar   perl-maint-list@redhat.com
+perl-Parallel-Iterator              jfearn
+perl-Params-Check                   ppisar   perl-maint-list@redhat.com
+perl-Params-Util                    ppisar   perl-maint-list@redhat.com
+perl-Params-Validate                ppisar   perl-maint-list@redhat.com
+perl-Parse-CPAN-Meta                ppisar   perl-maint-list@redhat.com
+perl-Parse-RecDescent               ppisar   perl-maint-list@redhat.com
+perl-Parse-Yapp                     ppisar   perl-maint-list@redhat.com
+perl-PathTools                      ppisar   perl-maint-list@redhat.com
+perl-Perl-Critic                    jplesnik perl-maint-list@redhat.com
+perl-Perl-Critic-More               ppisar   perl-maint-list@redhat.com
+perl-Perl-MinimumVersion            ppisar   perl-maint-list@redhat.com
+perl-Perl-OSType                    ppisar   perl-maint-list@redhat.com
+perl-PlRPC                          ppisar   perl-maint-list@redhat.com
+perl-Pod-Checker                    ppisar   perl-maint-list@redhat.com
+perl-Pod-Coverage                   ppisar   perl-maint-list@redhat.com
+perl-Pod-Coverage-TrustPod          ppisar   perl-maint-list@redhat.com
+perl-Pod-Eventual                   ppisar   perl-maint-list@redhat.com
+perl-Pod-LaTeX                      ppisar   perl-maint-list@redhat.com
+perl-Pod-POM                        jfearn
+perl-Pod-Parser                     ppisar   perl-maint-list@redhat.com
+perl-Pod-Perldoc                    ppisar   perl-maint-list@redhat.com
+perl-Pod-Plainer                    ppisar   perl-maint-list@redhat.com
+perl-Pod-Simple                     ppisar   perl-maint-list@redhat.com
+perl-Pod-Spell                      ppisar   perl-maint-list@redhat.com
+perl-Pod-Usage                      ppisar   perl-maint-list@redhat.com
+perl-Probe-Perl                     ppisar   perl-maint-list@redhat.com
+perl-Readonly                       ppisar   perl-maint-list@redhat.com
+perl-Readonly-XS                    ppisar   perl-maint-list@redhat.com
+perl-SGMLSpm                        ovasik
+perl-SNMP_Session                   ppisar   perl-maint-list@redhat.com
+perl-Scalar-List-Utils              ppisar   perl-maint-list@redhat.com
+perl-Socket                         ppisar   perl-maint-list@redhat.com
+perl-Socket6                        ppisar   perl-maint-list@redhat.com
+perl-Sort-Versions                  jfearn
+perl-Storable                       ppisar   perl-maint-list@redhat.com
+perl-String-CRC32                   ppisar   perl-maint-list@redhat.com
+perl-String-Format                  ppisar   perl-maint-list@redhat.com
+perl-String-ShellQuote              ppisar   perl-maint-list@redhat.com
+perl-String-Similarity              jfearn
+perl-Sub-Exporter                   ppisar   perl-maint-list@redhat.com
+perl-Sub-Install                    ppisar   perl-maint-list@redhat.com
+perl-Sub-Uplevel                    ppisar   perl-maint-list@redhat.com
+perl-Switch                         jplesnik perl-maint-list@redhat.com
+perl-Syntax-Highlight-Engine-Kate   jfearn
+perl-Sys-CPU                        ppisar   perl-maint-list@redhat.com
+perl-Sys-MemInfo                    ppisar   perl-maint-list@redhat.com
+perl-Sys-Syslog                     ppisar   perl-maint-list@redhat.com
+perl-Sys-Virt                       berrange
+perl-Taint-Runtime                  ppisar   perl-maint-list@redhat.com
+perl-Task-Weaken                    ppisar   perl-maint-list@redhat.com
+perl-Template-Toolkit               jfearn
+perl-Term-UI                        ppisar   perl-maint-list@redhat.com
+perl-TermReadKey                    ppisar   perl-maint-list@redhat.com
+perl-Test-CPAN-Meta                 jplesnik perl-maint-list@redhat.com
+perl-Test-ClassAPI                  jplesnik perl-maint-list@redhat.com
+perl-Test-Deep                      jplesnik perl-maint-list@redhat.com
+perl-Test-Differences               jfearn
+perl-Test-DistManifest              jplesnik perl-maint-list@redhat.com
+perl-Test-EOL                       jplesnik perl-maint-list@redhat.com
+perl-Test-Exception                 jplesnik perl-maint-list@redhat.com
+perl-Test-Fatal                     jplesnik perl-maint-list@redhat.com
+perl-Test-Harness                   ppisar   perl-maint-list@redhat.com
+perl-Test-HasVersion                jplesnik perl-maint-list@redhat.com
+perl-Test-Inter                     jplesnik perl-maint-list@redhat.com
+perl-Test-Manifest                  jplesnik perl-maint-list@redhat.com
+perl-Test-Memory-Cycle              jplesnik perl-maint-list@redhat.com
+perl-Test-MinimumVersion            jplesnik perl-maint-list@redhat.com
+perl-Test-MockObject                jfearn
+perl-Test-NoTabs                    jplesnik perl-maint-list@redhat.com
+perl-Test-NoWarnings                jplesnik perl-maint-list@redhat.com
+perl-Test-Object                    jplesnik perl-maint-list@redhat.com
+perl-Test-Output                    jplesnik perl-maint-list@redhat.com
+perl-Test-Perl-Critic               jplesnik perl-maint-list@redhat.com
+perl-Test-Pod                       jplesnik perl-maint-list@redhat.com
+perl-Test-Pod-Coverage              jplesnik perl-maint-list@redhat.com
+perl-Test-Portability-Files         jplesnik perl-maint-list@redhat.com
+perl-Test-Requires                  jplesnik perl-maint-list@redhat.com
+perl-Test-Script                    jplesnik perl-maint-list@redhat.com
+perl-Test-Simple                    jplesnik perl-maint-list@redhat.com
+perl-Test-Spelling                  jplesnik perl-maint-list@redhat.com
+perl-Test-SubCalls                  jplesnik perl-maint-list@redhat.com
+perl-Test-Synopsis                  jplesnik perl-maint-list@redhat.com
+perl-Test-Taint                     jplesnik perl-maint-list@redhat.com
+perl-Test-Tester                    jplesnik perl-maint-list@redhat.com
+perl-Test-Vars                      jplesnik perl-maint-list@redhat.com
+perl-Test-Warn                      jplesnik perl-maint-list@redhat.com
+perl-Test-Without-Module            jplesnik perl-maint-list@redhat.com
+perl-Text-CSV_XS                    jfearn
+perl-Text-CharWidth                 jplesnik perl-maint-list@redhat.com
+perl-Text-Diff                      jplesnik perl-maint-list@redhat.com
+perl-Text-Glob                      jplesnik perl-maint-list@redhat.com
+perl-Text-Iconv                     jplesnik perl-maint-list@redhat.com
+perl-Text-ParseWords                ppisar   perl-maint-list@redhat.com
+perl-Text-Soundex                   ppisar   perl-maint-list@redhat.com
+perl-Text-Unidecode                 jplesnik perl-maint-list@redhat.com
+perl-Text-WrapI18N                  jplesnik perl-maint-list@redhat.com
+perl-Thread-Queue                   ppisar   perl-maint-list@redhat.com
+perl-Tie-IxHash                     jplesnik perl-maint-list@redhat.com
+perl-Time-HiRes                     ppisar   perl-maint-list@redhat.com
+perl-Time-Local                     ppisar   perl-maint-list@redhat.com
+perl-TimeDate                       jplesnik perl-maint-list@redhat.com
+perl-Tk                             jplesnik perl-maint-list@redhat.com
+perl-Tree-DAG_Node                  jplesnik perl-maint-list@redhat.com
+perl-Try-Tiny                       jplesnik perl-maint-list@redhat.com
+perl-UNIVERSAL-can                  jfearn
+perl-UNIVERSAL-isa                  jfearn
+perl-URI                            jplesnik perl-maint-list@redhat.com
+perl-Unicode-Map8                   jplesnik perl-maint-list@redhat.com
+perl-Unicode-String                 jplesnik perl-maint-list@redhat.com
+perl-Version-Requirements           jplesnik perl-maint-list@redhat.com
+perl-WWW-Curl                       jplesnik perl-maint-list@redhat.com
+perl-WWW-RobotRules                 jplesnik perl-maint-list@redhat.com
+perl-XML-Catalog                    jplesnik perl-maint-list@redhat.com
+perl-XML-DOM                        jplesnik perl-maint-list@redhat.com
+perl-XML-Dumper                     jplesnik perl-maint-list@redhat.com
+perl-XML-Filter-BufferText          jplesnik perl-maint-list@redhat.com
+perl-XML-Grove                      jplesnik perl-maint-list@redhat.com
+perl-XML-Handler-YAWriter           jplesnik perl-maint-list@redhat.com
+perl-XML-LibXML                     jplesnik perl-maint-list@redhat.com
+perl-XML-LibXSLT                    jfearn
+perl-XML-NamespaceSupport           jplesnik perl-maint-list@redhat.com
+perl-XML-Parser                     jplesnik perl-maint-list@redhat.com
+perl-XML-RegExp                     jplesnik perl-maint-list@redhat.com
+perl-XML-SAX                        jplesnik perl-maint-list@redhat.com
+perl-XML-SAX-Base                   jplesnik perl-maint-list@redhat.com
+perl-XML-SAX-Writer                 jplesnik perl-maint-list@redhat.com
+perl-XML-Simple                     jplesnik perl-maint-list@redhat.com
+perl-XML-TokeParser                 jplesnik perl-maint-list@redhat.com
+perl-XML-TreeBuilder                jfearn
+perl-XML-Twig                       jplesnik perl-maint-list@redhat.com
+perl-XML-Writer                     jplesnik perl-maint-list@redhat.com
+perl-XML-XPath                      jplesnik perl-maint-list@redhat.com
+perl-XML-XPathEngine                jplesnik perl-maint-list@redhat.com
+perl-XML-XQL                        jplesnik perl-maint-list@redhat.com
+perl-YAML                           jplesnik perl-maint-list@redhat.com
+perl-YAML-Syck                      jplesnik perl-maint-list@redhat.com
+perl-YAML-Tiny                      jplesnik perl-maint-list@redhat.com
+perl-autodie                        ppisar   perl-maint-list@redhat.com
+perl-constant                       ppisar   perl-maint-list@redhat.com
+perl-gettext                        psabata  perl-maint-list@redhat.com
+perl-libintl                        psabata  perl-maint-list@redhat.com
+perl-libwww-perl                    psabata  perl-maint-list@redhat.com
+perl-libxml-perl                    psabata  perl-maint-list@redhat.com
+perl-local-lib                      psabata  perl-maint-list@redhat.com
+perl-parent                         ppisar   perl-maint-list@redhat.com
+perl-podlators                      ppisar   perl-maint-list@redhat.com
+perl-prefork                        jplesnik perl-maint-list@redhat.com
+perl-srpm-macros                    jplesnik perl-maint-list@redhat.com
+perl-threads                        jplesnik perl-maint-list@redhat.com
+perl-threads-shared                 jplesnik perl-maint-list@redhat.com
+perl-version                        jplesnik perl-maint-list@redhat.com
+perltidy                            jplesnik perl-maint-list@redhat.com
+pesign                              pjones
+pexpect                             jfriesse
+phonon                              than
+phonon-backend-gstreamer            than
+php                                 rcollet  webstack-team@redhat.com
+php-pear                            rcollet  webstack-team@redhat.com
+php-pecl-memcache                   rcollet  webstack-team@redhat.com
+pidgin                              cschalle
+pinentry                            branto
+pinfo                               lnykryn
+pixman                              sandmann
+pkgconfig                           walters
+pki-core                            mharmsen
+plexus-ant-factory                  mizdebsk java-maint@redhat.com
+plexus-archiver                     mizdebsk java-maint@redhat.com
+plexus-bsh-factory                  mizdebsk java-maint@redhat.com
+plexus-build-api                    mizdebsk java-maint@redhat.com
+plexus-cdc                          mizdebsk java-maint@redhat.com
+plexus-cipher                       mizdebsk java-maint@redhat.com
+plexus-classworlds                  mizdebsk java-maint@redhat.com
+plexus-cli                          mizdebsk java-maint@redhat.com
+plexus-compiler                     mizdebsk java-maint@redhat.com
+plexus-component-api                mizdebsk java-maint@redhat.com
+plexus-component-factories-pom      mizdebsk java-maint@redhat.com
+plexus-components-pom               mizdebsk java-maint@redhat.com
+plexus-containers                   mizdebsk java-maint@redhat.com
+plexus-digest                       mizdebsk java-maint@redhat.com
+plexus-i18n                         mizdebsk java-maint@redhat.com
+plexus-interactivity                mizdebsk java-maint@redhat.com
+plexus-interpolation                mizdebsk java-maint@redhat.com
+plexus-io                           mizdebsk java-maint@redhat.com
+plexus-mail-sender                  mizdebsk java-maint@redhat.com
+plexus-pom                          mizdebsk java-maint@redhat.com
+plexus-resources                    mizdebsk java-maint@redhat.com
+plexus-sec-dispatcher               mizdebsk java-maint@redhat.com
+plexus-tools-pom                    mizdebsk java-maint@redhat.com
+plexus-utils                        mizdebsk java-maint@redhat.com
+plexus-velocity                     mizdebsk java-maint@redhat.com
+plymouth                            rstrode
+pm-utils                            jskarvad
+pngcrush                            nphilipp
+pngnq                               nphilipp
+pnm2ppa                             twaugh
+po4a                                rjones
+policycoreutils                     dwalsh
+polkit                              mitr
+polkit-kde                          ltinkl
+polkit-pkla-compat                  mitr
+polkit-qt                           ltinkl
+poppler                             mkasik
+poppler-data                        mkasik
+popt                                pmatilai
+portreserve                         twaugh
+postfix                             jskarvad
+postgresql                          praiskup
+postgresql-jdbc                     praiskup
+postgresql-odbc                     praiskup
+pothana2000-fonts                   sshedmak
+powerpc-utils                       fkocina
+powerpc-utils-python                fkocina
+powertop                            jskarvad
+ppc64-diag                          fkocina
+ppc64-utils                         fkocina
+ppp                                 msekleta
+pps-tools                           mlichvar
+pptp                                msekleta
+prelink                             jakub
+procmail                            jskarvad
+procps-ng                           jcapik
+ps_mem                              jcapik
+psacct                              jcapik
+psmisc                              jcapik
+psutils                             jpopelka
+pth                                 law
+ptlib                               botte
+publican                            jfearn
+publican-redhat                     jfearn
+pulseaudio                          wtaymans
+pyOpenSSL                           tmraz
+pyatspi                             rmatos
+pycairo                             mbarnes
+pygobject2                          mbarnes
+pygobject3                          mbarnes
+pygpgme                             mitr
+pygtk2                              mbarnes
+pykde4                              than
+pykickstart                         clumens
+pyliblzma                           jantill
+pyorbit                             mbarnes
+pyparsing                           bkabrda  python-maint@redhat.com
+pyparted                            dcantrel
+pyserial                            bkabrda  python-maint@redhat.com
+pytest                              edewata
+python                              bkabrda  python-maint@redhat.com
+python-IPy                          dwalsh
+python-augeas                       jcholast
+python-backports                    edewata
+python-backports-ssl_match_hostname edewata
+python-beaker                       bkabrda  python-maint@redhat.com
+python-blivet                       dlehman
+python-chardet                      bkabrda  python-maint@redhat.com
+python-configobj                    bkabrda  python-maint@redhat.com
+python-configshell                  agrover
+python-coverage                     bkabrda  python-maint@redhat.com
+python-cpio                         vpodzime
+python-cups                         twaugh
+python-dateutil                     bkabrda  python-maint@redhat.com
+python-decorator                    bkabrda  python-maint@redhat.com
+python-di                           vpodzime
+python-dmidecode                    aledvink
+python-dns                          bkabrda  python-maint@redhat.com
+python-docs                         bkabrda  python-maint@redhat.com
+python-docutils                     bkabrda  python-maint@redhat.com
+python-dtopt                        bkabrda  python-maint@redhat.com
+python-ethtool                      bkabrda  python-maint@redhat.com
+python-fpconst                      dray
+python-gudev                        aledvink
+python-hwdata                       mzazrive
+python-iniparse                     bkabrda  python-maint@redhat.com
+python-inotify                      jfilak   abrt-devel-list@redhat.com
+python-ipaddr                       bkabrda  python-maint@redhat.com
+python-jinja2                       bkabrda  python-maint@redhat.com
+python-kerberos                     rcritten
+python-kitchen                      jantill
+python-kmod                         agrover
+python-krbV                         jdennis
+python-ldap                         mbarnes
+python-linux-procfs                 acme
+python-lockfile                     than
+python-lxml                         jpopelka
+python-mako                         bkabrda  python-maint@redhat.com
+python-markupsafe                   bkabrda  python-maint@redhat.com
+python-matplotlib                   acme
+python-meh                          mkolman
+python-memcached                    rnovacek
+python-mutagen                      rnovacek
+python-netaddr                      jcholast
+python-nose                         bkabrda  python-maint@redhat.com
+python-nss                          jdennis
+python-paste                        bkabrda  python-maint@redhat.com
+python-pillow                       miminar
+python-psycopg2                     praiskup
+python-py                           edewata
+python-pyasn1                       mkosek
+python-pyblock                      pjones
+python-pycurl                       kdudka
+python-pygments                     bkabrda  python-maint@redhat.com
+python-pyudev                       jskarvad
+python-reportlab                    mkasik
+python-requests                     edewata
+python-rhsm                         dgoodwin candlepin-bugs@redhat.com
+python-rtslib                       agrover
+python-schedutils                   acme
+python-setproctitle                 agrover
+python-setuptools                   bkabrda  python-maint@redhat.com
+python-six                          edewata
+python-slip                         nphilipp
+python-sphinx                       bkabrda  python-maint@redhat.com
+python-suds                         jortel
+python-tempita                      bkabrda  python-maint@redhat.com
+python-tornado                      edewata
+python-twisted-core                 bkabrda  python-maint@redhat.com
+python-twisted-web                  dray
+python-twisted-words                dray
+python-urlgrabber                   jantill
+python-urllib3                      edewata
+python-urwid                        bkabrda  python-maint@redhat.com
+python-virtualenv                   bkabrda  python-main@redhat.com
+python-webob                        bkabrda  python-maint@redhat.com
+python-webtest                      bkabrda  python-maint@redhat.com
+python-which                        bkabrda  python-maint@redhat.com
+python-zope-interface               bkabrda  python-maint@redhat.com
+pytz                                bkabrda  python-maint@redhat.com
+pywbem                              jsafrane
+pyxattr                             jantill
+qca-ossl                            ltinkl
+qca2                                ltinkl
+qdox                                mizdebsk java-maint@redhat.com
+qemu-kvm                            minovotn virt-maint@redhat.com
+qimageblitz                         ltinkl
+qjson                               than
+qpdf                                jpopelka
+qperf                               dledford
+qrencode                            jgrulich
+qt                                  than
+qt3                                 than
+quagga                              msekleta
+quota                               ppisar
+radvd                               psimerda
+raptor2                             ltinkl
+rarian                              mbarnes
+ras-utils                           prarit
+rasdaemon                           arozansk
+rasqal                              ltinkl
+rcs                                 hhorak
+rdate                               jdornak
+rdist                               psimerda
+rdma                                dledford
+readline                            lnykryn
+realmd                              swalter
+recode                              jpopelka
+redhat-access-gui                   dvarga
+redhat-bookmarks                    stransky
+redhat-indexhtml                    mhideo
+redhat-logos                        rstrode
+redhat-lsb                          ovasik
+redhat-menus                        rstrode
+redhat-release-client               dmach
+redhat-release-computenode          dmach
+redhat-release-everything           dmach
+redhat-release-server               dmach
+redhat-release-workstation          dmach
+redhat-rpm-config                   pmatilai
+redhat-support-lib-python           kroberts
+redhat-support-tool                 kroberts
+redhat-upgrade-dracut               dshea
+redhat-upgrade-tool                 dshea
+redland                             ltinkl
+regexp                              mizdebsk java-maint@redhat.com
+relaxngDatatype                     mizdebsk java-maint@redhat.com
+relaxngcc                           alee
+resource-agents                     dvossel
+rest                                dray
+resteasy-base                       alee
+rfkill                              linville
+rhdb-utils                          praiskup
+rhev-hypervisor                     mburns
+rhino                               dbhole
+rhn-client-tools                    mzazrive
+rhnlib                              mzazrive
+rhnsd                               mzazrive
+rhythmbox                           bnocera
+rng-tools                           fenlason
+rngom                               alee
+rootfiles                           ovasik
+rp-pppoe                            than
+rpcbind                             steved
+rpm                                 pmatilai
+rpmdevtools                         twoerner
+rpmlint                             twoerner
+rrdtool                             jskarvad
+rsh                                 msekleta
+rsync                               psimerda
+rsyslog                             theinric
+rtkit                               msekleta
+ruby                                vondruch
+rubygem-abrt                        vondruch
+rubygem-bundler                     vondruch
+rubygem-net-http-persistent         vondruch
+rubygem-thor                        vondruch
+rusers                              jdornak
+rwho                                jdornak
+s390utils                           dhorak
+saab-fonts                          pnemade
+sac                                 caolanm
+samba                               gdeschne
+samyak-fonts                        psatpute
+sane-backends                       nphilipp
+sane-frontends                      nphilipp
+sanlock                             teigland
+satyr                               mmilata
+saxon                               mizdebsk java-maint@redhat.com
+sbc                                 lpoetter
+sblim-cim-client2                   vcrhonek
+sblim-cmpi-base                     vcrhonek
+sblim-cmpi-devel                    vcrhonek
+sblim-cmpi-fsvol                    vcrhonek
+sblim-cmpi-network                  vcrhonek
+sblim-cmpi-nfsv3                    vcrhonek
+sblim-cmpi-nfsv4                    vcrhonek
+sblim-cmpi-params                   vcrhonek
+sblim-cmpi-sysfs                    vcrhonek
+sblim-cmpi-syslog                   vcrhonek
+sblim-gather                        vcrhonek
+sblim-indication_helper             vcrhonek
+sblim-sfcb                          vcrhonek
+sblim-sfcc                          vcrhonek
+sblim-smis-hba                      vcrhonek
+sblim-testsuite                     vcrhonek
+sblim-wbemcli                       vcrhonek
+scannotation                        alee
+scap-workbench                      mpreisle
+scipy                               jchaloup
+scl-utils                           jzeleny
+screen                              phracek
+scrub                               sgrubb
+sdparm                              dhorak
+seabios                             minovotn virt-maint@redhat.com
+seahorse                            dking
+seahorse-nautilus                   dking
+seahorse-sharing                    dking
+sed                                 jpacner
+selinux-policy                      mgrepl
+sendmail                            jskarvad
+servicelog                          fkocina
+setools                             dwalsh
+setroubleshoot                      dwalsh
+setroubleshoot-plugins              dwalsh
+setserial                           twaugh
+setup                               ovasik
+setuptool                           mhlavink
+sg3_utils                           dhorak
+sgabios                             minovotn virt-maint@redhat.com
+sgml-common                         ovasik
+sgpio                               jsynacek
+shadow-utils                        tmraz
+shared-desktop-ontologies           than
+shared-mime-info                    bnocera
+sharutils                           ppisar
+shim                                pjones
+shim-signed                         pjones
+shotwell                            dray
+sil-abyssinica-fonts                pnemade
+sil-nuosu-fonts                     pwu
+sil-padauk-fonts                    pnemade
+sip                                 than
+sisu                                mizdebsk java-maint@redhat.com
+sisu-maven-plugin                   mizdebsk java-maint@redhat.com
+skkdic                              dueno    petersen@redhat.com
+slang                               mlichvar
+slapi-nis                           nalin
+slf4j                               mizdebsk java-maint@redhat.com
+smartmontools                       mhlavink
+smc-fonts                           psatpute
+snakeyaml                           mizdebsk java-maint@redhat.com
+snapper                             okozina  lvm-team@redhat.com
+snappy                              anderson
+socat                               pwouters
+sonatype-oss-parent                 mizdebsk java-maint@redhat.com
+sonatype-plugins-parent             mizdebsk java-maint@redhat.com
+soprano                             ltinkl
+sos                                 breeves
+sound-theme-freedesktop             lpoetter
+soundtouch                          botte
+source-highlight                    walters
+sox                                 fkluknav
+spamassassin                        plautrba
+speech-dispatcher                   rmatos
+speex                               mlichvar
+spice                               yhalperi
+spice-gtk                           cfergeau
+spice-parent                        mizdebsk java-maint@redhat.com
+spice-protocol                      yhalperi
+spice-vdagent                       hdegoede
+spice-xpi                           bazulay
+sqlite                              jstanek
+squashfs-tools                      jwilson
+squid                               psimerda
+srptools                            dledford
+sssd                                jhrozek
+star                                praiskup
+startup-notification                rstrode
+stax-ex                             alee
+stax2-api                           mizdebsk java-maint@redhat.com
+stix-fonts                          sochotni
+strace                              law
+strigi                              ltinkl
+strongimcv                          avagarwa
+stunnel                             avagarwa
+subscription-manager                dgoodwin candlepin-bugs@redhat.com
+subscription-manager-migration-data awood    candlepin-bugs@redhat.com
+subversion                          jorton
+sudo                                dkopecek
+suitesparse                         nphilipp
+supermin                            rjones
+sushi                               fmuellne
+svgpart                             than
+svrcore                             rmeggins
+sweeper                             than
+swig                                jplesnik
+symlinks                            twaugh
+sysfsutils                          aarapov
+syslinux                            pjones
+sysstat                             pschiffe
+system-config-date                  nphilipp
+system-config-date-docs             nphilipp
+system-config-firewall              twoerner
+system-config-kdump                 mmilata
+system-config-keyboard              nphilipp
+system-config-kickstart             dcantrel
+system-config-language              pnemade
+system-config-printer               twaugh
+system-config-users                 nphilipp
+system-config-users-docs            nphilipp
+system-storage-manager              lczerner
+system-switch-java                  jvanek
+systemd                             lnykryn  systemd-maint@redhat.com
+systemtap                           fche
+sysvinit                            lnykryn
+t1lib                               jskarvad
+t1utils                             dvratil
+taglib                              ltinkl
+talk                                vcrhonek
+tar                                 praiskup
+targetcli                           agrover
+targetd                             agrover
+tbb                                 pmachata
+tboot                               dcantrel
+tcl                                 jskarvad
+tcl-pgtcl                           praiskup
+tclx                                jskarvad
+tcp_wrappers                        plautrba
+tcpdump                             msekleta
+tcsh                                jkoncick
+teckit                              jzeleny
+telepathy-farstream                 dray
+telepathy-filesystem                dray
+telepathy-gabble                    dray
+telepathy-glib                      dray
+telepathy-haze                      dray
+telepathy-logger                    dray
+telepathy-mission-control           dray
+telepathy-salut                     dray
+telnet                              msekleta
+testng                              mizdebsk java-maint@redhat.com
+tex-fonts-hebrew                    pnemade
+texi2html                           than
+texinfo                             vcrhonek
+texlive                             than
+tftp                                jsynacek
+thai-scalable-fonts                 dueno
+tibetan-machine-uni-fonts           pnemade
+tigervnc                            twaugh
+time                                ppisar
+tix                                 vcrhonek
+tk                                  jskarvad
+tmpwatch                            mitr
+tmux                                dcantrel
+tn5250                              sbueno
+tncfhh                              avagarwa
+tog-pegasus                         vcrhonek
+tokyocabinet                        hhorak
+tomcat                              dknox
+tomcatjss                           cfu
+totem                               bnocera
+totem-pl-parser                     bnocera
+tpm-quote-tools                     avagarwa
+tpm-tools                           sgrubb
+trace-cmd                           jkacur
+traceroute                          jsynacek
+tracker                             dray
+transfig                            jmlich
+tree                                twaugh
+trousers                            sgrubb
+ttmkfdir                            psatpute
+tuna                                acme
+tuned                               jskarvad
+txw2                                alee
+tzdata                              pfrankli
+ucs-miscfixed-fonts                 psatpute
+udftools                            fkluknav
+udisks2                             tbzatek
+unbound                             thozza
+unicode-ucd                         petersen
+unique3                             rhughes
+units                               kdudka
+unixODBC                            jstanek
+unoconv                             dtardon
+unzip                               pstodulk
+upower                              rhughes
+uriparser                           steved
+urlview                             mlichvar
+urw-fonts                           than
+usb_modeswitch                      dcbw
+usb_modeswitch-data                 dcbw
+usbmuxd                             bnocera
+usbredir                            hdegoede
+usbutils                            lnykryn
+usermode                            mitr
+ustr                                jantill
+util-linux                          kzak
+uuid                                mhlavink
+v4l-utils                           botte
+vala                                alexl
+valgrind                            mwielaar
+velocity                            mizdebsk java-maint@redhat.com
+vemana2000-fonts                    sshedmak
+vhostmd                             rjones
+vigra                               caolanm
+vim                                 karsten
+vinagre                             mkasik
+vino                                sandmann
+virt-manager                        jdenemar virt-mgr-maint@redhat.com
+virt-top                            rjones
+virt-viewer                         berrange
+virt-what                           rjones
+virt-who                            rnovacek
+virtio-win                          vrozenfe virt-maint@redhat.com
+virtuoso-opensource                 ltinkl
+vlgothic-fonts                      tagoh
+volume_key                          mitr
+vorbis-tools                        kdudka
+vsftpd                              jskala
+vte3                                zali
+watchdog                            aledvink
+wavpack                             mlichvar
+webkitgtk3                          tpopela
+webrtc-audio-processing             dray
+weld-parent                         alee
+wget                                thozza
+which                               than
+whois                               ppisar
+wireless-tools                      dcbw
+wireshark                           phatina
+woodstox-core                       mizdebsk java-maint@redhat.com
+wordnet                             ppisar
+words                               kzak
+wpa_supplicant                      dcbw
+wqy-microhei-fonts                  pwu
+wqy-unibit-fonts                    pwu
+wqy-zenhei-fonts                    pwu
+ws-commons-util                     mizdebsk java-maint@redhat.com
+ws-jaxme                            mizdebsk java-maint@redhat.com
+wsdl4j                              mizdebsk java-maint@redhat.com
+wsmancli                            vcrhonek
+wvdial                              msekleta
+x3270                               sbueno
+x86info                             prarit
+xalan-j2                            mizdebsk java-maint@redhat.com
+xbean                               mizdebsk java-maint@redhat.com
+xcb-proto                           sandmann
+xcb-util                            sandmann
+xcb-util-image                      sandmann
+xcb-util-keysyms                    ajackson
+xcb-util-renderutil                 sandmann
+xcb-util-wm                         ajackson
+xchat                               dray
+xdelta                              praiskup
+xdg-user-dirs                       alexl
+xdg-user-dirs-gtk                   alexl
+xdg-utils                           alexl
+xerces-c                            avagarwa
+xerces-j2                           mizdebsk java-maint@redhat.com
+xferstats                           jsynacek
+xfsdump                             esandeen
+xfsprogs                            esandeen
+xguest                              dwalsh
+xhtml1-dtds                         veillard
+xhtml2fo-style-xsl                  ovasik
+xinetd                              jsynacek
+xkeyboard-config                    phuttere
+xml-commons-apis                    mizdebsk java-maint@redhat.com
+xml-commons-apis12                  mwringe
+xml-commons-resolver                mizdebsk java-maint@redhat.com
+xml-stylebook                       mizdebsk java-maint@redhat.com
+xmlgraphics-commons                 mizdebsk java-maint@redhat.com
+xmlrpc                              mizdebsk java-maint@redhat.com
+xmlrpc-c                            mizdebsk
+xmlto                               ovasik
+xmltoman                            ovasik
+xmlunit                             mizdebsk java-maint@redhat.com
+xmvn                                mizdebsk java-maint@redhat.com
+xorg-sgml-doctools                  ajackson
+xorg-x11-docs                       ajackson
+xorg-x11-drivers                    ajackson
+xorg-x11-drv-ati                    jglisse
+xorg-x11-drv-dummy                  ajackson
+xorg-x11-drv-evdev                  phuttere
+xorg-x11-drv-fbdev                  ajackson
+xorg-x11-drv-intel                  ajackson
+xorg-x11-drv-keyboard               phuttere
+xorg-x11-drv-modesetting            ajackson
+xorg-x11-drv-mouse                  phuttere
+xorg-x11-drv-nouveau                bskeggs
+xorg-x11-drv-openchrome             ajackson
+xorg-x11-drv-qxl                    sandmann
+xorg-x11-drv-synaptics              phuttere
+xorg-x11-drv-v4l                    ajackson
+xorg-x11-drv-vesa                   ajackson
+xorg-x11-drv-vmmouse                phuttere
+xorg-x11-drv-vmware                 ajackson
+xorg-x11-drv-void                   phuttere
+xorg-x11-drv-wacom                  phuttere
+xorg-x11-font-utils                 phuttere
+xorg-x11-fonts                      phuttere
+xorg-x11-glamor                     jglisse
+xorg-x11-proto-devel                ajackson
+xorg-x11-server                     ajackson
+xorg-x11-server-utils               ajackson
+xorg-x11-util-macros                ajackson
+xorg-x11-utils                      ajackson
+xorg-x11-xauth                      sandmann
+xorg-x11-xbitmaps                   sandmann
+xorg-x11-xinit                      sandmann
+xorg-x11-xkb-utils                  phuttere
+xorg-x11-xtrans-devel               sandmann
+xpp3                                mizdebsk java-maint@redhat.com
+xrestop                             sandmann
+xsane                               nphilipp
+xsettings-kde                       than
+xsom                                alee
+xstream                             mizdebsk java-maint@redhat.com
+xterm                               mlichvar
+xulrunner                           stransky
+xvattr                              ajackson
+xz                                  praiskup
+xz-java                             mizdebsk java-maint@redhat.com
+yaboot                              fkocina
+yajl                                berrange
+yelp                                mbarnes
+yelp-tools                          mbarnes
+yelp-xsl                            mbarnes
+yp-tools                            hhorak
+ypbind                              hhorak
+ypserv                              hhorak
+yum                                 jantill
+yum-langpacks                       pnemade
+yum-metadata-parser                 jantill
+yum-rhn-plugin                      mzazrive
+yum-utils                           jantill
+zaf                                 caolanm
+zenity                              alexl
+zip                                 pstodulk
+zlib                                jchaloup
+zsh                                 jantill
+zziplib                             pstodulk

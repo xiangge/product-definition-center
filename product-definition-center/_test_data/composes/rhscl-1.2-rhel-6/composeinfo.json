@@ -1,0 +1,103 @@
+{
+    "header": {
+        "version": "0.3"
+    }, 
+    "payload": {
+        "base_product": {
+            "name": "Red Hat Enterprise Linux", 
+            "short": "RHEL", 
+            "version": "6"
+        }, 
+        "compose": {
+            "date": "20140814", 
+            "id": "RHSCL-1.2-RHEL-6-20140814.0", 
+            "label": "Beta-1.0", 
+            "respin": 0, 
+            "type": "production"
+        }, 
+        "product": {
+            "is_layered": true, 
+            "name": "Red Hat Software Collections", 
+            "short": "RHSCL", 
+            "version": "1.2"
+        }, 
+        "variants": {
+            "Server": {
+                "arches": [
+                    "x86_64"
+                ], 
+                "id": "Server", 
+                "name": "Server", 
+                "paths": {
+                    "debug_packages": {
+                        "x86_64": "Server/x86_64/debug/tree/Packages"
+                    }, 
+                    "debug_repository": {
+                        "x86_64": "Server/x86_64/debug/tree"
+                    }, 
+                    "debug_tree": {
+                        "x86_64": "Server/x86_64/debug/tree"
+                    }, 
+                    "os_tree": {
+                        "x86_64": "Server/x86_64/os"
+                    }, 
+                    "packages": {
+                        "x86_64": "Server/x86_64/os/Packages"
+                    }, 
+                    "repository": {
+                        "x86_64": "Server/x86_64/os"
+                    }, 
+                    "source_packages": {
+                        "x86_64": "Server/source/tree/Packages"
+                    }, 
+                    "source_repository": {
+                        "x86_64": "Server/source/tree"
+                    }, 
+                    "source_tree": {
+                        "x86_64": "Server/source/tree"
+                    }
+                }, 
+                "type": "variant", 
+                "uid": "Server"
+            }, 
+            "Workstation": {
+                "arches": [
+                    "x86_64"
+                ], 
+                "id": "Workstation", 
+                "name": "Workstation", 
+                "paths": {
+                    "debug_packages": {
+                        "x86_64": "Workstation/x86_64/debug/tree/Packages"
+                    }, 
+                    "debug_repository": {
+                        "x86_64": "Workstation/x86_64/debug/tree"
+                    }, 
+                    "debug_tree": {
+                        "x86_64": "Workstation/x86_64/debug/tree"
+                    }, 
+                    "os_tree": {
+                        "x86_64": "Workstation/x86_64/os"
+                    }, 
+                    "packages": {
+                        "x86_64": "Workstation/x86_64/os/Packages"
+                    }, 
+                    "repository": {
+                        "x86_64": "Workstation/x86_64/os"
+                    }, 
+                    "source_packages": {
+                        "x86_64": "Workstation/source/tree/Packages"
+                    }, 
+                    "source_repository": {
+                        "x86_64": "Workstation/source/tree"
+                    }, 
+                    "source_tree": {
+                        "x86_64": "Workstation/source/tree"
+                    }
+                }, 
+                "type": "variant", 
+                "uid": "Workstation"
+            }
+        }
+    }
+}

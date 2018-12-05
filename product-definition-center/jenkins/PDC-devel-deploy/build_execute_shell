@@ -1,0 +1,12 @@
+#!/bin/bash
+set -xe
+
+#=========================
+# Build and install RPM
+#=========================
+"$WORKSPACE/jenkins/common/build_install_rpm"
+
+#==========================
+# Start service
+#==========================
+sudo service httpd restart

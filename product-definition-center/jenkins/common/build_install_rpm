@@ -1,0 +1,34 @@
+#!/bin/bash
+set -xe
+
+#==========================
+# Fetch code from gerrit
+#==========================
+cd "$WORKSPACE"
+
+#==========================
+# GET CORRECT VERSION INFO
+#==========================
+version=$(git describe --match "python-pdc-*" | sed -e "s/python-pdc-//" -e "s/-/./2g")
+sed -i "s/return VERSION/return '${version}'/g" $WORKSPACE/rhpdc/__init__.py
+
+#==========================
+# Build rpm package
+#==========================
+sudo make rpm
+
+#==========================
+# Local install
+#==========================
+sudo yum -y remove pdc-server pdc-test-data
+sudo yum -y localinstall dist/noarch/*.rpm
+
+#==========================
+# Migrate DB changes
+#==========================
+sudo django-admin migrate --noinput --settings=rhpdc.settings
+
+#==========================
+# Collect static files
+#==========================
+sudo django-admin collectstatic --noinput -c --settings=rhpdc.settings

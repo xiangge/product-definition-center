@@ -1,0 +1,22 @@
+{
+    "dev": {
+        "host": "https://pdc.host.dev.eng.pek2.redhat.com/rest_api/v1/",
+        "ssl-verify": false,
+        "plugins": ["bindings.py"]
+    },
+    "prod": {
+        "host": "https://pdc.engineering.redhat.com/rest_api/v1/",
+        "ssl-verify": true,
+        "plugins": ["bindings.py"]
+    },
+    "qa": {
+        "host": "https://pdc.host.qe.eng.pek2.redhat.com/rest_api/v1/",
+        "ssl-verify": false,
+        "plugins": ["bindings.py"]
+    },
+    "stage": {
+        "host": "https://pdc.stage.engineering.redhat.com/rest_api/v1/",
+        "ssl-verify": true,
+        "plugins": ["bindings.py"]
+    }
+}

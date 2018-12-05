@@ -1,0 +1,112 @@
+{
+    "header": {
+        "version": "0.3"
+    }, 
+    "payload": {
+        "compose": {
+            "date": "20150219", 
+            "id": "RHEL-LE-7.1-20150219.1", 
+            "label": "RC-2.3", 
+            "respin": 1, 
+            "type": "production"
+        }, 
+        "product": {
+            "name": "Red Hat Enterprise Linux - LE", 
+            "short": "RHEL-LE", 
+            "version": "7.1"
+        }, 
+        "variants": {
+            "Server": {
+                "arches": [
+                    "ppc64le"
+                ], 
+                "id": "Server", 
+                "name": "Server", 
+                "paths": {
+                    "debug_packages": {
+                        "ppc64le": "Server/ppc64le/debug/tree/Packages"
+                    }, 
+                    "debug_repository": {
+                        "ppc64le": "Server/ppc64le/debug/tree"
+                    }, 
+                    "debug_tree": {
+                        "ppc64le": "Server/ppc64le/debug/tree"
+                    }, 
+                    "isos": {
+                        "ppc64le": "Server/ppc64le/iso"
+                    }, 
+                    "jigdos": {
+                        "ppc64le": "Server/ppc64le/jigdo"
+                    }, 
+                    "os_tree": {
+                        "ppc64le": "Server/ppc64le/os"
+                    }, 
+                    "packages": {
+                        "ppc64le": "Server/ppc64le/os/Packages"
+                    }, 
+                    "repository": {
+                        "ppc64le": "Server/ppc64le/os"
+                    }, 
+                    "source_isos": {
+                        "ppc64le": "Server/source/iso"
+                    }, 
+                    "source_jigdos": {
+                        "ppc64le": "Server/source/jigdo"
+                    }, 
+                    "source_packages": {
+                        "ppc64le": "Server/source/tree/Packages"
+                    }, 
+                    "source_repository": {
+                        "ppc64le": "Server/source/tree"
+                    }, 
+                    "source_tree": {
+                        "ppc64le": "Server/source/tree"
+                    }
+                }, 
+                "type": "variant", 
+                "uid": "Server", 
+                "variants": [
+                    "optional"
+                ]
+            }, 
+            "Server-optional": {
+                "arches": [
+                    "ppc64le"
+                ], 
+                "id": "optional", 
+                "name": "optional", 
+                "paths": {
+                    "debug_packages": {
+                        "ppc64le": "Server-optional/ppc64le/debug/tree/Packages"
+                    }, 
+                    "debug_repository": {
+                        "ppc64le": "Server-optional/ppc64le/debug/tree"
+                    }, 
+                    "debug_tree": {
+                        "ppc64le": "Server-optional/ppc64le/debug/tree"
+                    }, 
+                    "os_tree": {
+                        "ppc64le": "Server-optional/ppc64le/os"
+                    }, 
+                    "packages": {
+                        "ppc64le": "Server-optional/ppc64le/os/Packages"
+                    }, 
+                    "repository": {
+                        "ppc64le": "Server-optional/ppc64le/os"
+                    }, 
+                    "source_packages": {
+                        "ppc64le": "Server-optional/source/tree/Packages"
+                    }, 
+                    "source_repository": {
+                        "ppc64le": "Server-optional/source/tree"
+                    }, 
+                    "source_tree": {
+                        "ppc64le": "Server-optional/source/tree"
+                    }
+                }, 
+                "type": "optional", 
+                "uid": "Server-optional"
+            }
+        }
+    }
+}

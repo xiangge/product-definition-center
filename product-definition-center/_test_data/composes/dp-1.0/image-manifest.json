@@ -1,0 +1,231 @@
+{
+    "header": {
+        "version": "0.3"
+    }, 
+    "payload": {
+        "compose": {
+            "date": "20140418", 
+            "id": "DP-1.0-20140418.0", 
+            "respin": 0, 
+            "type": "production"
+        }, 
+        "images": {
+            "Client": {
+                "i386": [
+                    {
+                        "arch": "i386", 
+                        "bootable": false, 
+                        "checksums": {
+                            "md5": "f00e7405fd4264f1560fe28a49fac4f5", 
+                            "sha1": "1f7ef9c2f6575baea605f797a4f9da488fb2df7a", 
+                            "sha256": "67a496609a58bbc2954a41dd168752656abe4c66e9b42912c926702bf434816b"
+                        }, 
+                        "disc_count": 1, 
+                        "disc_number": 1, 
+                        "format": "iso", 
+                        "implant_md5": "ecd54ab34da8b2dc165d36b1798adc70", 
+                        "mtime": 1397806170, 
+                        "path": "Client/i386/iso/DP-1.0-20140418.0-Client-i386-dvd1.iso", 
+                        "size": 454656, 
+                        "type": "dvd", 
+                        "volume_id": "DP-1.0 Client.i386",
+                        "subvariant": "Client"
+                    }
+                ], 
+                "src": [
+                    {
+                        "arch": "src", 
+                        "bootable": false, 
+                        "checksums": {
+                            "md5": "ec5707b836002e24611f04c818d59c3f", 
+                            "sha1": "853e80d13bf21ab2eb9b10ad9543f3ecc50b35b3", 
+                            "sha256": "f00a5a7a5e1e4169d225c66b24127af6b24c9c6c0e9dc9106d8adbe87868ff26"
+                        }, 
+                        "disc_count": 1, 
+                        "disc_number": 1, 
+                        "format": "iso", 
+                        "implant_md5": "c53b34385e5d9e705bb655451d84132e", 
+                        "mtime": 1397806171, 
+                        "path": "Client/source/iso/DP-1.0-20140418.0-Client-source-dvd1.iso", 
+                        "size": 434176, 
+                        "type": "dvd", 
+                        "volume_id": "DP-1.0 Client.src",
+                        "subvariant": "Client"
+                    }
+                ], 
+                "x86_64": [
+                    {
+                        "arch": "x86_64", 
+                        "bootable": false, 
+                        "checksums": {
+                            "md5": "0feab91afd5d7ad8f248a54fd0a9ad74", 
+                            "sha1": "2b9b02e725da0f4871f618c1a08a7a0f9472353e", 
+                            "sha256": "35f92a6c67279c62c384863fbe3279daef8ec882a8df5b6f44a249e9eb517b59"
+                        }, 
+                        "disc_count": 1, 
+                        "disc_number": 1, 
+                        "format": "iso", 
+                        "implant_md5": "63e276e1cc25022c764f320e5218a175", 
+                        "mtime": 1397806170, 
+                        "path": "Client/x86_64/iso/DP-1.0-20140418.0-Client-x86_64-dvd1.iso", 
+                        "size": 452608, 
+                        "type": "dvd", 
+                        "volume_id": "DP-1.0 Client.x86_64",
+                        "subvariant": "Client"
+                    }
+                ]
+            }, 
+            "Server": {
+                "ppc": [
+                    {
+                        "arch": "ppc", 
+                        "bootable": false, 
+                        "checksums": {
+                            "md5": "5a333038f4fcabea946c22a4d0bcc2e8", 
+                            "sha1": "249325405d340b3dce2b6a60b48651214cc766b4", 
+                            "sha256": "3cfa2937114af58f675377776282565bc5df4b2ffed3227e4ced7fa968654440"
+                        }, 
+                        "disc_count": 1, 
+                        "disc_number": 1, 
+                        "format": "iso", 
+                        "implant_md5": "1287229398f8af83ae516fa641b550f8", 
+                        "mtime": 1397806171, 
+                        "path": "Server/ppc/iso/DP-1.0-20140418.0-Server-ppc-dvd1.iso", 
+                        "size": 444416, 
+                        "type": "dvd", 
+                        "volume_id": "DP-1.0 Server.ppc",
+                        "subvariant": "Server"
+                    }
+                ], 
+                "ppc64": [
+                    {
+                        "arch": "ppc64", 
+                        "bootable": false, 
+                        "checksums": {
+                            "md5": "7fecc4a78acd25b163d2cefdc003e935", 
+                            "sha1": "f4eebb6fe65e6e55d1841662908775b7a7d1bfb9", 
+                            "sha256": "5a062c2faab77a8a0d3199eef2b4158d4e574a0725f3b6c46a5b328b0490f6fb"
+                        }, 
+                        "disc_count": 1, 
+                        "disc_number": 1, 
+                        "format": "iso", 
+                        "implant_md5": "0e415e7d451a2e0fc25768c79503df8f", 
+                        "mtime": 1397806171, 
+                        "path": "Server/ppc64/iso/DP-1.0-20140418.0-Server-ppc64-dvd1.iso", 
+                        "size": 446464, 
+                        "type": "dvd", 
+                        "volume_id": "DP-1.0 Server.ppc64",
+                        "subvariant": "Server"
+                    }
+                ], 
+                "s390x": [
+                    {
+                        "arch": "s390x", 
+                        "bootable": false, 
+                        "checksums": {
+                            "md5": "6f22358bfa3695d551f911c65bfe6d87", 
+                            "sha1": "f676741a591d78c05910469e8f5c62bd4a3c567c", 
+                            "sha256": "5485f51b4dec5bfac19b6ce3011a67ee57cf361bfaeffd0529230a14ee1cab48"
+                        }, 
+                        "disc_count": 1, 
+                        "disc_number": 1, 
+                        "format": "iso", 
+                        "implant_md5": "665eed54af982499d5a916ba43329fa5", 
+                        "mtime": 1397806171, 
+                        "path": "Server/s390x/iso/DP-1.0-20140418.0-Server-s390x-dvd1.iso", 
+                        "size": 444416, 
+                        "type": "dvd", 
+                        "volume_id": "DP-1.0 Server.s390x",
+                        "subvariant": "Server"
+                    }
+                ], 
+                "src": [
+                    {
+                        "arch": "src", 
+                        "bootable": false, 
+                        "checksums": {
+                            "md5": "aefd545f7d4e49ae7af62fda1f975c96", 
+                            "sha1": "eee682ba46d6e18a717b2db9db79baa5273b081f", 
+                            "sha256": "5a636be2589ac0b4655fcaf1c345e9c27fafec919648a8fb0c59c5ddc53bf853"
+                        }, 
+                        "disc_count": 1, 
+                        "disc_number": 1, 
+                        "format": "iso", 
+                        "implant_md5": "17e1bce0a4b7c1a6baf388fb96cadab1", 
+                        "mtime": 1397806171, 
+                        "path": "Server/source/iso/DP-1.0-20140418.0-Server-source-dvd1.iso", 
+                        "size": 466944, 
+                        "type": "dvd", 
+                        "volume_id": "DP-1.0 Server.src",
+                        "subvariant": "Server"
+                    }
+                ], 
+                "x86_64": [
+                    {
+                        "arch": "x86_64", 
+                        "bootable": false, 
+                        "checksums": {
+                            "md5": "077a995cce6cf415a408fae419bab009", 
+                            "sha1": "b71908003d4b087f20758dac56321bc2cdf1e6c7", 
+                            "sha256": "1e735010a4882e471b97f96c49372d7403644a0664768c3cb007c997e7b0858d"
+                        }, 
+                        "disc_count": 1, 
+                        "disc_number": 1, 
+                        "format": "iso", 
+                        "implant_md5": "2702992ea403138e4cf7bb5612d6585d", 
+                        "mtime": 1397806171, 
+                        "path": "Server/x86_64/iso/DP-1.0-20140418.0-Server-x86_64-dvd1.iso", 
+                        "size": 501760, 
+                        "type": "dvd", 
+                        "volume_id": "DP-1.0 Server.x86_64",
+                        "subvariant": "Server"
+                    }
+                ]
+            }, 
+            "Server-SAP": {
+                "src": [
+                    {
+                        "arch": "src", 
+                        "bootable": false, 
+                        "checksums": {
+                            "md5": "a52b69c837b5a1627753c14bea174e33", 
+                            "sha1": "de3029c9a021169082cf1639e39bf1e841f02b85", 
+                            "sha256": "9009c3779a4a34a2b18ac6b682e548a28cacb675512bd53fe16b9033677a825a"
+                        }, 
+                        "disc_count": 1, 
+                        "disc_number": 1, 
+                        "format": "iso", 
+                        "implant_md5": "f08a8897d8b902062edb202da2c10253", 
+                        "mtime": 1397806171, 
+                        "path": "Server-SAP/source/iso/SAP-2.3-DP-1-20140418.0-Server-source-dvd1.iso", 
+                        "size": 411648, 
+                        "type": "dvd", 
+                        "volume_id": "SAP-2.3 DP-1 Server.src",
+                        "subvariant": "Server-SAP"
+                    }
+                ], 
+                "x86_64": [
+                    {
+                        "arch": "x86_64", 
+                        "bootable": false, 
+                        "checksums": {
+                            "md5": "4c38bd8b23ec5296005cdd95ded843fd", 
+                            "sha1": "42a48ba453f684c5f17419377d66653a17111662", 
+                            "sha256": "4dde2d58f1fcceb03ba9098f027e473552fb2c09ce22b31454e4b89783a55ac7"
+                        }, 
+                        "disc_count": 1, 
+                        "disc_number": 1, 
+                        "format": "iso", 
+                        "implant_md5": "2b0b608afb5a0ce1baa8d157603c5313", 
+                        "mtime": 1397806171, 
+                        "path": "Server-SAP/x86_64/iso/SAP-2.3-DP-1-20140418.0-Server-x86_64-dvd1.iso", 
+                        "size": 419840, 
+                        "type": "dvd", 
+                        "volume_id": "SAP-2.3 DP-1 Server.x86_64",
+                        "subvariant": "Server-SAP"
+                    }
+                ]
+            }
+        }
+    }
+}
